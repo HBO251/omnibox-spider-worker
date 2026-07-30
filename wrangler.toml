@@ -9,7 +9,7 @@ SPIDER_REPO_URL = "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/
 bucket = "./public"
 
 # KV 命名空间配置
-# 运行 `wrangler kv:namespace create CACHE` 创建后填入 ID
+# 运行 `wrangler kv:namespace create CACHE` 创建后填入 ID *
 [[kv_namespaces]]
 binding = "CACHE"
 id = "7ff791bda22444518e2a096925199b0b"
