@@ -12,4 +12,4 @@ bucket = "./public"
 # 运行 `wrangler kv:namespace create CACHE` 创建后填入 ID
 [[kv_namespaces]]
 binding = "CACHE"
-id = "5dd70306319c499699475d52bc1cee65"
+id = "7ff791bda22444518e2a096925199b0b"
