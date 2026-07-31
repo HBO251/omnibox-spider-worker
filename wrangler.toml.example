@@ -5,20 +5,5 @@ name = "omnibox-spider-worker"
 main = "src/index.js"
 compatibility_date = "2024-01-01"
 
-[vars]
-# 爬虫脚本仓库 URL
-SPIDER_REPO_URL = "https://github.com/dlgt7/OmniBox-Spider"
-
-# 本地爬虫脚本仓库路径(用于本地构建)
-# Windows 示例: "C:\\Users\\Administrator\\Desktop\\OmniBox-Spider-main"
-# Linux/Mac 示例: "/home/user/OmniBox-Spider-main"
-SPIDER_REPO_LOCAL = "C:\\Users\\Administrator\\Desktop\\OmniBox-Spider-main"
-
 [site]
 bucket = "./public"
-
-# KV 命名空间配置(用于缓存)
-# 运行 `wrangler kv:namespace create CACHE` 创建后填入 ID
-[[kv_namespaces]]
-binding = "CACHE"
-id = "your-kv-namespace-id-here"
