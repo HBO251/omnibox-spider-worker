@@ -11,12 +11,12 @@ const CACHE_TTL = {
   proxy: 3600,
 };
 
-// GitHub 加速代理列表（已验证可达），并行竞速取最快
+// GitHub 加速代理（仅作直连失败时的兜底）。
+// Worker 直连 raw.githubusercontent.com 通常 <200ms，并永远排在竞速首位（直接 https 优先）。
+// git.yylx.win 对 Worker 返回 403、ghfast.top 极慢，已从兜底列表剔除。
 const PROXIES = [
   'https://ghproxy.net/',
   'https://gh-proxy.com/',
-  'https://git.yylx.win/',
-  'https://ghfast.top/',
 ];
 
 const PROXY_HOSTS = ['ghproxy.net', 'gh-proxy.com', 'gh-proxy.org', 'gh.ddlc.top', 'ghproxy.cc', 'ghfast.top', 'git.yylx.win'];
