@@ -166,6 +166,58 @@ async function serveAsset(env, request, assetPath) {
   return new Response(res.body, { status: 200, headers });
 }
 
+// 把配置内相对 /proxy 路径（及 dc.json 的子线路路径）补全为绝对 URL。
+// 影视仓/OmniBox 等客户端若不做相对路径解析，会卡在 /config.json、/proxy?u=... 上一直转圈。
+function absolutizeConfig(data, origin, isDc) {
+  if (isDc) {
+    if (Array.isArray(data.urls)) {
+      data.urls = data.urls.map((u) => {
+        if (u && typeof u.url === 'string' && u.url.startsWith('/') && !u.url.startsWith('//')) {
+          return { ...u, url: origin + u.url };
+        }
+        return u;
+      });
+    }
+    return data;
+  }
+  if (typeof data.spider === 'string' && data.spider.startsWith('/proxy')) {
+    data.spider = origin + data.spider;
+  }
+  if (Array.isArray(data.lives)) {
+    data.lives = data.lives.map((l) => {
+      if (l && typeof l.url === 'string' && l.url.startsWith('/proxy')) return { ...l, url: origin + l.url };
+      return l;
+    });
+  }
+  if (Array.isArray(data.sites)) {
+    data.sites = data.sites.map((s) => {
+      if (!s) return s;
+      const copy = { ...s };
+      for (const f of ['ext', 'api']) {
+        if (typeof copy[f] === 'string' && copy[f].startsWith('/proxy')) copy[f] = origin + copy[f];
+      }
+      return copy;
+    });
+  }
+  return data;
+}
+
+// 读取静态配置并做绝对化，返回处理后的 JSON 响应
+async function serveConfig(env, request, assetPath, isDc) {
+  const res = await serveAsset(env, request, assetPath);
+  if (!res) return null;
+  try {
+    const origin = new URL(request.url).origin;
+    const data = absolutizeConfig(JSON.parse(await res.text()), origin, isDc);
+    const headers = new Headers(CORS_HEADERS);
+    headers.set('Content-Type', 'application/json; charset=utf-8');
+    headers.set('Cache-Control', `public, max-age=${CACHE_TTL.config}, s-maxage=${CACHE_TTL.config}`);
+    return new Response(JSON.stringify(data), { status: 200, headers });
+  } catch {
+    return res;
+  }
+}
+
 function getHomePage() {
   return `<!DOCTYPE html>
 <html lang="zh-CN">
@@ -235,14 +287,19 @@ export async function handleRequest(request, env) {
   // 旧版无后缀线路 URL，重定向到 .json 静态文件（向后兼容）
   const legacyLine = path.match(/^\/api\/line\/(\d+)$/);
   if (legacyLine) {
-    const res = await serveAsset(env, request, `/api/line/${legacyLine[1]}.json`);
+    const res = await serveConfig(env, request, `/api/line/${legacyLine[1]}.json`, false);
     if (res) return res;
     return json({ error: '线路不存在' }, 404);
   }
 
-  // 静态配置文件（dc.json / config.json / jiekou.json / api/line/N.json）
-  if (path === '/dc.json' || path === '/config.json' || path === '/jiekou.json' || /^\/api\/line\/\d+\.json$/.test(path)) {
-    const res = await serveAsset(env, request, path);
+  // 静态配置文件（dc.json / config.json / jiekou.json / api/line/N.json），输出绝对 URL
+  if (path === '/dc.json') {
+    const res = await serveConfig(env, request, path, true);
+    if (res) return res;
+    return json({ error: '配置不存在' }, 404);
+  }
+  if (path === '/config.json' || path === '/jiekou.json' || /^\/api\/line\/\d+\.json$/.test(path)) {
+    const res = await serveConfig(env, request, path, false);
     if (res) return res;
     return json({ error: '配置不存在' }, 404);
   }
