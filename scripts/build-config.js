@@ -32,6 +32,14 @@ const LIVE_M3U_URL = 'https://raw.githubusercontent.com/iTCoffe/Collect-iTV/main
 // 通过 Worker /proxy 端点加速 GitHub 资源
 const viaProxy = (u) => `/proxy?u=${encodeURIComponent(u)}`;
 
+// 去除线路名中的 emoji（保留中文/字母/数字）
+function stripEmoji(s) {
+  return String(s)
+    .replace(/[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{2190}-\u{21FF}\u{2B00}-\u{2BFF}\u{FE0F}\u{2705}\u{2B50}\u{2728}\u{3297}\u{3299}\u{00A9}\u{00AE}\u{203C}\u{2049}]/gu, '')
+    .replace(/[ \t]+/g, ' ')
+    .trim();
+}
+
 function encodeGitHubPath(category) {
   return category.split('/').map(encodeURIComponent).join('/');
 }
@@ -361,16 +369,32 @@ async function main() {
     fs.writeFileSync(JIEKOU_PATH, JSON.stringify(omniBoxConfig, null, 2), 'utf-8');
     console.log(`✓ jiekou.json: 同步`);
 
-    // dc.json：多仓索引（相对路径，影视仓按当前 host 解析）
-    const dc = {
-      urls: [
-        { name: '🚀OmniBox全站', url: '/config.json' },
-        ...externalSources.map((src, i) => ({
-          name: src.name,
-          url: `/api/line/${i}.json`,
-        })),
-      ],
+    // 聚合 url 型直播源（按 url 去重）成独立直播线路
+    const seenLives = new Map();
+    const collectLive = (name, url, type) => {
+      if (!url) return;
+      if (!seenLives.has(url)) seenLives.set(url, { name: name || '', type: [0, 1].includes(type) ? type : 0, url });
     };
+    for (const src of externalSources) {
+      for (const l of src.config?.lives || []) {
+        if (l && typeof l.url === 'string' && l.url.startsWith('/proxy')) collectLive(l.name, l.url, l.type);
+      }
+    }
+    collectLive(omniBoxConfig.lives?.[0]?.name, omniBoxConfig.lives?.[0]?.url, omniBoxConfig.lives?.[0]?.type);
+    const liveLine = { lives: [...seenLives.values()], sites: [], spider: '' };
+    fs.writeFileSync(path.join(LINE_DIR, '16.json'), JSON.stringify(liveLine, null, 2), 'utf-8');
+    console.log(`✓ api/line/16.json: 聚合 ${liveLine.lives.length} 个直播源`);
+
+    // dc.json：直播源置顶，外部线路按站点数降序 + 去 emoji + 序号
+    const sortedSources = [...externalSources]
+      .map((src, i) => ({ src, i, sites: src.config?.sites?.length || 0 }))
+      .sort((a, b) => b.sites - a.sites);
+    const dc = { urls: [{ name: '1.直播源', url: '/api/line/16.json' }] };
+    let seq = 2;
+    for (const { src, i } of sortedSources) {
+      dc.urls.push({ name: `${seq}.${stripEmoji(src.name)}`, url: `/api/line/${i}.json` });
+      seq++;
+    }
     fs.writeFileSync(DC_PATH, JSON.stringify(dc, null, 2), 'utf-8');
     console.log(`✓ dc.json: ${dc.urls.length} 条线路`);
 
