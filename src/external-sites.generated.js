@@ -2,8 +2,9 @@
 export const EXTERNAL_SOURCES = [
   {
     "name": "📛挺好分享",
+    "url": "https://ztha.top/TVBox/thdjk.json",
     "config": {
-      "spider": "./ztha.jar;md5;097bfd1388b83204958633f23eb6e4cb",
+      "spider": "https://ztha.top/TVBox/ztha.jar;md5;097bfd1388b83204958633f23eb6e4cb",
       "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
       "sites": [
         {
@@ -679,1788 +680,10 @@ export const EXTERNAL_SOURCES = [
     }
   },
   {
-    "name": "🚀小苹果线",
-    "config": {
-      "sites": [
-        {
-          "key": "小苹果",
-          "name": "🍎主力源",
-          "type": 3,
-          "api": "csp_LiteApple",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
-        {
-          "key": "t4佬",
-          "name": "🍀┃豆瓣精选",
-          "type": 1,
-          "api": "https://t4.secan.icu/vod?sites=all&ali_token=0c55c9f1c5cb4327ae2e51423276bb1e",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 1
-        },
-        {
-          "key": "360_spider",
-          "name": "🥎360影视官方",
-          "api": "csp_SP360",
-          "type": 3,
-          "filterable": 1,
-          "quickSearch": 1,
-          "searchable": 1,
-          "ext": ""
-        },
-        {
-          "key": "drpy_js_酷云七七1",
-          "name": "🍎备份源一",
-          "type": 3,
-          "api": "csp_Kunyu77",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
-        {
-          "key": "csp_appys_kyTV",
-          "name": "🍎备份源二",
-          "type": 3,
-          "api": "csp_AppYsV2",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "http://kuyun.realku.cn/api.php/app/"
-        },
-        {
-          "key": "快看",
-          "name": "🍎备份源三",
-          "type": 3,
-          "api": "csp_Kuaikan",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
-        {
-          "key": "csp_YQKAPP",
-          "name": "🍎备份源四",
-          "type": 3,
-          "api": "csp_YQKAPP",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "https://api-aws.11ty.top"
-        },
-        {
-          "key": "csp_AppTT",
-          "name": "🍎备份源五",
-          "type": 3,
-          "api": "csp_Xinsj",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "https://www.6080dy3.com"
-        },
-        {
-          "key": "csp_XBPQ_饭团",
-          "name": "🍎备份源六",
-          "type": 3,
-          "api": "csp_XBPQ",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/饭团HD.json"
-        },
-        {
-          "key": "csp_appys_k",
-          "name": "🍎备份源七",
-          "type": 3,
-          "api": "csp_AppYsV2",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "http://kuyun.realku.cn/api.php/app/"
-        },
-        {
-          "key": "csp_appys_g",
-          "name": "🍎备份源八",
-          "type": 3,
-          "api": "csp_AppYsV2",
-          "searchable": 0,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "http://vod.dmdh.top:5680/api.php/app/"
-        },
-        {
-          "key": "csp_Yj1211",
-          "name": "👑直播合集",
-          "type": 3,
-          "api": "csp_Yj1211",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
-        {
-          "key": "T4直播转点播",
-          "name": "📺︎电视点播",
-          "type": 4,
-          "api": "http://120.53.102.254/live?url=aHR0cDovL2hvbWUuanVuZGllLnRvcDo4MS9yYXkvdHZsaXZlLnR4dA",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 1
-        },
-        {
-          "key": "csp_Nmys",
-          "name": "👨‍🌾农民影视",
-          "type": 3,
-          "api": "csp_Nmys",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/json/Nmys.json"
-        },
-        {
-          "key": "量子资源",
-          "name": "🥑量子资源",
-          "type": 1,
-          "api": "http://cj.lziapi.com/api.php/provide/vod/",
-          "playUrl": "",
-          "searchable": 1,
-          "quickSearch": 1,
-          "categories": [
-            "国产剧",
-            "国产动漫",
-            "泰国剧",
-            "台湾剧",
-            "香港剧",
-            "欧美剧",
-            "韩国剧",
-            "日本剧",
-            "动漫",
-            "体育",
-            "剧情片",
-            "动作片",
-            "爱情片",
-            "喜剧片"
-          ]
-        },
-        {
-          "key": "csp_555电影",
-          "name": "🐾三五电影",
-          "type": 3,
-          "api": "csp_Ys555",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "https://www.555dyy1.com"
-        },
-        {
-          "key": "低端",
-          "name": "🐞低端影视",
-          "api": "csp_Ddrk",
-          "type": 3,
-          "filterable": 1,
-          "quickSearch": 1,
-          "searchable": 1,
-          "click": "ddys.tv;#vjsp > button"
-        },
-        {
-          "key": "csp_363",
-          "name": "☀️大明影视",
-          "type": 3,
-          "api": "csp_AppYsV2",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "https://lzrjk.hao363.com/api.php/v1.vod"
-        },
-        {
-          "key": "csp_AppMr",
-          "name": "🦍二明影视",
-          "type": 3,
-          "api": "csp_AppMr",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
-        {
-          "key": "csp_咪酷",
-          "name": "🍳┃咪酷┃影视",
-          "type": 1,
-          "api": "https://yingke.yibowang.asia/api.php/provide/vod",
-          "searchable": 1,
-          "quickSearch": 1,
-          "playerType": 2
-        },
-        {
-          "key": "csp_CZSPP",
-          "name": "厂长",
-          "type": 3,
-          "api": "csp_Czsapp",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "https://www.czzy03.com/"
-        },
-        {
-          "key": "17kan",
-          "name": "⚽🏀球赛1",
-          "type": 3,
-          "api": "csp_XYQBiu",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/17%E7%9C%8B%E7%90%83.json"
-        },
-        {
-          "key": "csp_xpath_球迷2",
-          "name": "⚽🏀球赛2",
-          "type": 3,
-          "api": "csp_XPathFilter",
-          "searchable": 1,
-          "quickSearch": 0,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E7%90%83%E8%BF%B72.json"
-        },
-        {
-          "key": "csp_xpath_球迷直播",
-          "name": "⚽🏀球赛3",
-          "type": 3,
-          "api": "csp_XPathFilter",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E7%90%83%E8%BF%B7%E7%9B%B4%E6%92%AD.json"
-        },
-        {
-          "key": "js_B站精简",
-          "name": "🅱️┃哔哩┃精简",
-          "type": 3,
-          "api": "http://m35.grelighting.cn/html/box/js/drpymin.js",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/js/B站精简.js"
-        },
-        {
-          "key": "音乐",
-          "name": "🎤音乐现场",
-          "type": 3,
-          "api": "csp_Bili",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/Bili/%E9%9F%B3%E4%B9%90%E7%8E%B0%E5%9C%BA.json"
-        },
-        {
-          "key": "热舞",
-          "name": "💃女团热舞",
-          "type": 3,
-          "api": "csp_Bili",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/Bili/%E5%A5%B3%E5%9B%A2%E7%83%AD%E8%88%9E.json"
-        },
-        {
-          "key": "儿童",
-          "name": "🐯儿童乐园",
-          "type": 3,
-          "api": "csp_Bili",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/Bili/%E5%84%BF%E7%AB%A5%E4%B9%90%E5%9B%AD.json"
-        },
-        {
-          "key": "学习",
-          "name": "📝学习园地",
-          "type": 3,
-          "api": "csp_Bili",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/Bili/%E5%AD%A6%E4%B9%A0%E5%9B%AD%E5%9C%B0.json"
-        },
-        {
-          "key": "软件",
-          "name": "📚软件教程",
-          "type": 3,
-          "api": "csp_Bili",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/Bili/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B.json"
-        },
-        {
-          "key": "美食",
-          "name": "🍔美食合集",
-          "type": 3,
-          "api": "csp_Bili",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/Bili/%E7%BE%8E%E9%A3%9F%E5%90%88%E9%9B%86.json"
-        },
-        {
-          "key": "戏曲",
-          "name": "👘戏曲合集",
-          "type": 3,
-          "api": "csp_Bili",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/Bili/%E6%88%8F%E6%9B%B2%E5%90%88%E9%9B%86.json"
-        },
-        {
-          "key": "csp_Bd",
-          "name": "📯哔嘀影视",
-          "type": 3,
-          "api": "csp_Bdys01",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
-        {
-          "key": "追剧喵",
-          "name": "🐱追剧喵",
-          "type": 3,
-          "api": "csp_ZJMiao",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
-        {
-          "key": "csp_LibVio",
-          "name": "🍒LibVio",
-          "type": 3,
-          "api": "csp_Lib",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0
-        },
-        {
-          "key": "csp_Auete",
-          "name": "🐼Auete",
-          "type": 3,
-          "api": "csp_Auete",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
-        {
-          "key": "csp_Bttoo",
-          "name": "✌两个BT",
-          "type": 3,
-          "api": "csp_Bttwoo",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
-        {
-          "key": "csp_Jianying",
-          "name": "🌟简影",
-          "api": "csp_JianYing",
-          "type": 3,
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7IklEIjoxNDg0MywiQ3JlYXRlZEF0IjoiMjAyMi0wNC0xMlQxMDoxMjowNi4wMjQrMDg6MDAiLCJVcGRhdGVkQXQiOiIyMDIyLTA5LTA1VDEwOjQ5OjMwLjU4NCswODowMCIsIkRlbGV0ZWRBdCI6bnVsbCwidXNlcl9lbWFpbCI6IjE2OTM1MTE4NkBxcS5jb20iLCJ1c2VyX25hbWUiOiIiLCJ1c2VyX3B3ZCI6IiIsInVzZXJfaWQiOiJjYzI0NWM4NS1jMjc1LTRhMmYtYmI5MC02ZWYxODg5ZDA4YzQiLCJ1c2VyX2Fuc3dlciI6IiIsImxvY2tfaXMiOiJGYWxzZSIsImlzX3R2IjoiIiwiaXNfYWRtaW4iOiJGYWxzZSIsInJlZ190aW1lIjoiMjAyMi0wOS0wNVQxMDo0OTozMC41ODQrMDg6MDAiLCJyZWdfa2V5IjoiOTg4MTUxMzUiLCJ0dl90aW1lIjpudWxsLCJ0dl9rZXkiOiIifSwiZXhwIjoxNjYyOTkxNTA1LCJpc3MiOiJBbGZyZWRvIE1lbmRvemEifQ.D5bWERTTmTREF3H7lOGxwq9Ec8ou82909YpqO2PJqg4"
-        },
-        {
-          "key": "csp_剧荒",
-          "name": "👿剧荒",
-          "type": 3,
-          "api": "csp_Juhuang",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
-        {
-          "key": "csp_XYQHiker_氢视频",
-          "name": "🌑氢视频",
-          "type": 3,
-          "api": "csp_XYQHiker",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E6%B0%A2%E8%A7%86%E9%A2%91.json"
-        },
-        {
-          "key": "csp_biubiu_完美看看",
-          "name": "💯完美看看",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E5%AE%8C%E7%BE%8E%E7%9C%8B%E7%9C%8B.json"
-        },
-        {
-          "key": "mjxq_spider",
-          "name": "🌏美剧星球",
-          "type": 3,
-          "api": "csp_Mjxq",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
-        {
-          "key": "csp_Tkys",
-          "name": "🌝天空影院",
-          "type": 3,
-          "api": "csp_Tkys",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
-        {
-          "key": "csp_dd5555",
-          "name": "🍅555 影视",
-          "api": "csp_Dy555",
-          "type": 3,
-          "filterable": 1,
-          "quickSearch": 1,
-          "searchable": 1
-        },
-        {
-          "key": "Nfyun",
-          "name": "🌦Nf云",
-          "type": 3,
-          "api": "csp_Nfyun",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": ""
-        },
-        {
-          "key": "csp_Anime1",
-          "name": "🌸动漫",
-          "type": 3,
-          "api": "csp_Anime1",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
-        {
-          "key": "3EDY",
-          "name": "🌴3EDY(EXO)",
-          "type": 3,
-          "api": "csp_EEEDY",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
-        {
-          "key": "csp_Yj1211",
-          "name": "📸直播合集",
-          "type": 3,
-          "api": "csp_Yj1211",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
-        {
-          "key": "csp_BBB",
-          "name": "🅱️哔哩哔哩",
-          "type": 3,
-          "api": "csp_Bili",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/Bili/%E5%93%94%E5%93%A9%E5%A5%97%E9%A4%90.json"
-        },
-        {
-          "key": "csp_xpath_yinfans",
-          "name": "💥音范丝4K",
-          "type": 3,
-          "api": "csp_XPath",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E9%9F%B3%E8%8C%83%E4%B8%9D.json"
-        },
-        {
-          "key": "bdys",
-          "name": "🧲磁力高清",
-          "type": 3,
-          "api": "csp_XPbd",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E7%A3%81%E5%8A%9B.json"
-        },
-        {
-          "key": "push_agent",
-          "name": "📨推送",
-          "type": 3,
-          "api": "csp_PushAgent",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 0,
-          "ext": "c3895f91c81741959c22feb5fe3a5def"
-        },
-        {
-          "key": "csp_xpath_clss",
-          "name": "🧲磁力搜索",
-          "type": 3,
-          "api": "csp_XPathFilter",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E7%A3%81%E5%8A%9B%E6%90%9C%E7%B4%A2.json"
-        },
-        {
-          "key": "csp_Alist",
-          "name": "🗂Alist",
-          "type": 3,
-          "api": "csp_Alist",
-          "searchable": 1,
-          "quickSearch": 0,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/Alist.json"
-        },
-        {
-          "key": "csp_xpath_kuqimv",
-          "name": "🎤经典MV",
-          "type": 3,
-          "api": "csp_XPath",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E7%BB%8F%E5%85%B8MV.json"
-        },
-        {
-          "key": "短视频聚合",
-          "name": "📱短视频聚合",
-          "type": 3,
-          "api": "csp_XYQBiu",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E7%9F%AD%E8%A7%86%E9%A2%91%E8%81%9A%E5%90%88.json"
-        },
-        {
-          "key": "虎牙",
-          "name": "🐯虎牙",
-          "type": 3,
-          "api": "csp_XYQBiu",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E8%99%8E%E7%89%99.json"
-        },
-        {
-          "key": "csp_biubiu_斗鱼",
-          "name": "🦈斗鱼",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E6%96%97%E9%B1%BC.json"
-        },
-        {
-          "key": "csp_QQ",
-          "name": "🐧腾讯（官）",
-          "type": 3,
-          "api": "csp_QQ",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
-        {
-          "key": "csp_MGTV",
-          "name": "🥭芒果（官）",
-          "type": 3,
-          "api": "csp_MGTV",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
-        {
-          "key": "csp_IQIYI",
-          "name": "🥝爱奇艺（官）",
-          "type": 3,
-          "api": "csp_IQIYI",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
-        {
-          "key": "youku",
-          "name": "👑优酷（官）",
-          "type": 0,
-          "api": "https://www.zycaiji.net:7788/api.php/provide/vod/from/youku/at/xml/",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 0,
-          "categories": [
-            "综艺",
-            "动漫",
-            "动作片",
-            "喜剧片",
-            "爱情片",
-            "科幻片",
-            "恐怖片",
-            "剧情片",
-            "战争片",
-            "国产剧",
-            "港台剧",
-            "日韩剧",
-            "欧美剧",
-            "惊悚片",
-            "犯罪片",
-            "冒险片",
-            "悬疑片",
-            "动画片",
-            "武侠片",
-            "奇幻片",
-            "少儿",
-            "其他片"
-          ]
-        },
-        {
-          "key": "PpTV",
-          "name": "📺PPTV（官）",
-          "type": 0,
-          "api": "https://www.zycaiji.net:7788/api.php/provide/vod/from/pptv/at/xml/",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 0,
-          "categories": [
-            "综艺",
-            "动漫",
-            "动作片",
-            "喜剧片",
-            "爱情片",
-            "科幻片",
-            "恐怖片",
-            "剧情片",
-            "战争片",
-            "国产剧",
-            "港台剧",
-            "日韩剧",
-            "欧美剧",
-            "惊悚片",
-            "犯罪片",
-            "冒险片",
-            "悬疑片",
-            "动画片",
-            "武侠片",
-            "少儿",
-            "其他片"
-          ]
-        },
-        {
-          "key": "csp_biubiu_厂长资源-蓝光",
-          "name": "🏗️厂长蓝光",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E5%8E%82%E9%95%BF%E8%93%9D%E5%85%89.json"
-        },
-        {
-          "key": "csp_biubiu_555电影",
-          "name": "🍅555 电影",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/555%E7%94%B5%E5%BD%B1.json"
-        },
-        {
-          "key": "花猫影视",
-          "name": "🐱花猫影视",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E8%8A%B1%E7%8C%AB%E5%BD%B1%E8%A7%86.json"
-        },
-        {
-          "key": "云播看看",
-          "name": "🌨云播看看",
-          "type": 3,
-          "api": "csp_XPath",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E4%BA%91%E6%92%AD%E7%9C%8B%E7%9C%8B.json"
-        },
-        {
-          "key": "比特影视",
-          "name": "💰比特影视",
-          "type": 3,
-          "api": "csp_XPath",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E6%AF%94%E7%89%B9%E5%BD%B1%E8%A7%86.json"
-        },
-        {
-          "key": "看看影视",
-          "name": "👓看看影视",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E7%9C%8B%E7%9C%8B%E5%BD%B1%E8%A7%86.json"
-        },
-        {
-          "key": "小强影迷",
-          "name": "🐲小强影迷",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E5%B0%8F%E5%BC%BA%E5%BD%B1%E8%BF%B7.json"
-        },
-        {
-          "key": "超清影视",
-          "name": "🖥超清影视",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E8%B6%85%E6%B8%85%E5%BD%B1%E8%A7%86.json"
-        },
-        {
-          "key": "乌龟影院",
-          "name": "🐢乌龟影院",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E4%B9%8C%E9%BE%9F%E5%BD%B1%E9%99%A2.json"
-        },
-        {
-          "key": "人人影视",
-          "name": "👫人人影视",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86.json"
-        },
-        {
-          "key": "豆角影视",
-          "name": "🎋豆角影视",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E8%B1%86%E8%A7%92%E5%BD%B1%E8%A7%86.json"
-        },
-        {
-          "key": "三九影视",
-          "name": "🐐三九影视",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E4%B8%89%E4%B9%9D%E5%BD%B1%E8%A7%86.json"
-        },
-        {
-          "key": "六度影视",
-          "name": "🍨六度影视",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E5%85%AD%E5%BA%A6%E5%BD%B1%E8%A7%86.json"
-        },
-        {
-          "key": "口袋影院",
-          "name": "👝口袋影院",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E5%8F%A3%E8%A2%8B%E5%BD%B1%E9%99%A2.json"
-        },
-        {
-          "key": "不卡影院",
-          "name": "🏅不卡影院",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E4%B8%8D%E5%8D%A1%E5%BD%B1%E9%99%A2.json"
-        },
-        {
-          "key": "干饭影视",
-          "name": "🍚干饭影视",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E5%B9%B2%E9%A5%AD%E5%BD%B1%E8%A7%86.json"
-        },
-        {
-          "key": "霸气影院",
-          "name": "🦁霸气影院",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E9%9C%B8%E6%B0%94%E5%BD%B1%E9%99%A2.json"
-        },
-        {
-          "key": "利奥影院",
-          "name": "🍪利奥影院",
-          "type": 3,
-          "api": "csp_XPathMacFilter",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E5%88%A9%E5%A5%A5%E5%BD%B1%E9%99%A2.json"
-        },
-        {
-          "key": "焦炭影视",
-          "name": "💣焦炭影视",
-          "type": 3,
-          "api": "csp_XPathFilter",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E7%84%A6%E7%82%AD%E5%BD%B1%E8%A7%86.json"
-        },
-        {
-          "key": "极品影视",
-          "name": "💝极品影视",
-          "type": 3,
-          "api": "csp_XPathMac",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E6%9E%81%E5%93%81%E5%BD%B1%E8%A7%86.json"
-        },
-        {
-          "key": "csp_xp_jLgyy",
-          "name": "❄蓝光影院",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E8%93%9D%E5%85%89%E5%BD%B1%E9%99%A2.json"
-        },
-        {
-          "key": "csp_xpath_dianyingn",
-          "name": "🐂电影牛XP",
-          "type": 3,
-          "api": "csp_XPath",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E7%94%B5%E5%BD%B1%E7%89%9B.json"
-        },
-        {
-          "key": "csp_biubiu_骚火电影",
-          "name": "🔥骚火电影",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E9%AA%9A%E7%81%AB%E7%94%B5%E5%BD%B1.json"
-        },
-        {
-          "key": "csp_biubiu_影视工厂",
-          "name": "🎬影视工厂",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E5%BD%B1%E8%A7%86%E5%B7%A5%E5%8E%82.json"
-        },
-        {
-          "key": "csp_biubiu_特狗影视",
-          "name": "🐶特狗影视",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E7%89%B9%E7%8B%97%E5%BD%B1%E8%A7%86.json"
-        },
-        {
-          "key": "csp_biubiu_蓝莓影视",
-          "name": "🧁蓝莓影视",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E8%93%9D%E8%8E%93%E5%BD%B1%E8%A7%86.json"
-        },
-        {
-          "key": "csp_biubiu_奇优影院ns",
-          "name": "👔奇优影院",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E5%A5%87%E4%BC%98%E5%BD%B1%E9%99%A2.json"
-        },
-        {
-          "key": "csp_biubiu_yekong",
-          "name": "🌃夜空高清",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E5%A4%9C%E7%A9%BA%E9%AB%98%E6%B8%85.json"
-        },
-        {
-          "key": "去看动漫",
-          "name": "🎊去看动漫",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E5%8E%BB%E7%9C%8B%E5%8A%A8%E6%BC%AB.json"
-        },
-        {
-          "key": "动漫直链",
-          "name": "🎭动漫直链",
-          "type": 3,
-          "api": "csp_XPath",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E5%8A%A8%E6%BC%AB%E7%9B%B4%E9%93%BE.json"
-        },
-        {
-          "key": "csp_biubiu_风车动漫",
-          "name": "🍭风车动漫",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E9%A3%8E%E8%BD%A6%E5%8A%A8%E6%BC%AB.json"
-        },
-        {
-          "key": "csp_xpath___动漫巴士",
-          "name": "🤖动漫巴士",
-          "type": 3,
-          "api": "csp_XPath",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E5%8A%A8%E6%BC%AB%E5%B7%B4%E5%A3%AB.json"
-        },
-        {
-          "key": "csp_biubiu_OmoFun动漫",
-          "name": "🧚OmoFun动漫",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/OmoFun%E5%8A%A8%E6%BC%AB.json"
-        },
-        {
-          "key": "VIP影视",
-          "name": "💳VIP电影",
-          "type": 3,
-          "api": "csp_XPath",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/VIP%E5%BD%B1%E8%A7%86.json"
-        },
-        {
-          "key": "csp_xpath_jbb",
-          "name": "💿剧白白",
-          "type": 3,
-          "api": "csp_XPathMacFilter",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E5%89%A7%E7%99%BD%E7%99%BD.json"
-        },
-        {
-          "key": "csp_biubiu_voflix",
-          "name": "🌀voflix",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/voflix.json"
-        },
-        {
-          "key": "csp_biubiu_cupfox",
-          "name": "🦊茶杯狐",
-          "type": 3,
-          "api": "csp_XBiubiu",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "http://m35.grelighting.cn/html/box/json/%E8%8C%B6%E6%9D%AF%E7%8B%90.json"
-        },
-        {
-          "key": "9E03",
-          "name": "🎈9E03",
-          "type": 3,
-          "api": "csp_AppYsV2",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "https://vod.9e03.com/lvdou_api.php/v1.vod"
-        },
-        {
-          "key": "csp_AppYsV2_美剧范",
-          "name": "🦙美剧范(优)",
-          "type": 3,
-          "api": "csp_AppYsV2",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 0,
-          "ext": "http://ttzmz.net/api.php/v1.vod"
-        },
-        {
-          "key": "北雁资源",
-          "name": "🦆北雁资源",
-          "type": 1,
-          "api": "https://zy.beiyan.cc:4433/api.php/provide/vod/",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "playUrl": "",
-          "categories": [
-            "电影",
-            "国产剧",
-            "港台剧",
-            "日韩剧",
-            "欧美剧",
-            "综艺",
-            "动漫"
-          ]
-        },
-        {
-          "key": "多多",
-          "name": "🐶多多影视(优)",
-          "type": 1,
-          "api": "https://www.ddzyz1.com/api.php/provide/vod/",
-          "playUrl": "",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "categories": [
-            "国产剧",
-            "港台剧",
-            "日韩剧",
-            "欧美剧",
-            "综艺",
-            "动漫",
-            "动作片",
-            "喜剧片",
-            "爱情片",
-            "科幻片",
-            "恐怖片",
-            "剧情片",
-            "战争片"
-          ]
-        },
-        {
-          "key": "鑫总资源",
-          "name": "☔鑫总资源(优)",
-          "type": 3,
-          "api": "csp_AppYs",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 0,
-          "ext": "http://app.mmhkj.xyz/lvdou_api.php/v1.vod"
-        },
-        {
-          "key": "QC 影视",
-          "name": "🤠QC 影视(优)",
-          "type": 3,
-          "api": "csp_AppYs",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 0,
-          "ext": "https://www.qcsvip.com/mogai_api.php/v1.vod"
-        },
-        {
-          "key": "刺猬影视",
-          "name": "🦔刺猬影视(优)",
-          "type": 3,
-          "api": "csp_AppYsV2",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "http://www.cccvvv.top/api.php/iptv/vod/"
-        },
-        {
-          "key": "玖卿乐播",
-          "name": "🧯玖卿乐播(优)",
-          "type": 3,
-          "api": "csp_AppYs",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 0,
-          "ext": "https://vod.nqcode.cn/api.php/v1.vod"
-        },
-        {
-          "key": "尘云影视",
-          "name": "☁尘云影视(优)",
-          "type": 3,
-          "api": "csp_AppYs",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 0,
-          "ext": "http://v.i7yc.cn/api.php/v1.vod"
-        },
-        {
-          "key": "万能影院",
-          "name": "💳万能影院(优)",
-          "type": 3,
-          "api": "csp_AppYsV2",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 0,
-          "ext": "http://app.wnvod.net/lvdou_api.php/v1.vod"
-        },
-        {
-          "key": "波比影视",
-          "name": "🍠波比影视(优)",
-          "type": 1,
-          "api": "http://xxhhsc.top/api.php/provide/vod/",
-          "searchable": 1,
-          "quickSearch": 1
-        },
-        {
-          "key": "西柚影视",
-          "name": "🥭西柚影视(优)",
-          "type": 1,
-          "api": "http://43.135.75.180:9999/api.php/provide/vod/",
-          "searchable": 1,
-          "quickSearch": 1
-        },
-        {
-          "key": "多多资源",
-          "name": "🍊多多资源(优)",
-          "type": 1,
-          "api": "https://www.ddzyz1.com/api.php/provide/vod/",
-          "searchable": 0,
-          "quickSearch": 0
-        },
-        {
-          "key": "多多资源2",
-          "name": "🥬多多资源2(优)",
-          "type": 1,
-          "api": "https://a.7dyu.cn/api.php/provide/vod/",
-          "searchable": 0,
-          "quickSearch": 0
-        },
-        {
-          "key": "每天看看",
-          "name": "🍌每天看看(优)",
-          "type": 1,
-          "api": "http://47.113.126.237:1234/api.php/provide/vod/",
-          "searchable": 0,
-          "quickSearch": 0
-        },
-        {
-          "key": "木子看剧",
-          "name": "🍒木子看剧(官)",
-          "type": 1,
-          "api": "https://mzkj.maccms.cf/api.php/provide/vod/",
-          "searchable": 0,
-          "quickSearch": 0
-        },
-        {
-          "key": "考拉资源",
-          "name": "🍈考拉资源(官)",
-          "type": 1,
-          "api": "https://ikaola.tv/api.php/provide/vod/",
-          "searchable": 1,
-          "quickSearch": 1
-        },
-        {
-          "key": "忆梦资源",
-          "name": "🥕忆梦资源(官)",
-          "type": 1,
-          "api": "http://anltv.cn/api.php/provide/vod/",
-          "searchable": 0,
-          "quickSearch": 0
-        },
-        {
-          "key": "天堂资源",
-          "name": "🌶天堂资源(官)",
-          "type": 1,
-          "api": "http://vipmv.cc/api.php/provide/vod/",
-          "searchable": 0,
-          "quickSearch": 0
-        },
-        {
-          "key": "江湖官采",
-          "name": "🍳江湖官采(官)",
-          "type": 1,
-          "api": "http://119.29.1.173/api.php/provide/vod/",
-          "searchable": 1,
-          "quickSearch": 1
-        },
-        {
-          "key": "土狗 360",
-          "name": "🥒土狗 360(官)",
-          "type": 1,
-          "api": "http://360.tgzy.cc/api.php/provide/vod/",
-          "searchable": 0,
-          "quickSearch": 0
-        },
-        {
-          "key": "诺讯资源",
-          "name": "🍑诺讯资源(官)",
-          "type": 1,
-          "api": "http://caiji.nxflv.com/api.php/provide/vod/",
-          "playUrl": "https://www.nxflv.com/?url=",
-          "searchable": 0,
-          "quickSearch": 0
-        },
-        {
-          "key": "M3U8资源",
-          "name": "🍇M3U8资源(官)",
-          "type": 1,
-          "api": "https://www.zycaiji.net:7788/api.php/provide/vod/",
-          "searchable": 1,
-          "quickSearch": 1
-        },
-        {
-          "key": "影图影视",
-          "name": "🥪影图影视(聚)",
-          "type": 1,
-          "api": "https://cj.vodimg.top/api.php/provide/vod/",
-          "searchable": 0,
-          "quickSearch": 0
-        },
-        {
-          "key": "雨哥影视",
-          "name": "🍟雨哥影视(聚)",
-          "type": 1,
-          "api": "http://cj.baozi66.top:66/api.php/provide/vod/",
-          "searchable": 0,
-          "quickSearch": 0
-        },
-        {
-          "key": "天天影视",
-          "name": "🥗天天影视(聚)",
-          "type": 1,
-          "api": "http://tttv.cf/api.php/provide/vod/",
-          "searchable": 1,
-          "quickSearch": 1
-        },
-        {
-          "key": "盘看影视",
-          "name": "🥑盘看影视(聚)",
-          "type": 1,
-          "api": "http://tvcaiji.pankk.cn/api.php/provide/vod/",
-          "searchable": 1,
-          "quickSearch": 1
-        },
-        {
-          "key": "幻风影视",
-          "name": "🥫幻风影视(聚)",
-          "type": 1,
-          "api": "http://vip857.top/api.php/provide/vod/",
-          "searchable": 0,
-          "quickSearch": 0
-        },
-        {
-          "key": "小鸟动漫",
-          "name": "🍚小鸟动漫(聚)",
-          "type": 1,
-          "api": "http://xydm.baicai.buzz/api.php/provide/vod/",
-          "searchable": 0,
-          "quickSearch": 0
-        },
-        {
-          "key": "铭轩影视",
-          "name": "🍧铭轩影视(聚)",
-          "type": 1,
-          "api": "http://lz0716.com/api.php/provide/vod/",
-          "searchable": 0,
-          "quickSearch": 0
-        },
-        {
-          "key": "海玉影视",
-          "name": "🍬海玉影视(聚)",
-          "type": 1,
-          "api": "http://tv2.hykjtv.cn/api.php/provide/vod/",
-          "searchable": 0,
-          "quickSearch": 0
-        },
-        {
-          "key": "百淘影视",
-          "name": "🍨百淘影视(聚)",
-          "type": 1,
-          "api": "http://ys.58g8.com/api.php/provide/vod/",
-          "searchable": 0,
-          "quickSearch": 0
-        },
-        {
-          "key": "阿里影视",
-          "name": "🥤阿里影视(聚)",
-          "type": 1,
-          "api": "http://aliys.cn:90/api.php/provide/vod/",
-          "searchable": 0,
-          "quickSearch": 0
-        },
-        {
-          "key": "千寻时光",
-          "name": "🍱千寻时光(聚)",
-          "type": 1,
-          "api": "http://wy.dqyhg.cn/api.php/provide/vod/",
-          "searchable": 0,
-          "quickSearch": 0
-        },
-        {
-          "key": "MX 影院",
-          "name": "🌭MX 影院(聚)",
-          "type": 1,
-          "api": "http://49.235.107.145:81/api.php/provide/vod/",
-          "searchable": 0,
-          "quickSearch": 0
-        },
-        {
-          "key": "MBO 影视",
-          "name": "🍹MBO 影视(聚)",
-          "type": 0,
-          "api": "https://www.mbomovie.com/api.php/provide/vod/at/xml/",
-          "searchable": 0,
-          "quickSearch": 0
-        }
-      ],
-      "spider": "https://jihulab.com/duomv/duo/-/raw/main/custom_spider.jar",
-      "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
-      "lives": [
-        {
-          "group": "redirect",
-          "channels": [
-            {
-              "name": "live",
-              "urls": [
-                "proxy://do=live&type=txt&ext=aHR0cDovL20zNS5ncmVsaWdodGluZy5jbi9odG1sL3piMS50eHQ="
-              ]
-            }
-          ]
-        }
-      ],
-      "parses": [
-        {
-          "name": "解析聚合",
-          "type": 3,
-          "url": "Demo"
-        },
-        {
-          "name": "Json并发",
-          "type": 2,
-          "url": "Parallel"
-        },
-        {
-          "name": "Json轮询",
-          "type": 2,
-          "url": "Sequence"
-        },
-        {
-          "name": "解析1",
-          "type": 1,
-          "url": "http://xn--wnup5g.xn--z7x900a.love:63/Art0425/analysis.php?v="
-        },
-        {
-          "name": "解析2",
-          "type": 1,
-          "url": "http://xn--wnup5g.xn--z7x900a.love:63/Art0425/analysis.php?v=",
-          "ext": {
-            "flag": [
-              "qq",
-              "腾讯",
-              "企鹅",
-              "IQiYi",
-              "qiyi",
-              "爱奇艺",
-              "奇艺",
-              "youku",
-              "YouKu",
-              "优酷",
-              "sohu",
-              "SoHu",
-              "搜狐",
-              "letv",
-              "LeShi",
-              "乐视",
-              "imgo",
-              "mgtv",
-              "MangGuo",
-              "芒果",
-              "SLYS4k",
-              "BYGA",
-              "luanzi",
-              "AliS",
-              "dxzy",
-              "bilibili",
-              "QEYSS",
-              "xigua",
-              "西瓜视频",
-              "腾讯视频",
-              "奇艺视频",
-              "优酷视频",
-              "芒果视频",
-              "乐视视频"
-            ]
-          }
-        },
-        {
-          "name": "解析3",
-          "type": 1,
-          "url": "https://okjx.cc/?url=",
-          "ext": {
-            "flag": [
-              "qq",
-              "qiyi",
-              "mgtv",
-              "youku",
-              "letv",
-              "sohu",
-              "xigua",
-              "1905",
-              "优播线路",
-              "腾播线路"
-            ],
-            "header": {
-              "User-Agent": "Dart/2.14 (dart:io)"
-            }
-          }
-        },
-        {
-          "name": "解析4",
-          "type": 1,
-          "url": "http://j.grelighting.cn/parser898/?url="
-        },
-        {
-          "name": "解析5",
-          "type": 1,
-          "url": "https://okjx.cc/?url="
-        },
-        {
-          "name": "解析6",
-          "type": 0,
-          "url": "https://okjx.cc/?url="
-        },
-        {
-          "name": "解析7",
-          "type": 0,
-          "url": "https://jx.m3u8.tv/jiexi/?url="
-        },
-        {
-          "name": "解析8",
-          "type": 0,
-          "url": "https://okjx.cc/?url="
-        },
-        {
-          "name": "解析9",
-          "type": 1,
-          "url": ""
-        },
-        {
-          "name": "解析10",
-          "type": 0,
-          "url": "https://jx.xmflv.com/?url="
-        },
-        {
-          "name": "解析11",
-          "type": 0,
-          "url": "https://jx.m3u8.tv/jiexi/?url="
-        },
-        {
-          "name": "解析12",
-          "type": 0,
-          "url": "http://www.ckmov.vip/api.php?url="
-        },
-        {
-          "name": "解析13",
-          "type": 0,
-          "url": "http://api.wpsseo.cn/?v="
-        },
-        {
-          "name": "解析14",
-          "type": 0,
-          "url": "https://go.yh0523.cn/y.cy?url="
-        },
-        {
-          "name": "解析15",
-          "type": 0,
-          "url": "https://www.ckplayer.vip/jiexi/?url="
-        },
-        {
-          "name": "解析16",
-          "type": 0,
-          "url": "https://svip.bljiex.cc/?v="
-        }
-      ],
-      "flags": [
-        "youku",
-        "qq",
-        "iqiyi",
-        "qiyi",
-        "letv",
-        "sohu",
-        "tudou",
-        "pptv",
-        "mgtv",
-        "wasu",
-        "bilibili",
-        "renrenmi"
-      ],
-      "ijk": [
-        {
-          "group": "软解码",
-          "options": [
-            {
-              "category": 4,
-              "name": "opensles",
-              "value": "0"
-            },
-            {
-              "category": 4,
-              "name": "overlay-format",
-              "value": "842225234"
-            },
-            {
-              "category": 4,
-              "name": "framedrop",
-              "value": "1"
-            },
-            {
-              "category": 4,
-              "name": "soundtouch",
-              "value": "1"
-            },
-            {
-              "category": 4,
-              "name": "start-on-prepared",
-              "value": "1"
-            },
-            {
-              "category": 1,
-              "name": "http-detect-range-support",
-              "value": "0"
-            },
-            {
-              "category": 1,
-              "name": "fflags",
-              "value": "fastseek"
-            },
-            {
-              "category": 2,
-              "name": "skip_loop_filter",
-              "value": "48"
-            },
-            {
-              "category": 4,
-              "name": "reconnect",
-              "value": "1"
-            },
-            {
-              "category": 4,
-              "name": "enable-accurate-seek",
-              "value": "0"
-            },
-            {
-              "category": 4,
-              "name": "mediacodec",
-              "value": "0"
-            },
-            {
-              "category": 4,
-              "name": "mediacodec-auto-rotate",
-              "value": "0"
-            },
-            {
-              "category": 4,
-              "name": "mediacodec-handle-resolution-change",
-              "value": "0"
-            },
-            {
-              "category": 4,
-              "name": "mediacodec-hevc",
-              "value": "0"
-            },
-            {
-              "category": 1,
-              "name": "dns_cache_timeout",
-              "value": "600000000"
-            }
-          ]
-        },
-        {
-          "group": "硬解码",
-          "options": [
-            {
-              "category": 4,
-              "name": "opensles",
-              "value": "0"
-            },
-            {
-              "category": 4,
-              "name": "overlay-format",
-              "value": "842225234"
-            },
-            {
-              "category": 4,
-              "name": "framedrop",
-              "value": "1"
-            },
-            {
-              "category": 4,
-              "name": "soundtouch",
-              "value": "1"
-            },
-            {
-              "category": 4,
-              "name": "start-on-prepared",
-              "value": "1"
-            },
-            {
-              "category": 1,
-              "name": "http-detect-range-support",
-              "value": "0"
-            },
-            {
-              "category": 1,
-              "name": "fflags",
-              "value": "fastseek"
-            },
-            {
-              "category": 2,
-              "name": "skip_loop_filter",
-              "value": "48"
-            },
-            {
-              "category": 4,
-              "name": "reconnect",
-              "value": "1"
-            },
-            {
-              "category": 4,
-              "name": "enable-accurate-seek",
-              "value": "0"
-            },
-            {
-              "category": 4,
-              "name": "mediacodec",
-              "value": "1"
-            },
-            {
-              "category": 4,
-              "name": "mediacodec-auto-rotate",
-              "value": "1"
-            },
-            {
-              "category": 4,
-              "name": "mediacodec-handle-resolution-change",
-              "value": "1"
-            },
-            {
-              "category": 4,
-              "name": "mediacodec-hevc",
-              "value": "1"
-            },
-            {
-              "category": 1,
-              "name": "dns_cache_timeout",
-              "value": "600000000"
-            }
-          ]
-        }
-      ],
-      "ads": [
-        "mimg.0c1q0l.cn",
-        "www.googletagmanager.com",
-        "www.google-analytics.com",
-        "mc.usihnbcq.cn",
-        "mg.g1mm3d.cn",
-        "mscs.svaeuzh.cn",
-        "cnzz.hhttm.top",
-        "tp.vinuxhome.com",
-        "cnzz.mmstat.com",
-        "www.baihuillq.com",
-        "s23.cnzz.com",
-        "z3.cnzz.com",
-        "c.cnzz.com",
-        "stj.v1vo.top",
-        "z12.cnzz.com",
-        "img.mosflower.cn",
-        "tips.gamevvip.com",
-        "ehwe.yhdtns.com",
-        "xdn.cqqc3.com",
-        "www.jixunkyy.cn",
-        "sp.chemacid.cn",
-        "hm.baidu.com",
-        "s9.cnzz.com",
-        "z6.cnzz.com",
-        "um.cavuc.com",
-        "mav.mavuz.com",
-        "wofwk.aoidf3.com",
-        "z5.cnzz.com",
-        "xc.hubeijieshikj.cn",
-        "tj.tianwenhu.com",
-        "xg.gars57.cn",
-        "k.jinxiuzhilv.com",
-        "cdn.bootcss.com",
-        "ppl.xunzhuo123.com",
-        "xomk.jiangjunmh.top",
-        "img.xunzhuo123.com",
-        "z1.cnzz.com",
-        "s13.cnzz.com",
-        "xg.huataisangao.cn",
-        "z7.cnzz.com",
-        "xg.huataisangao.cn",
-        "z2.cnzz.com",
-        "s96.cnzz.com",
-        "q11.cnzz.com",
-        "thy.dacedsfa.cn",
-        "xg.whsbpw.cn",
-        "s19.cnzz.com",
-        "z8.cnzz.com",
-        "s4.cnzz.com",
-        "f5w.as12df.top",
-        "ae01.alicdn.com",
-        "www.92424.cn",
-        "k.wudejia.com",
-        "vivovip.mmszxc.top",
-        "qiu.xixiqiu.com",
-        "cdnjs.hnfenxun.com",
-        "cms.qdwght.com"
-      ]
-    }
-  },
-  {
     "name": "🚀驸马线路",
+    "url": "http://fmys.top/fmys.json",
     "config": {
-      "spider": "./lib/fm.jar;md5;542ed744b07121213f70323b9bcbecca",
+      "spider": "http://fmys.top/lib/fm.jar;md5;542ed744b07121213f70323b9bcbecca",
       "logo": "http://fmys.top/images/logo.png",
       "wallpaper": "http://fmys.top/img.php",
       "warningText": "❤驸马影视 随心观影❤",
@@ -4079,8 +2302,9 @@ export const EXTERNAL_SOURCES = [
   },
   {
     "name": "🚀俊佬在线",
+    "url": "http://home.jundie.top:81/top98.json",
     "config": {
-      "spider": "./jar/top98_1.jar",
+      "spider": "http://home.jundie.top:81/jar/top98_1.jar",
       "lives": [
         {
           "name": "直播",
@@ -4713,8 +2937,9 @@ export const EXTERNAL_SOURCES = [
   },
   {
     "name": "🚀高天流云",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
     "config": {
-      "spider": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9",
+      "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9",
       "lives": [
         {
           "name": "初秋语",
@@ -7832,6 +6057,7 @@ export const EXTERNAL_SOURCES = [
   },
   {
     "name": "动漫城📚在线",
+    "url": "https://www.yingm.cc/dm/dm.json",
     "config": {
       "spider": "https://jihulab.com/clear1/yingmi/-/raw/main/jar/fan.jar",
       "sites": [
@@ -8229,6 +6455,7 @@ export const EXTERNAL_SOURCES = [
   },
   {
     "name": "Clun📚在线",
+    "url": "https://clun.top/box.json",
     "config": {
       "sites": [
         {
@@ -9501,15 +7728,16 @@ export const EXTERNAL_SOURCES = [
       "danmaku": "https://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
       "disabled_wallpaper": "./img/0.jpg",
       "wallpaper": "./img/0.jpg",
-      "spider": "./jar/yt.jar",
+      "spider": "https://clun.top/jar/yt.jar",
       "logo": "./img/pg.gif",
       "warningText": "1"
     }
   },
   {
     "name": "心魔📚在线",
+    "url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
     "config": {
-      "spider": "./HeChengChaXiu.jar",
+      "spider": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/HeChengChaXiu.jar",
       "sites": [
         {
           "key": "drpy_js_360影视",
@@ -11936,6 +10164,7 @@ export const EXTERNAL_SOURCES = [
   },
   {
     "name": "小马📚在线",
+    "url": "http://szyyds.cn/tv/x.json",
     "config": {
       "spider": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c",
       "wallpaper": "https://szyyds.cn/api.php",
@@ -13668,6 +11897,7 @@ export const EXTERNAL_SOURCES = [
   },
   {
     "name": "寳盒📚在线",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/guot55/yg/main/pg/bh.json",
     "config": {
       "spider": "https://bitbucket.org/guot55/ygbh/raw/main/pro/jar/vox.jar",
       "warningText": "禁止任何商业用途，仅限个人学习爬虫原理使用。",
@@ -14647,7 +12877,5302 @@ export const EXTERNAL_SOURCES = [
     }
   },
   {
+    "name": "道长📚在线",
+    "url": "https://gitlab.com/duomv/dzhipy/-/raw/main/index.json",
+    "config": {
+      "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+      "homepage": "https://github.com/hjdhnx/hipy-server",
+      "homeLogo": "./img/logo500x200-1.png",
+      "spider": "https://gitlab.com/duomv/dzhipy/-/raw/main/jar/pg.jar?md5=7633f8ea346c082b7aa163be58aed023",
+      "sites": [
+        {
+          "key": "hipy_js_豆瓣[官]",
+          "name": "🍥┃豆瓣┃推荐🍥首次加载稍慢，请稍等片刻... ...",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/豆瓣[官].js"
+        },
+        {
+          "key": "网盘配置",
+          "name": "网盘及彈幕配置",
+          "type": 3,
+          "api": "csp_Config",
+          "searchable": 0,
+          "changeable": 0,
+          "ext": "./json/tokenm.json",
+          "order_num": 9999
+        },
+        {
+          "key": "yyds",
+          "name": "多多影音|网盘",
+          "type": 3,
+          "api": "csp_Wobg",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$https://tv.yydsys.cc/$$$proxy$$$1$$$./json/wogg.json",
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_多多影音",
+          "name": "多多影音(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/多多影音.js"
+        },
+        {
+          "key": "hipy_js_360影视[官]",
+          "name": "360影视[官](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/360影视[官].js"
+        },
+        {
+          "key": "hipy_js_菜狗[官]",
+          "name": "菜狗[官](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/菜狗[官].js"
+        },
+        {
+          "key": "hipy_js_奇珍异兽[官]",
+          "name": "奇珍异兽[官](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/奇珍异兽[官].js"
+        },
+        {
+          "key": "hipy_js_优酷[官]",
+          "name": "优酷[官](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/优酷[官].js"
+        },
+        {
+          "key": "hipy_js_腾云驾雾[官]",
+          "name": "腾云驾雾[官](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/腾云驾雾[官].js"
+        },
+        {
+          "key": "hipy_js_百忙无果[官]",
+          "name": "百忙无果[官](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/百忙无果[官].js"
+        },
+        {
+          "key": "hipy_js_哔哩影视[官]",
+          "name": "哔哩影视[官](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/哔哩影视[官].js"
+        },
+        {
+          "key": "hipy_js_我的哔哩[官]0",
+          "name": "哔哩教育[官](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/我的哔哩[官].js?type=url&params=../json/哔哩教育.json"
+        },
+        {
+          "key": "hipy_js_我的哔哩[官]1",
+          "name": "哔哩大全[官](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 1,
+          "ext": "./drpy_js/我的哔哩[官].js?type=url&params=../json/哔哩大全.json"
+        },
+        {
+          "key": "hipy_js_采集之王[合]0",
+          "name": "采王道长[合](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/采集之王[合].js?type=url&params=../json/采集静态.json$1"
+        },
+        {
+          "key": "hipy_js_采集之王[合]1",
+          "name": "采王zy[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 1,
+          "ext": "./drpy_js/采集之王[合].js?type=url&params=../json/采集[zy]静态.json$1"
+        },
+        {
+          "key": "hipy_js_01看球[球]",
+          "name": "01看球[球](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/01看球[球].js"
+        },
+        {
+          "key": "hipy_js_4K-AV",
+          "name": "4K-AV(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/4K-AV.js"
+        },
+        {
+          "key": "hipy_js_4k剧院",
+          "name": "4k剧院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/4k剧院.js"
+        },
+        {
+          "key": "hipy_js_4khdr",
+          "name": "4khdr(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/4khdr.js"
+        },
+        {
+          "key": "hipy_js_6V新版[磁]",
+          "name": "6V新版[磁](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/6V新版[磁].js"
+        },
+        {
+          "key": "hipy_js_7猫小说[书]",
+          "name": "7猫小说[书](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/7猫小说[书].js"
+        },
+        {
+          "key": "hipy_js_8号影院",
+          "name": "8号影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/8号影院.js"
+        },
+        {
+          "key": "hipy_js_29片库[密]",
+          "name": "29片库[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/29片库[密].js"
+        },
+        {
+          "key": "hipy_js_36直播[密]",
+          "name": "36直播[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/36直播[密].js"
+        },
+        {
+          "key": "hipy_js_58动漫[漫]",
+          "name": "58动漫[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/58动漫[漫].js"
+        },
+        {
+          "key": "hipy_js_85k影视",
+          "name": "85k影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/85k影视.js"
+        },
+        {
+          "key": "hipy_js_88看球[球]",
+          "name": "88看球[球](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/88看球[球].js"
+        },
+        {
+          "key": "88Pan",
+          "name": "88网盘|网盘搜索",
+          "type": 3,
+          "api": "csp_EightEight",
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$https://662688.xyz$$$",
+          "style": {
+            "type": "list",
+            "ratio": 1.1
+          },
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_88tvs",
+          "name": "88tvs(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/88tvs.js"
+        },
+        {
+          "key": "hipy_js_111tv[自动]",
+          "name": "111tv[自动](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/111tv[自动].js"
+        },
+        {
+          "key": "hipy_js_222听书[听]",
+          "name": "222听书[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/222听书[听].js"
+        },
+        {
+          "key": "hipy_js_310直播[球]",
+          "name": "310直播[球](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/310直播[球].js"
+        },
+        {
+          "key": "hipy_js_348电影网",
+          "name": "348电影网(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/348电影网.js"
+        },
+        {
+          "key": "hipy_js_360吧[球]",
+          "name": "360吧[球](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/360吧[球].js"
+        },
+        {
+          "key": "hipy_js_539影视",
+          "name": "539影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/539影视.js"
+        },
+        {
+          "key": "hipy_js_555影视[飞]",
+          "name": "555影视[飞](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/555影视[飞].js"
+        },
+        {
+          "key": "hipy_js_777影视",
+          "name": "777影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/777影视.js"
+        },
+        {
+          "key": "hipy_js_0855影视",
+          "name": "0855影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/0855影视.js"
+        },
+        {
+          "key": "hipy_js_926tv[球]",
+          "name": "926tv[球](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/926tv[球].js"
+        },
+        {
+          "key": "hipy_js_阿里土豆[盘]",
+          "name": "阿里土豆[盘](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/阿里土豆[盘].js"
+        },
+        {
+          "key": "AliShareEBook",
+          "name": "阿里云盘书籍分享",
+          "type": 3,
+          "api": "csp_AliShare",
+          "searchable": 0,
+          "quickSearch": 0,
+          "changeable": 0,
+          "filterable": 0,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$./json/alishare.ebook.txt$$$db$$$1",
+          "style": {
+            "type": "list",
+            "ratio": 1.1
+          },
+          "order_num": 9999
+        },
+        {
+          "key": "AliShare",
+          "name": "阿里云盘影视分享",
+          "type": 3,
+          "api": "csp_AliShare",
+          "searchable": 1,
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 0,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$./json/alishare.txt$$$db$$$1",
+          "style": {
+            "type": "list",
+            "ratio": 1.1
+          },
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_啊哈DJ[听]",
+          "name": "啊哈DJ[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/啊哈DJ[听].js"
+        },
+        {
+          "key": "hipy_js_爱爱影院[密]",
+          "name": "爱爱影院[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/爱爱影院[密].js"
+        },
+        {
+          "key": "hipy_js_爱车MV[听]",
+          "name": "爱车MV[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/爱车MV[听].js"
+        },
+        {
+          "key": "hipy_js_爱弹幕[漫]",
+          "name": "爱弹幕[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/爱弹幕[漫].js"
+        },
+        {
+          "key": "hipy_js_爱迪影视",
+          "name": "爱迪影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/爱迪影视.js"
+        },
+        {
+          "key": "hipy_js_爱看短剧[盘]",
+          "name": "爱看短剧[盘](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/爱看短剧[盘].js"
+        },
+        {
+          "key": "hipy_js_爱看机器人[虫]",
+          "name": "爱看机器人[虫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/爱看机器人[虫].js"
+        },
+        {
+          "key": "hipy_js_爱看农民[优]",
+          "name": "爱看农民[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/爱看农民[优].js"
+        },
+        {
+          "key": "hipy_js_爱看农民2[优]",
+          "name": "爱看农民2[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/爱看农民2[优].js"
+        },
+        {
+          "key": "hipy_js_爱看影院",
+          "name": "爱看影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/爱看影院.js"
+        },
+        {
+          "key": "hipy_js_爱看hd",
+          "name": "爱看hd(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/爱看hd.js"
+        },
+        {
+          "key": "hipy_js_爱你短剧",
+          "name": "爱你短剧(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/爱你短剧.js"
+        },
+        {
+          "key": "hipy_js_爱上你听书网[听]",
+          "name": "爱上你听书网[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/爱上你听书网[听].js"
+        },
+        {
+          "key": "hipy_js_爱优影视[自动]",
+          "name": "爱优影视[自动](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/爱优影视[自动].js"
+        },
+        {
+          "key": "hipy_js_嗷呜动漫",
+          "name": "嗷呜动漫(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/嗷呜动漫.js"
+        },
+        {
+          "key": "hipy_js_白嫖者联盟",
+          "name": "白嫖者联盟(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/白嫖者联盟.js"
+        },
+        {
+          "key": "hipy_js_榜一短剧",
+          "name": "榜一短剧(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/榜一短剧.js"
+        },
+        {
+          "key": "hipy_js_包子漫画[画]",
+          "name": "包子漫画[画](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/包子漫画[画].js"
+        },
+        {
+          "key": "hipy_js_宝片视频",
+          "name": "宝片视频(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/宝片视频.js"
+        },
+        {
+          "key": "hipy_js_暴风资源[资]",
+          "name": "暴风资源[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/暴风资源[资].js"
+        },
+        {
+          "key": "hipy_js_北川影视",
+          "name": "北川影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/北川影视.js"
+        },
+        {
+          "key": "hipy_js_贝乐虎[儿]",
+          "name": "贝乐虎[儿](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/贝乐虎[儿].js"
+        },
+        {
+          "key": "hipy_js_被窝电影",
+          "name": "被窝电影(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/被窝电影.js"
+        },
+        {
+          "key": "Local",
+          "name": "本地",
+          "type": 3,
+          "api": "csp_Local",
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_笔趣阁[书]",
+          "name": "笔趣阁[书](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/笔趣阁[书].js"
+        },
+        {
+          "key": "hipy_js_笔趣阁13[书]",
+          "name": "笔趣阁13[书](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/笔趣阁13[书].js"
+        },
+        {
+          "key": "Bdys_spider",
+          "name": "哔滴┃磁力",
+          "api": "csp_Bdys01",
+          "type": 3,
+          "filterable": 1,
+          "searchable": 1,
+          "quickSearch": 1,
+          "ext": "https://www.yjys.me/$$$None$$$1",
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_哔嘀影视",
+          "name": "哔嘀影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/哔嘀影视.js"
+        },
+        {
+          "key": "hipy_js_哔嘀影视[优]",
+          "name": "哔嘀影视[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/哔嘀影视[优].js"
+        },
+        {
+          "key": "hipy_js_哔哩直播[官]",
+          "name": "哔哩直播[官](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/哔哩直播[官].js"
+        },
+        {
+          "key": "hipy_js_播客[听]",
+          "name": "播客[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/播客[听].js"
+        },
+        {
+          "key": "hipy_js_博看听书[听]",
+          "name": "博看听书[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/博看听书[听].js"
+        },
+        {
+          "key": "hipy_js_采集之王[合]2",
+          "name": "采王成人[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 2,
+          "ext": "./drpy_js/采集之王[合].js?type=url&params=../json/采集[密]静态.json"
+        },
+        {
+          "key": "hipy_js_草莓秒播[密]",
+          "name": "草莓秒播[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/草莓秒播[密].js"
+        },
+        {
+          "key": "hipy_js_策驰影院(自动)",
+          "name": "策驰影院(自动)(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/策驰影院(自动).js"
+        },
+        {
+          "key": "hipy_js_茶杯狐",
+          "name": "茶杯狐(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/茶杯狐.js"
+        },
+        {
+          "key": "hipy_js_茶语资源[资]",
+          "name": "茶语资源[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/茶语资源[资].js"
+        },
+        {
+          "key": "hipy_js_厂长资源",
+          "name": "厂长资源(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/厂长资源.js"
+        },
+        {
+          "key": "hipy_js_畅梦影视[优]",
+          "name": "畅梦影视[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/畅梦影视[优].js"
+        },
+        {
+          "key": "hipy_js_橙汁影视",
+          "name": "橙汁影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/橙汁影视.js"
+        },
+        {
+          "key": "hipy_js_臭蛋蛋",
+          "name": "臭蛋蛋(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/臭蛋蛋.js"
+        },
+        {
+          "key": "hipy_js_磁力熊[磁]",
+          "name": "磁力熊[磁](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/磁力熊[磁].js"
+        },
+        {
+          "key": "hipy_js_次元城动漫[漫]",
+          "name": "次元城动漫[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/次元城动漫[漫].js"
+        },
+        {
+          "key": "hipy_js_刺猬影视",
+          "name": "刺猬影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/刺猬影视.js"
+        },
+        {
+          "key": "hipy_js_达达龟",
+          "name": "达达龟(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/达达龟.js"
+        },
+        {
+          "key": "hipy_js_达达猪",
+          "name": "达达猪(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/达达猪.js"
+        },
+        {
+          "key": "hipy_js_大米动漫[漫]",
+          "name": "大米动漫[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/大米动漫[漫].js"
+        },
+        {
+          "key": "hipy_js_大米星球",
+          "name": "大米星球(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/大米星球.js"
+        },
+        {
+          "key": "hipy_js_大米星球[V2]",
+          "name": "大米星球[V2](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/大米星球[V2].js"
+        },
+        {
+          "key": "DaPanSo",
+          "name": "大盘搜|网盘搜索",
+          "type": 3,
+          "api": "csp_DaPanSo",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$https://dapanso.com$$$proxy$$$1",
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_大千视界",
+          "name": "大千视界(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/大千视界.js"
+        },
+        {
+          "key": "hipy_js_大全[央]",
+          "name": "大全[央](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/大全[央].js"
+        },
+        {
+          "key": "hipy_js_大师兄影视[优]",
+          "name": "大师兄影视[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/大师兄影视[优].js"
+        },
+        {
+          "key": "hipy_js_大中国",
+          "name": "大中国(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/大中国.js"
+        },
+        {
+          "key": "hipy_js_蛋蛋剧",
+          "name": "蛋蛋剧(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/蛋蛋剧.js"
+        },
+        {
+          "key": "hipy_js_蛋蛋赞",
+          "name": "蛋蛋赞(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/蛋蛋赞.js"
+        },
+        {
+          "key": "hipy_js_地瓜视频[密]",
+          "name": "地瓜视频[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/地瓜视频[密].js"
+        },
+        {
+          "key": "hipy_js_低端",
+          "name": "低端(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/低端.js"
+        },
+        {
+          "key": "hipy_js_嘀哩嘀哩",
+          "name": "嘀哩嘀哩(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/嘀哩嘀哩.js"
+        },
+        {
+          "key": "hipy_js_第一韩漫[画]",
+          "name": "第一韩漫[画](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/第一韩漫[画].js"
+        },
+        {
+          "key": "MV_vod",
+          "name": "电视┃MTV",
+          "type": 1,
+          "api": "https://mv.wogg.link/mv/vod",
+          "searchable": 1,
+          "quickSearch": 0,
+          "changeable": 0,
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_电影狗",
+          "name": "电影狗(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/电影狗.js"
+        },
+        {
+          "key": "hipy_js_电影猎手[自动]",
+          "name": "电影猎手[自动](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/电影猎手[自动].js"
+        },
+        {
+          "key": "hipy_js_电影天堂",
+          "name": "电影天堂(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/电影天堂.js"
+        },
+        {
+          "key": "hipy_js_电影兔",
+          "name": "电影兔(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/电影兔.js"
+        },
+        {
+          "key": "hipy_js_电影先生",
+          "name": "电影先生(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/电影先生.js"
+        },
+        {
+          "key": "hipy_js_顶点小说[书]",
+          "name": "顶点小说[书](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/顶点小说[书].js"
+        },
+        {
+          "key": "hipy_js_顶点小说2[书]",
+          "name": "顶点小说2[书](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/顶点小说2[书].js"
+        },
+        {
+          "key": "hipy_js_动漫巴士[漫]",
+          "name": "动漫巴士[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/动漫巴士[漫].js"
+        },
+        {
+          "key": "hipy_js_动漫网[漫]",
+          "name": "动漫网[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/动漫网[漫].js"
+        },
+        {
+          "key": "hipy_js_斗鱼直播[官]",
+          "name": "斗鱼直播[官](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/斗鱼直播[官].js"
+        },
+        {
+          "key": "hipy_js_豆角网",
+          "name": "豆角网(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/豆角网.js"
+        },
+        {
+          "key": "hipy_js_毒蛇电影[优]",
+          "name": "毒蛇电影[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/毒蛇电影[优].js"
+        },
+        {
+          "key": "hipy_js_短剧天堂",
+          "name": "短剧天堂(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/短剧天堂.js"
+        },
+        {
+          "key": "hipy_js_短剧在线",
+          "name": "短剧在线(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/短剧在线.js"
+        },
+        {
+          "key": "hipy_js_短剧TV网",
+          "name": "短剧TV网(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/短剧TV网.js"
+        },
+        {
+          "key": "hipy_js_多多追剧[优]",
+          "name": "多多追剧[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/多多追剧[优].js"
+        },
+        {
+          "key": "hipy_js_番号资源[密]",
+          "name": "番号资源[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/番号资源[密].js"
+        },
+        {
+          "key": "hipy_js_番茄小说[书]",
+          "name": "番茄小说[书](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/番茄小说[书].js"
+        },
+        {
+          "key": "hipy_js_饭团影视",
+          "name": "饭团影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/饭团影视.js"
+        },
+        {
+          "key": "hipy_js_飞刀资源[资]",
+          "name": "飞刀资源[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/飞刀资源[资].js"
+        },
+        {
+          "key": "hipy_js_飞狗影院[密]",
+          "name": "飞狗影院[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/飞狗影院[密].js"
+        },
+        {
+          "key": "hipy_js_飞翔鸟[书]",
+          "name": "飞翔鸟[书](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/飞翔鸟[书].js"
+        },
+        {
+          "key": "hipy_js_飞鱼影视",
+          "name": "飞鱼影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/飞鱼影视.js"
+        },
+        {
+          "key": "hipy_js_非凡资源[资]",
+          "name": "非凡资源[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/非凡资源[资].js"
+        },
+        {
+          "key": "hipy_js_分享短视频",
+          "name": "分享短视频(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/分享短视频.js"
+        },
+        {
+          "key": "hipy_js_干饭影视",
+          "name": "干饭影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/干饭影视.js"
+        },
+        {
+          "key": "hipy_js_狗狗盘[搜]",
+          "name": "狗狗盘[搜](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/狗狗盘[搜].js"
+        },
+        {
+          "key": "hipy_js_咕咕番[漫]",
+          "name": "咕咕番[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/咕咕番[漫].js"
+        },
+        {
+          "key": "hipy_js_古风漫画[画]",
+          "name": "古风漫画[画](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/古风漫画[画].js"
+        },
+        {
+          "key": "hipy_js_冠建影视",
+          "name": "冠建影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/冠建影视.js"
+        },
+        {
+          "key": "hipy_js_广播迷FM[听]",
+          "name": "广播迷FM[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/广播迷FM[听].js"
+        },
+        {
+          "key": "hipy_js_哈皮影视[优]",
+          "name": "哈皮影视[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/哈皮影视[优].js"
+        },
+        {
+          "key": "hipy_js_海外剧汇",
+          "name": "海外剧汇(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/海外剧汇.js"
+        },
+        {
+          "key": "hipy_js_海洋听书[听]",
+          "name": "海洋听书[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/海洋听书[听].js"
+        },
+        {
+          "key": "hipy_js_好趣网[播]",
+          "name": "好趣网[播](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/好趣网[播].js"
+        },
+        {
+          "key": "hipy_js_河狸影视[V2]",
+          "name": "河狸影视[V2](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/河狸影视[V2].js"
+        },
+        {
+          "key": "hipy_js_黑狐影院",
+          "name": "黑狐影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/黑狐影院.js"
+        },
+        {
+          "key": "hipy_js_黑料不打烊-z",
+          "name": "黑料不打烊-z(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/黑料不打烊-z.js"
+        },
+        {
+          "key": "hipy_js_黑料不打烊[密]",
+          "name": "黑料不打烊[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/黑料不打烊[密].js"
+        },
+        {
+          "key": "hipy_js_黑木耳资源[资]",
+          "name": "黑木耳资源[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/黑木耳资源[资].js"
+        },
+        {
+          "key": "hipy_js_恒大影视[密]",
+          "name": "恒大影视[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/恒大影视[密].js"
+        },
+        {
+          "key": "hipy_js_虎牙直播[官]",
+          "name": "虎牙直播[官](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/虎牙直播[官].js"
+        },
+        {
+          "key": "hipy_js_花子动漫[漫]",
+          "name": "花子动漫[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/花子动漫[漫].js"
+        },
+        {
+          "key": "混合盘",
+          "name": "混合盘|网盘搜索",
+          "type": 3,
+          "api": "csp_HunHePan",
+          "timeout": 60,
+          "ext": "./json/tokenm.json",
+          "style": {
+            "type": "list",
+            "ratio": 1.1
+          },
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_火狐影视",
+          "name": "火狐影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/火狐影视.js"
+        },
+        {
+          "key": "hipy_js_即看影视",
+          "name": "即看影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/即看影视.js"
+        },
+        {
+          "key": "hipy_js_极点影视",
+          "name": "极点影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/极点影视.js"
+        },
+        {
+          "key": "hipy_js_极客资源[资]",
+          "name": "极客资源[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/极客资源[资].js"
+        },
+        {
+          "key": "hipy_js_极速资源[资]",
+          "name": "极速资源[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/极速资源[资].js"
+        },
+        {
+          "key": "hipy_js_茄子影视[自动]",
+          "name": "茄子影视[自动](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/茄子影视[自动].js"
+        },
+        {
+          "key": "hipy_js_家庭影视",
+          "name": "家庭影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/家庭影视.js"
+        },
+        {
+          "key": "hipy_js_荐片[优]",
+          "name": "荐片[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/荐片[优].js"
+        },
+        {
+          "key": "hipy_js_饺子影院",
+          "name": "饺子影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/饺子影院.js"
+        },
+        {
+          "key": "hipy_js_金金虫",
+          "name": "金金虫(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/金金虫.js"
+        },
+        {
+          "key": "hipy_js_金牌影院",
+          "name": "金牌影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/金牌影院.js"
+        },
+        {
+          "key": "hipy_js_金鹰资源[资]",
+          "name": "金鹰资源[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/金鹰资源[资].js"
+        },
+        {
+          "key": "hipy_js_九牛电影",
+          "name": "九牛电影(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/九牛电影.js"
+        },
+        {
+          "key": "hipy_js_九妖仓库[密]",
+          "name": "九妖仓库[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/九妖仓库[密].js"
+        },
+        {
+          "key": "hipy_js_橘子柚[盘]",
+          "name": "橘子柚[盘](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/橘子柚[盘].js"
+        },
+        {
+          "key": "hipy_js_剧巴巴",
+          "name": "剧巴巴(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/剧巴巴.js"
+        },
+        {
+          "key": "hipy_js_剧哥哥",
+          "name": "剧哥哥(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/剧哥哥.js"
+        },
+        {
+          "key": "hipy_js_剧集TV",
+          "name": "剧集TV(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/剧集TV.js"
+        },
+        {
+          "key": "hipy_js_剧迷",
+          "name": "剧迷(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/剧迷.js"
+        },
+        {
+          "key": "hipy_js_剧圈圈",
+          "name": "剧圈圈(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/剧圈圈.js"
+        },
+        {
+          "key": "hipy_js_剧圈圈[自动]",
+          "name": "剧圈圈[自动](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/剧圈圈[自动].js"
+        },
+        {
+          "key": "hipy_js_咖啡影视",
+          "name": "咖啡影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/咖啡影视.js"
+        },
+        {
+          "key": "hipy_js_看57",
+          "name": "看57(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/看57.js"
+        },
+        {
+          "key": "hipy_js_看看影视",
+          "name": "看看影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/看看影视.js"
+        },
+        {
+          "key": "hipy_js_看客视频",
+          "name": "看客视频(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/看客视频.js"
+        },
+        {
+          "key": "hipy_js_看客影院",
+          "name": "看客影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/看客影院.js"
+        },
+        {
+          "key": "hipy_js_看了么",
+          "name": "看了么(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/看了么.js"
+        },
+        {
+          "key": "hipy_js_看戏网",
+          "name": "看戏网(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/看戏网.js"
+        },
+        {
+          "key": "hipy_js_看呀看",
+          "name": "看呀看(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/看呀看.js"
+        },
+        {
+          "key": "hipy_js_可达影视",
+          "name": "可达影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/可达影视.js"
+        },
+        {
+          "key": "hipy_js_可可影视[优]",
+          "name": "可可影视[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/可可影视[优].js"
+        },
+        {
+          "key": "酷狗",
+          "name": "酷狗",
+          "type": 3,
+          "api": "csp_Kugou",
+          "searchable": 1,
+          "changeable": 0,
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_酷客影视",
+          "name": "酷客影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/酷客影视.js"
+        },
+        {
+          "key": "hipy_js_酷我听书[听]",
+          "name": "酷我听书[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/酷我听书[听].js"
+        },
+        {
+          "key": "hipy_js_酷云影视",
+          "name": "酷云影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/酷云影视.js"
+        },
+        {
+          "key": "hipy_js_夸克分享2[合]",
+          "name": "夸克分享[盘](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/夸克分享2[合].js?type=url&params=../json/夸克分享.json"
+        },
+        {
+          "key": "hipy_js_夸克分享[合]",
+          "name": "夸克分享[盘](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/夸克分享[合].js?type=url&params=../json/夸克分享.json"
+        },
+        {
+          "key": "QuarkPanso",
+          "name": "夸克盘搜|夸克搜索",
+          "type": 3,
+          "api": "csp_QuarkPanso",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "./json/tokenm.json",
+          "style": {
+            "type": "list",
+            "ratio": 1.1
+          },
+          "order_num": 9999
+        },
+        {
+          "key": "QuarkShare",
+          "name": "夸克云盘分享",
+          "type": 3,
+          "api": "csp_QuarkShare",
+          "searchable": 0,
+          "quickSearch": 0,
+          "changeable": 0,
+          "filterable": 0,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$./json/quarkshare.txt",
+          "style": {
+            "type": "list",
+            "ratio": 1.1
+          },
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_快看影视",
+          "name": "快看影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/快看影视.js"
+        },
+        {
+          "key": "hipy_js_蜡笔[盘]",
+          "name": "蜡笔[盘](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/蜡笔[盘].js"
+        },
+        {
+          "key": "hipy_js_来看点播[自动]",
+          "name": "来看点播[自动](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/来看点播[自动].js"
+        },
+        {
+          "key": "hipy_js_蓝光影视",
+          "name": "蓝光影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/蓝光影视.js"
+        },
+        {
+          "key": "hipy_js_老白故事[听]",
+          "name": "老白故事[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/老白故事[听].js"
+        },
+        {
+          "key": "hipy_js_老司视频[密]",
+          "name": "老司视频[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/老司视频[密].js"
+        },
+        {
+          "key": "hipy_js_老王电影[自动]",
+          "name": "老王电影[自动](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/老王电影[自动].js"
+        },
+        {
+          "key": "hipy_js_乐草TV[密]",
+          "name": "乐草TV[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/乐草TV[密].js"
+        },
+        {
+          "key": "hipy_js_两个BT",
+          "name": "两个BT(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/两个BT.js"
+        },
+        {
+          "key": "hipy_js_量子影视[资]",
+          "name": "量子影视[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/量子影视[资].js"
+        },
+        {
+          "key": "hipy_js_量子资源[资]",
+          "name": "量子资源[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/量子资源[资].js"
+        },
+        {
+          "key": "hipy_js_六月听书[听]",
+          "name": "六月听书[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/六月听书[听].js"
+        },
+        {
+          "key": "hipy_js_路漫漫[漫]",
+          "name": "路漫漫[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/路漫漫[漫].js"
+        },
+        {
+          "key": "hipy_js_路视频[密]",
+          "name": "路视频[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/路视频[密].js"
+        },
+        {
+          "key": "hipy_js_驴番[漫]",
+          "name": "驴番[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/驴番[漫].js"
+        },
+        {
+          "key": "hipy_js_绿茶",
+          "name": "绿茶(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/绿茶.js"
+        },
+        {
+          "key": "hipy_js_绿色仓库[密]",
+          "name": "绿色仓库[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/绿色仓库[密].js"
+        },
+        {
+          "key": "hipy_js_麻雀视频[优]",
+          "name": "麻雀视频[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/麻雀视频[优].js"
+        },
+        {
+          "key": "hipy_js_蚂蚁影视",
+          "name": "蚂蚁影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/蚂蚁影视.js"
+        },
+        {
+          "key": "hipy_js_漫画走廊[画密飞]",
+          "name": "漫画走廊[画密飞](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/漫画走廊[画密飞].js"
+        },
+        {
+          "key": "hipy_js_漫小肆[画]",
+          "name": "漫小肆[画](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/漫小肆[画].js"
+        },
+        {
+          "key": "hipy_js_猫视界",
+          "name": "猫视界(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/猫视界.js"
+        },
+        {
+          "key": "hipy_js_美剧窝",
+          "name": "美剧窝(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/美剧窝.js"
+        },
+        {
+          "key": "hipy_js_美剧星球",
+          "name": "美剧星球(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/美剧星球.js"
+        },
+        {
+          "key": "hipy_js_美益达",
+          "name": "美益达(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/美益达.js"
+        },
+        {
+          "key": "hipy_js_萌番[漫]",
+          "name": "萌番[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/萌番[漫].js"
+        },
+        {
+          "key": "hipy_js_米爱影视",
+          "name": "米爱影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/米爱影视.js"
+        },
+        {
+          "key": "秒搜",
+          "name": "秒搜|网盘搜索",
+          "type": 3,
+          "api": "csp_MiaoSou",
+          "timeout": 60,
+          "ext": "./json/tokenm.json",
+          "style": {
+            "type": "list",
+            "ratio": 1.1
+          },
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_魔都资源[资]",
+          "name": "魔都资源[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/魔都资源[资].js"
+        },
+        {
+          "key": "hipy_js_魔方影视",
+          "name": "魔方影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/魔方影视.js"
+        },
+        {
+          "key": "hipy_js_墨点影视",
+          "name": "墨点影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/墨点影视.js"
+        },
+        {
+          "key": "hipy_js_木瓜影视",
+          "name": "木瓜影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/木瓜影视.js"
+        },
+        {
+          "key": "hipy_js_木偶哥哥[盘]",
+          "name": "木偶哥哥[盘](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/木偶哥哥[盘].js"
+        },
+        {
+          "key": "hipy_js_那兔视频",
+          "name": "那兔视频(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/那兔视频.js"
+        },
+        {
+          "key": "hipy_js_奶狗影视[慢]",
+          "name": "奶狗影视[慢](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/奶狗影视[慢].js"
+        },
+        {
+          "key": "hipy_js_奈飞中文[自动]",
+          "name": "奈飞中文[自动](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/奈飞中文[自动].js"
+        },
+        {
+          "key": "hipy_js_耐看",
+          "name": "耐看(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/耐看.js"
+        },
+        {
+          "key": "hipy_js_南瓜影视",
+          "name": "南瓜影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/南瓜影视.js"
+        },
+        {
+          "key": "hipy_js_南瓜影视[优]",
+          "name": "南瓜影视[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/南瓜影视[优].js"
+        },
+        {
+          "key": "hipy_js_泥巴影院",
+          "name": "泥巴影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/泥巴影院.js"
+        },
+        {
+          "key": "hipy_js_泥视频[资]",
+          "name": "泥视频[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/泥视频[资].js"
+        },
+        {
+          "key": "hipy_js_你好帅影院",
+          "name": "你好帅影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/你好帅影院.js"
+        },
+        {
+          "key": "hipy_js_柠檬影视[V2]",
+          "name": "柠檬影视[V2](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/柠檬影视[V2].js"
+        },
+        {
+          "key": "hipy_js_农民影视[优]",
+          "name": "农民影视[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/农民影视[优].js"
+        },
+        {
+          "key": "hipy_js_农民影视gz",
+          "name": "农民影视gz(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/农民影视gz.js"
+        },
+        {
+          "key": "hipy_js_努努影院1",
+          "name": "努努影院1(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/努努影院1.js"
+        },
+        {
+          "key": "hipy_js_暖光影视",
+          "name": "暖光影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/暖光影视.js"
+        },
+        {
+          "key": "hipy_js_牌牌影院",
+          "name": "牌牌影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/牌牌影院.js"
+        },
+        {
+          "key": "hipy_js_盘搜",
+          "name": "盘搜(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/盘搜.js"
+        },
+        {
+          "key": "盘友圈",
+          "name": "盘友圈|网盘搜索",
+          "type": 3,
+          "api": "csp_Panyq",
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$site$$$proxy",
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_胖虎影视",
+          "name": "胖虎影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/胖虎影视.js"
+        },
+        {
+          "key": "hipy_js_泡泡影院",
+          "name": "泡泡影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/泡泡影院.js"
+        },
+        {
+          "key": "PikaSo",
+          "name": "皮卡搜|网盘搜索",
+          "type": 3,
+          "api": "csp_PikaSo",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$https://www.pikaso.top/$$$None",
+          "style": {
+            "type": "list",
+            "ratio": 1.1
+          },
+          "order_num": 9999
+        },
+        {
+          "key": "Ppxzy",
+          "name": "皮皮虾|网盘",
+          "type": 3,
+          "api": "csp_Ppxzy",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$https://ppxzy.ink$$$proxy$$$1",
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_皮皮影视",
+          "name": "皮皮影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/皮皮影视.js"
+        },
+        {
+          "key": "hipy_js_片多多[优]",
+          "name": "片多多[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/片多多[优].js"
+        },
+        {
+          "key": "hipy_js_飘花影院",
+          "name": "飘花影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/飘花影院.js"
+        },
+        {
+          "key": "hipy_js_朴樱影视",
+          "name": "朴樱影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/朴樱影视.js"
+        },
+        {
+          "key": "hipy_js_七年影视",
+          "name": "七年影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/七年影视.js"
+        },
+        {
+          "key": "hipy_js_七色番[漫]",
+          "name": "七色番[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/七色番[漫].js"
+        },
+        {
+          "key": "hipy_js_七新电影网",
+          "name": "七新电影网(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/七新电影网.js"
+        },
+        {
+          "key": "hipy_js_奇米动漫[漫]",
+          "name": "奇米动漫[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/奇米动漫[漫].js"
+        },
+        {
+          "key": "hipy_js_千百视频[密]",
+          "name": "千百视频[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/千百视频[密].js"
+        },
+        {
+          "key": "Qianfan",
+          "name": "千帆|网盘搜索",
+          "type": 3,
+          "api": "csp_Qianfan",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$https://pan.qianfan.app$$$None$$$./json/qianfan.txt$$$1",
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_千神影视",
+          "name": "千神影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/千神影视.js"
+        },
+        {
+          "key": "hipy_js_青龙",
+          "name": "青龙(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/青龙.js"
+        },
+        {
+          "key": "hipy_js_清风DJ[听]",
+          "name": "清风DJ[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/清风DJ[听].js"
+        },
+        {
+          "key": "Funletu",
+          "name": "趣盘搜|夸克搜索",
+          "type": 3,
+          "api": "csp_Funletu",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "./json/tokenm.json",
+          "style": {
+            "type": "list",
+            "ratio": 1.1
+          },
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_全能影视",
+          "name": "全能影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/全能影视.js"
+        },
+        {
+          "key": "hipy_js_热播之家",
+          "name": "热播之家(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/热播之家.js"
+        },
+        {
+          "key": "hipy_js_热片网",
+          "name": "热片网(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/热片网.js"
+        },
+        {
+          "key": "hipy_js_人人影视",
+          "name": "人人影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/人人影视.js"
+        },
+        {
+          "key": "hipy_js_忍者影视",
+          "name": "忍者影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/忍者影视.js"
+        },
+        {
+          "key": "hipy_js_如意影视",
+          "name": "如意影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/如意影视.js"
+        },
+        {
+          "key": "hipy_js_三集电影[自动]",
+          "name": "三集电影[自动](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/三集电影[自动].js"
+        },
+        {
+          "key": "hipy_js_色库[密]",
+          "name": "色库[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/色库[密].js"
+        },
+        {
+          "key": "hipy_js_闪雷电",
+          "name": "闪雷电(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/闪雷电.js"
+        },
+        {
+          "key": "hipy_js_烧火影视[优]",
+          "name": "烧火影视[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/烧火影视[优].js"
+        },
+        {
+          "key": "hipy_js_神马电影[搜]",
+          "name": "神马电影[搜](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/神马电影[搜].js"
+        },
+        {
+          "key": "hipy_js_神马影院[自动]",
+          "name": "神马影院[自动](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/神马影院[自动].js"
+        },
+        {
+          "key": "hipy_js_神仙影视",
+          "name": "神仙影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/神仙影视.js"
+        },
+        {
+          "key": "logError",
+          "name": "生成式错误日志",
+          "msg": "get appv2_path error:ENOENT: no such file or directory, open 'C:\\Users\\dashen\\AppData\\Roaming\\zyplayer\\file\\drpy_dzlive\\appv2.txt'\n",
+          "type": 8
+        },
+        {
+          "key": "hipy_js_时光影院",
+          "name": "时光影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/时光影院.js"
+        },
+        {
+          "key": "hipy_js_世纪DJ音乐网[听]",
+          "name": "世纪DJ音乐网[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/世纪DJ音乐网[听].js"
+        },
+        {
+          "key": "hipy_js_首发网",
+          "name": "首发网(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/首发网.js"
+        },
+        {
+          "key": "hipy_js_刷剧网",
+          "name": "刷剧网(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/刷剧网.js"
+        },
+        {
+          "key": "hipy_js_思古影视[V2]",
+          "name": "思古影视[V2](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/思古影视[V2].js"
+        },
+        {
+          "key": "hipy_js_素白白",
+          "name": "素白白(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/素白白.js"
+        },
+        {
+          "key": "hipy_js_素白白[优]",
+          "name": "素白白[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/素白白[优].js"
+        },
+        {
+          "key": "hipy_js_速播小屋",
+          "name": "速播小屋(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/速播小屋.js"
+        },
+        {
+          "key": "hipy_js_速讯影院",
+          "name": "速讯影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/速讯影院.js"
+        },
+        {
+          "key": "hipy_js_索尼资源[资]",
+          "name": "索尼资源[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/索尼资源[资].js"
+        },
+        {
+          "key": "hipy_js_桃子影视[优]",
+          "name": "桃子影视[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/桃子影视[优].js"
+        },
+        {
+          "key": "hipy_js_天龙影院",
+          "name": "天龙影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/天龙影院.js"
+        },
+        {
+          "key": "hipy_js_天启",
+          "name": "天启(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/天启.js"
+        },
+        {
+          "key": "hipy_js_天天影视",
+          "name": "天天影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/天天影视.js"
+        },
+        {
+          "key": "hipy_js_童趣[儿]",
+          "name": "童趣[儿](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/童趣[儿].js"
+        },
+        {
+          "key": "hipy_js_兔小贝[儿]",
+          "name": "兔小贝[儿](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/兔小贝[儿].js"
+        },
+        {
+          "key": "push_agent",
+          "name": "推送",
+          "type": 3,
+          "api": "csp_Push",
+          "changeable": 0,
+          "timeout": 30,
+          "ext": "./json/tokenm.json",
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_歪片星球[资]",
+          "name": "歪片星球[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/歪片星球[资].js"
+        },
+        {
+          "key": "yydsys",
+          "name": "玩你老哥|网盘",
+          "type": 3,
+          "api": "csp_Wobg",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./json/wogg.json",
+          "order_num": 9999
+        },
+        {
+          "key": "Wo4k",
+          "name": "玩偶4K|磁力",
+          "type": 3,
+          "api": "csp_Wo4k",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$https://www.wo4k.net/$$$proxy$$$1$$$./json/wogg.json",
+          "order_num": 9999
+        },
+        {
+          "key": "Wobg",
+          "name": "玩偶表哥|网盘",
+          "type": 3,
+          "api": "csp_Wobg",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$https://wobge.run.goorm.io$$$proxy$$$1$$$./json/wogg.json",
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_玩偶哥哥[盘]",
+          "name": "玩偶哥哥[盘](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/玩偶哥哥[盘].js"
+        },
+        {
+          "key": "Wogg",
+          "name": "玩偶哥哥|网盘",
+          "type": 3,
+          "api": "csp_Wogg",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$https://wogg.link/$$$proxy$$$1$$$./json/wogg.json",
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_网飞.TV",
+          "name": "网飞.TV(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/网飞.TV.js"
+        },
+        {
+          "key": "hipy_js_网飞啦[自动]",
+          "name": "网飞啦[自动](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/网飞啦[自动].js"
+        },
+        {
+          "key": "hipy_js_网飞猫[优]",
+          "name": "网飞猫[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/网飞猫[优].js"
+        },
+        {
+          "key": "hipy_js_往往影视[慢]",
+          "name": "往往影视[慢](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/往往影视[慢].js"
+        },
+        {
+          "key": "hipy_js_旺旺影视",
+          "name": "旺旺影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/旺旺影视.js"
+        },
+        {
+          "key": "hipy_js_维奇动漫[漫]",
+          "name": "维奇动漫[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/维奇动漫[漫].js"
+        },
+        {
+          "key": "hipy_js_文才[资]",
+          "name": "文才[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/文才[资].js"
+        },
+        {
+          "key": "hipy_js_文才2[资]",
+          "name": "文才2[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/文才2[资].js"
+        },
+        {
+          "key": "hipy_js_我爱跟剧",
+          "name": "我爱跟剧(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/我爱跟剧.js"
+        },
+        {
+          "key": "hipy_js_我播",
+          "name": "我播(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/我播.js"
+        },
+        {
+          "key": "PushShare",
+          "name": "我的资源分享",
+          "type": 3,
+          "api": "csp_PushShare",
+          "searchable": 1,
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 0,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$./json/pushshare.txt$$$db$$$1",
+          "style": {
+            "type": "list",
+            "ratio": 1.1
+          },
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_我看书斋[书]",
+          "name": "我看书斋[书](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/我看书斋[书].js"
+        },
+        {
+          "key": "hipy_js_卧龙资源[资]",
+          "name": "卧龙资源[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/卧龙资源[资].js"
+        },
+        {
+          "key": "hipy_js_无忧影视",
+          "name": "无忧影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/无忧影视.js"
+        },
+        {
+          "key": "hipy_js_夕云影视",
+          "name": "夕云影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/夕云影视.js"
+        },
+        {
+          "key": "hipy_js_西瓜影院",
+          "name": "西瓜影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/西瓜影院.js"
+        },
+        {
+          "key": "hipy_js_西屋影视",
+          "name": "西屋影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/西屋影视.js"
+        },
+        {
+          "key": "hipy_js_蜥蜴影视[优]",
+          "name": "蜥蜴影视[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/蜥蜴影视[优].js"
+        },
+        {
+          "key": "hipy_js_喜马拉雅[听]",
+          "name": "喜马拉雅[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/喜马拉雅[听].js"
+        },
+        {
+          "key": "hipy_js_虾酱追剧",
+          "name": "虾酱追剧(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/虾酱追剧.js"
+        },
+        {
+          "key": "hipy_js_侠客影视",
+          "name": "侠客影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/侠客影视.js"
+        },
+        {
+          "key": "hipy_js_相声随身听[听]",
+          "name": "相声随身听[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/相声随身听[听].js"
+        },
+        {
+          "key": "hipy_js_想看影院",
+          "name": "想看影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/想看影院.js"
+        },
+        {
+          "key": "hipy_js_小白菜电影",
+          "name": "小白菜电影(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/小白菜电影.js"
+        },
+        {
+          "key": "hipy_js_小宝影院",
+          "name": "小宝影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/小宝影院.js"
+        },
+        {
+          "key": "hipy_js_小马影视[V2]",
+          "name": "小马影视[V2](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/小马影视[V2].js"
+        },
+        {
+          "key": "hipy_js_小猫电影院",
+          "name": "小猫电影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/小猫电影院.js"
+        },
+        {
+          "key": "hipy_js_小女18[密]",
+          "name": "小女18[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/小女18[密].js"
+        },
+        {
+          "key": "hipy_js_小鱼影视",
+          "name": "小鱼影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/小鱼影视.js"
+        },
+        {
+          "key": "YunSo",
+          "name": "小云搜索|网盘搜索",
+          "type": 3,
+          "api": "csp_YunSo",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$https://www.yunso.net$$$None$$$1",
+          "style": {
+            "type": "list",
+            "ratio": 1.1
+          },
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_小站盘[搜]",
+          "name": "小站盘[搜](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/小站盘[搜].js"
+        },
+        {
+          "key": "校长影视",
+          "name": "校长影视|网盘",
+          "type": 3,
+          "api": "csp_XiaoZhang",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$https://xzyshd.com$$$proxy$$$1",
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_新茶杯狐",
+          "name": "新茶杯狐(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/新茶杯狐.js"
+        },
+        {
+          "key": "hipy_js_新视觉",
+          "name": "新视觉(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/新视觉.js"
+        },
+        {
+          "key": "Xinshijue",
+          "name": "新视觉|网盘",
+          "type": 3,
+          "api": "csp_Xinshijue",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$https://www.80yy3.com/$$$proxy$$$1$$$./json/wogg.json",
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_星辰[优]",
+          "name": "星辰[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/星辰[优].js"
+        },
+        {
+          "key": "hipy_js_星辰影视",
+          "name": "星辰影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/星辰影视.js"
+        },
+        {
+          "key": "hipy_js_星辰CT",
+          "name": "星辰CT(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/星辰CT.js"
+        },
+        {
+          "key": "hipy_js_星空影院",
+          "name": "星空影院(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/星空影院.js"
+        },
+        {
+          "key": "hipy_js_星芽短剧[优]",
+          "name": "星芽短剧[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/星芽短剧[优].js"
+        },
+        {
+          "key": "hipy_js_星云影视",
+          "name": "星云影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/星云影视.js"
+        },
+        {
+          "key": "hipy_js_兄弟影视[优]",
+          "name": "兄弟影视[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/兄弟影视[优].js"
+        },
+        {
+          "key": "hipy_js_熊猫TV",
+          "name": "熊猫TV(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/熊猫TV.js"
+        },
+        {
+          "key": "hipy_js_修罗影视",
+          "name": "修罗影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/修罗影视.js"
+        },
+        {
+          "key": "hipy_js_旋风视频",
+          "name": "旋风视频(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/旋风视频.js"
+        },
+        {
+          "key": "ThunderShare",
+          "name": "迅雷云盘分享",
+          "type": 3,
+          "api": "csp_ThunderShare",
+          "searchable": 0,
+          "quickSearch": 0,
+          "changeable": 0,
+          "filterable": 0,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$./json/thundershare.txt",
+          "style": {
+            "type": "list",
+            "ratio": 1.1
+          },
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_丫丫电子书[书]",
+          "name": "丫丫电子书[书](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/丫丫电子书[书].js"
+        },
+        {
+          "key": "hipy_js_鸭飞影视[V2]",
+          "name": "鸭飞影视[V2](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/鸭飞影视[V2].js"
+        },
+        {
+          "key": "hipy_js_鸭奈飞影视",
+          "name": "鸭奈飞影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/鸭奈飞影视.js"
+        },
+        {
+          "key": "hipy_js_焱淼4kapp[优]",
+          "name": "焱淼4kapp[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/焱淼4kapp[优].js"
+        },
+        {
+          "key": "hipy_js_央视大全[官]",
+          "name": "央视大全[官](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/央视大全[官].js"
+        },
+        {
+          "key": "hipy_js_央视大全[优]",
+          "name": "央视大全[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/央视大全[优].js"
+        },
+        {
+          "key": "hipy_js_央视少儿[漫]",
+          "name": "央视少儿[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/央视少儿[漫].js"
+        },
+        {
+          "key": "hipy_js_妖狐影视[自动]",
+          "name": "妖狐影视[自动](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/妖狐影视[自动].js"
+        },
+        {
+          "key": "hipy_js_一点视频[密]",
+          "name": "一点视频[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/一点视频[密].js"
+        },
+        {
+          "key": "hipy_js_一个g影视",
+          "name": "一个g影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/一个g影视.js"
+        },
+        {
+          "key": "hipy_js_一号影院[搜]",
+          "name": "一号影院[搜](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/一号影院[搜].js"
+        },
+        {
+          "key": "hipy_js_一起看",
+          "name": "一起看(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/一起看.js"
+        },
+        {
+          "key": "hipy_js_一起看[优]",
+          "name": "一起看[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/一起看[优].js"
+        },
+        {
+          "key": "hipy_js_一曲肝肠断",
+          "name": "一曲肝肠断(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/一曲肝肠断.js"
+        },
+        {
+          "key": "hipy_js_一支穿云箭",
+          "name": "一支穿云箭(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/一支穿云箭.js"
+        },
+        {
+          "key": "hipy_js_怡萱动漫[漫]",
+          "name": "怡萱动漫[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/怡萱动漫[漫].js"
+        },
+        {
+          "key": "hipy_js_易点看影院[自动]",
+          "name": "易点看影院[自动](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/易点看影院[自动].js"
+        },
+        {
+          "key": "hipy_js_易看影视",
+          "name": "易看影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/易看影视.js"
+        },
+        {
+          "key": "hipy_js_易搜[搜]",
+          "name": "易搜[搜](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/易搜[搜].js"
+        },
+        {
+          "key": "Yinyuetai",
+          "name": "音悦台",
+          "type": 3,
+          "api": "csp_Yinyuetai",
+          "searchable": 1,
+          "changeable": 0,
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_银河影视[V2]",
+          "name": "银河影视[V2](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/银河影视[V2].js"
+        },
+        {
+          "key": "hipy_js_樱花动漫[漫]",
+          "name": "樱花动漫[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/樱花动漫[漫].js"
+        },
+        {
+          "key": "應用商店",
+          "name": "應用商店",
+          "type": 3,
+          "api": "csp_Market",
+          "searchable": 0,
+          "changeable": 0,
+          "ext": "https://fm.t4tv.hz.cz/json/market.json",
+          "order_num": 9999
+        },
+        {
+          "key": "Hdhive",
+          "name": "影巢|网盘",
+          "type": 3,
+          "api": "csp_Hdhive",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$proxy$$$1",
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_影剧星球",
+          "name": "影剧星球(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/影剧星球.js"
+        },
+        {
+          "key": "hipy_js_影梦影视",
+          "name": "影梦影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/影梦影视.js"
+        },
+        {
+          "key": "hipy_js_影视大全",
+          "name": "影视大全(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/影视大全.js"
+        },
+        {
+          "key": "hipy_js_影视工厂",
+          "name": "影视工厂(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/影视工厂.js"
+        },
+        {
+          "key": "hipy_js_影视工场",
+          "name": "影视工场(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/影视工场.js"
+        },
+        {
+          "key": "hipy_js_影视看吧",
+          "name": "影视看吧(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/影视看吧.js"
+        },
+        {
+          "key": "hipy_js_影视控",
+          "name": "影视控(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/影视控.js"
+        },
+        {
+          "key": "hipy_js_影搜[搜]",
+          "name": "影搜[搜](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/影搜[搜].js"
+        },
+        {
+          "key": "YingSo",
+          "name": "影搜|网盘搜索",
+          "type": 3,
+          "api": "csp_YingSo",
+          "timeout": 60,
+          "ext": "./json/tokenm.json",
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_影渣渣影视",
+          "name": "影渣渣影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/影渣渣影视.js"
+        },
+        {
+          "key": "hipy_js_映播TV",
+          "name": "映播TV(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/映播TV.js"
+        },
+        {
+          "key": "hipy_js_悠悠影视",
+          "name": "悠悠影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/悠悠影视.js"
+        },
+        {
+          "key": "hipy_js_游子视频",
+          "name": "游子视频(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/游子视频.js"
+        },
+        {
+          "key": "hipy_js_有声绘本网[听]",
+          "name": "有声绘本网[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/有声绘本网[听].js"
+        },
+        {
+          "key": "hipy_js_有声听书网[听]",
+          "name": "有声听书网[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/有声听书网[听].js"
+        },
+        {
+          "key": "hipy_js_有声小说吧[听]",
+          "name": "有声小说吧[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/有声小说吧[听].js"
+        },
+        {
+          "key": "hipy_js_宇航影视",
+          "name": "宇航影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/宇航影视.js"
+        },
+        {
+          "key": "hipy_js_云电影网",
+          "name": "云电影网(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/云电影网.js"
+        },
+        {
+          "key": "YunPan",
+          "name": "云盘资源|网盘",
+          "type": 3,
+          "api": "csp_YunPan",
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$None$$$proxy$$$1",
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_云盘资源网[盘]",
+          "name": "云盘资源网[盘](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/云盘资源网[盘].js"
+        },
+        {
+          "key": "YunPanOne",
+          "name": "云盘One|网盘搜索",
+          "type": 3,
+          "api": "csp_YunPanOne",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$None$$$proxy$$$1",
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_在线之家",
+          "name": "在线之家(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/在线之家.js"
+        },
+        {
+          "key": "hipy_js_掌心世界",
+          "name": "掌心世界(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/掌心世界.js"
+        },
+        {
+          "key": "hipy_js_直播转点播[合]",
+          "name": "直播转点播[合](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/直播转点播[合].js?type=url&params=../json/live2cms.json"
+        },
+        {
+          "key": "hipy_js_至臻[盘]",
+          "name": "至臻[盘](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/至臻[盘].js"
+        },
+        {
+          "key": "hipy_js_中华听书网[听]",
+          "name": "中华听书网[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/中华听书网[听].js"
+        },
+        {
+          "key": "hipy_js_种子音乐[听]",
+          "name": "种子音乐[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/种子音乐[听].js"
+        },
+        {
+          "key": "hipy_js_追剧兔",
+          "name": "追剧兔(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/追剧兔.js"
+        },
+        {
+          "key": "hipy_js_追影TV",
+          "name": "追影TV(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/追影TV.js"
+        },
+        {
+          "key": "hipy_js_孜然影视",
+          "name": "孜然影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/孜然影视.js"
+        },
+        {
+          "key": "hipy_js_子子影视",
+          "name": "子子影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/子子影视.js"
+        },
+        {
+          "key": "hipy_js_最新4K",
+          "name": "最新4K(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/最新4K.js"
+        },
+        {
+          "key": "hipy_js_ASMR[听]",
+          "name": "ASMR[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/ASMR[听].js"
+        },
+        {
+          "key": "hipy_js_auete",
+          "name": "auete(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/auete.js"
+        },
+        {
+          "key": "hipy_js_Auete影视",
+          "name": "Auete影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/Auete影视.js"
+        },
+        {
+          "key": "hipy_js_B站影视",
+          "name": "B站影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/B站影视.js"
+        },
+        {
+          "key": "hipy_js_bilfun(自动)",
+          "name": "bilfun(自动)(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/bilfun(自动).js"
+        },
+        {
+          "key": "hipy_js_cally66",
+          "name": "cally66(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/cally66.js"
+        },
+        {
+          "key": "hipy_js_cally66影视",
+          "name": "cally66影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/cally66影视.js"
+        },
+        {
+          "key": "hipy_js_eFuns",
+          "name": "eFuns(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/eFuns.js"
+        },
+        {
+          "key": "hipy_js_freeok",
+          "name": "freeok(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/freeok.js"
+        },
+        {
+          "key": "hipy_js_FreeOKLOL",
+          "name": "FreeOKLOL(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/FreeOKLOL.js"
+        },
+        {
+          "key": "hipy_js_GO影视",
+          "name": "GO影视(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/GO影视.js"
+        },
+        {
+          "key": "hipy_js_HBOTV[优]",
+          "name": "HBOTV[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/HBOTV[优].js"
+        },
+        {
+          "key": "hipy_js_HDmoli",
+          "name": "HDmoli(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/HDmoli.js"
+        },
+        {
+          "key": "Moli",
+          "name": "HDmoli|网盘",
+          "type": 3,
+          "api": "csp_Moli",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$https://www.hdmoli.pro/$$$proxy$$$1$$$./json/moli.json",
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_i275听书[听]",
+          "name": "i275听书[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/i275听书[听].js"
+        },
+        {
+          "key": "hipy_js_iFun",
+          "name": "iFun(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/iFun.js"
+        },
+        {
+          "key": "hipy_js_iku喵[资]",
+          "name": "iku喵[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/iku喵[资].js"
+        },
+        {
+          "key": "hipy_js_KimiVod",
+          "name": "KimiVod(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/KimiVod.js"
+        },
+        {
+          "key": "Iktv",
+          "name": "KTV",
+          "type": 3,
+          "api": "csp_Iktv",
+          "searchable": 1,
+          "changeable": 0,
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_KTV歌厅[听]",
+          "name": "KTV歌厅[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/KTV歌厅[听].js"
+        },
+        {
+          "key": "hipy_js_libvio",
+          "name": "libvio(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/libvio.js"
+        },
+        {
+          "key": "hipy_js_LIBVIO[优]",
+          "name": "LIBVIO[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/LIBVIO[优].js"
+        },
+        {
+          "key": "hipy_js_MuteFun[漫]",
+          "name": "MuteFun[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/MuteFun[漫].js"
+        },
+        {
+          "key": "hipy_js_NT动漫[漫]",
+          "name": "NT动漫[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/NT动漫[漫].js"
+        },
+        {
+          "key": "hipy_js_ok资源[资]",
+          "name": "ok资源[资](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/ok资源[资].js"
+        },
+        {
+          "key": "hipy_js_OmoFun[漫]",
+          "name": "OmoFun[漫](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/OmoFun[漫].js"
+        },
+        {
+          "key": "PanSearch",
+          "name": "PanSearch|网盘搜索",
+          "type": 3,
+          "api": "csp_PanSearch",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "./json/tokenm.json",
+          "order_num": 9999
+        },
+        {
+          "key": "PikPakShare",
+          "name": "PikPak分享",
+          "type": 3,
+          "api": "csp_PikPakShare",
+          "searchable": 1,
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 0,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$./json/pikpakclass.json$$$./json/pikpakclass.json.txt.gz",
+          "style": {
+            "type": "list",
+            "ratio": 1.1
+          },
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_Pornhub[密]",
+          "name": "Pornhub[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/Pornhub[密].js"
+        },
+        {
+          "key": "hipy_js_PTT[优]",
+          "name": "PTT[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/PTT[优].js"
+        },
+        {
+          "key": "hipy_js_PTT追剧大师",
+          "name": "PTT追剧大师(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/PTT追剧大师.js"
+        },
+        {
+          "key": "hipy_js_R18撸[密]",
+          "name": "R18撸[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/R18撸[密].js"
+        },
+        {
+          "key": "hipy_js_rarbt(全)[优]",
+          "name": "rarbt(全)[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/rarbt(全)[优].js"
+        },
+        {
+          "key": "hipy_js_rarbt[优]",
+          "name": "rarbt[优](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/rarbt[优].js"
+        },
+        {
+          "key": "hipy_js_RjAv[密]",
+          "name": "RjAv[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/RjAv[密].js"
+        },
+        {
+          "key": "SambaShare",
+          "name": "Samba分享",
+          "type": 3,
+          "api": "csp_SambaShare",
+          "searchable": 0,
+          "quickSearch": 0,
+          "changeable": 0,
+          "filterable": 0,
+          "timeout": 60,
+          "ext": "./json/tokenm.json$$$./json/sambashare.txt",
+          "order_num": 9999
+        },
+        {
+          "key": "hipy_js_script直播[飞]",
+          "name": "script直播[飞](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/script直播[飞].js"
+        },
+        {
+          "key": "hipy_js_TVB云播",
+          "name": "TVB云播(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/TVB云播.js"
+        },
+        {
+          "key": "hipy_js_UAA[密]",
+          "name": "UAA[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/UAA[密].js"
+        },
+        {
+          "key": "hipy_js_UAA[听]",
+          "name": "UAA[听](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/UAA[听].js"
+        },
+        {
+          "key": "hipy_js_voflix",
+          "name": "voflix(drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/voflix.js"
+        },
+        {
+          "key": "hipy_js_xvideos涩涩[密]",
+          "name": "xvideos涩涩[密](drpy_t3)",
+          "type": 3,
+          "api": "./drpy_libs/drpy2.min.js",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "order_num": 0,
+          "ext": "./drpy_js/xvideos涩涩[密].js"
+        }
+      ],
+      "parses": [
+        {
+          "name": "777",
+          "url": "https://jx.777jiexi.com/player/?url=",
+          "type": 0,
+          "ext": {
+            "flag": [
+              "qiyi",
+              "imgo",
+              "爱奇艺",
+              "奇艺",
+              "qq",
+              "qq 预告及花絮",
+              "腾讯",
+              "youku",
+              "优酷",
+              "pptv",
+              "PPTV",
+              "letv",
+              "乐视",
+              "leshi",
+              "mgtv",
+              "芒果",
+              "sohu",
+              "xigua",
+              "fun",
+              "风行"
+            ]
+          },
+          "header": {
+            "User-Agent": "Mozilla/5.0"
+          }
+        },
+        {
+          "name": "8090g",
+          "url": "https://www.8090g.cn/jiexi/?url=",
+          "type": 0,
+          "ext": {
+            "flag": [
+              "qiyi",
+              "imgo",
+              "爱奇艺",
+              "奇艺",
+              "qq",
+              "qq 预告及花絮",
+              "腾讯",
+              "youku",
+              "优酷",
+              "pptv",
+              "PPTV",
+              "letv",
+              "乐视",
+              "leshi",
+              "mgtv",
+              "芒果",
+              "sohu",
+              "xigua",
+              "fun",
+              "风行"
+            ]
+          },
+          "header": {
+            "User-Agent": "Mozilla/5.0"
+          }
+        },
+        {
+          "name": "ik9",
+          "url": "https://yparse.ik9.cc/index.php?url=",
+          "type": 0,
+          "ext": {
+            "flag": [
+              "qiyi",
+              "imgo",
+              "爱奇艺",
+              "奇艺",
+              "qq",
+              "qq 预告及花絮",
+              "腾讯",
+              "youku",
+              "优酷",
+              "pptv",
+              "PPTV",
+              "letv",
+              "乐视",
+              "leshi",
+              "mgtv",
+              "芒果",
+              "sohu",
+              "xigua",
+              "fun",
+              "风行"
+            ]
+          },
+          "header": {
+            "User-Agent": "Mozilla/5.0"
+          }
+        },
+        {
+          "name": "杰森",
+          "url": "https://jx.jsonplayer.com/player/?url=",
+          "type": 0,
+          "ext": {
+            "flag": [
+              "qiyi",
+              "imgo",
+              "爱奇艺",
+              "奇艺",
+              "qq",
+              "qq 预告及花絮",
+              "腾讯",
+              "youku",
+              "优酷",
+              "pptv",
+              "PPTV",
+              "letv",
+              "乐视",
+              "leshi",
+              "mgtv",
+              "芒果",
+              "sohu",
+              "xigua",
+              "fun",
+              "风行"
+            ]
+          },
+          "header": {
+            "User-Agent": "Mozilla/5.0"
+          }
+        },
+        {
+          "name": "阳途",
+          "url": "https://jx.yangtu.top/?url=",
+          "type": 0,
+          "ext": {
+            "flag": [
+              "qiyi",
+              "imgo",
+              "爱奇艺",
+              "奇艺",
+              "qq",
+              "qq 预告及花絮",
+              "腾讯",
+              "youku",
+              "优酷",
+              "pptv",
+              "PPTV",
+              "letv",
+              "乐视",
+              "leshi",
+              "mgtv",
+              "芒果",
+              "sohu",
+              "xigua",
+              "fun",
+              "风行"
+            ]
+          },
+          "header": {
+            "User-Agent": "Mozilla/5.0"
+          }
+        },
+        {
+          "name": "冰豆",
+          "url": "https://bd.jx.cn/?url=",
+          "type": 0,
+          "ext": {
+            "flag": [
+              "qiyi",
+              "imgo",
+              "爱奇艺",
+              "奇艺",
+              "qq",
+              "qq 预告及花絮",
+              "腾讯",
+              "youku",
+              "优酷",
+              "pptv",
+              "PPTV",
+              "letv",
+              "乐视",
+              "leshi",
+              "mgtv",
+              "芒果",
+              "sohu",
+              "xigua",
+              "fun",
+              "风行"
+            ]
+          },
+          "header": {
+            "User-Agent": "Mozilla/5.0"
+          }
+        },
+        {
+          "name": "m3u8TV",
+          "url": "https://jx.m3u8.tv/jiexi/?url=",
+          "type": 0,
+          "ext": {
+            "flag": [
+              "qiyi",
+              "imgo",
+              "爱奇艺",
+              "奇艺",
+              "qq",
+              "qq 预告及花絮",
+              "腾讯",
+              "youku",
+              "优酷",
+              "pptv",
+              "PPTV",
+              "letv",
+              "乐视",
+              "leshi",
+              "mgtv",
+              "芒果",
+              "sohu",
+              "xigua",
+              "fun",
+              "风行"
+            ]
+          },
+          "header": {
+            "User-Agent": "Mozilla/5.0"
+          }
+        },
+        {
+          "name": "听乐",
+          "url": "https://jx.dj6u.com/?url=",
+          "type": 0,
+          "ext": {
+            "flag": [
+              "qiyi",
+              "imgo",
+              "爱奇艺",
+              "奇艺",
+              "qq",
+              "qq 预告及花絮",
+              "腾讯",
+              "youku",
+              "优酷",
+              "pptv",
+              "PPTV",
+              "letv",
+              "乐视",
+              "leshi",
+              "mgtv",
+              "芒果",
+              "sohu",
+              "xigua",
+              "fun",
+              "风行"
+            ]
+          },
+          "header": {
+            "User-Agent": "Mozilla/5.0"
+          }
+        },
+        {
+          "name": "虾米",
+          "url": "https://jx.xmflv.com/?url=",
+          "type": 0,
+          "ext": {
+            "flag": [
+              "qiyi",
+              "imgo",
+              "爱奇艺",
+              "奇艺",
+              "qq",
+              "qq 预告及花絮",
+              "腾讯",
+              "youku",
+              "优酷",
+              "pptv",
+              "PPTV",
+              "letv",
+              "乐视",
+              "leshi",
+              "mgtv",
+              "芒果",
+              "sohu",
+              "xigua",
+              "fun",
+              "风行"
+            ]
+          },
+          "header": {
+            "User-Agent": "Mozilla/5.0"
+          }
+        },
+        {
+          "name": "虾米2",
+          "url": "https://jx.xmflv.cc/?url=",
+          "type": 0,
+          "ext": {
+            "flag": [
+              "qiyi",
+              "imgo",
+              "爱奇艺",
+              "奇艺",
+              "qq",
+              "qq 预告及花絮",
+              "腾讯",
+              "youku",
+              "优酷",
+              "pptv",
+              "PPTV",
+              "letv",
+              "乐视",
+              "leshi",
+              "mgtv",
+              "芒果",
+              "sohu",
+              "xigua",
+              "fun",
+              "风行"
+            ]
+          },
+          "header": {
+            "User-Agent": "Mozilla/5.0"
+          }
+        },
+        {
+          "name": "云析",
+          "url": "https://jx.yparse.com/index.php?url=",
+          "type": 0,
+          "ext": {
+            "flag": [
+              "qiyi",
+              "imgo",
+              "爱奇艺",
+              "奇艺",
+              "qq",
+              "qq 预告及花絮",
+              "腾讯",
+              "youku",
+              "优酷",
+              "pptv",
+              "PPTV",
+              "letv",
+              "乐视",
+              "leshi",
+              "mgtv",
+              "芒果",
+              "sohu",
+              "xigua",
+              "fun",
+              "风行"
+            ]
+          },
+          "header": {
+            "User-Agent": "Mozilla/5.0"
+          }
+        },
+        {
+          "name": "红狐",
+          "url": "https://player.mrgaocloud.com/player/?url=",
+          "type": 0,
+          "ext": {
+            "flag": [
+              "qiyi",
+              "imgo",
+              "爱奇艺",
+              "奇艺",
+              "qq",
+              "qq 预告及花絮",
+              "腾讯",
+              "youku",
+              "优酷",
+              "pptv",
+              "PPTV",
+              "letv",
+              "乐视",
+              "leshi",
+              "mgtv",
+              "芒果",
+              "sohu",
+              "xigua",
+              "fun",
+              "风行"
+            ]
+          },
+          "header": {
+            "User-Agent": "Mozilla/5.0"
+          }
+        }
+      ],
+      "flags": [
+        "imgo",
+        "youku",
+        "qq",
+        "qq 预告及花絮",
+        "iqiyi",
+        "qiyi",
+        "fun",
+        "letv",
+        "leshi",
+        "sohu",
+        "tudou",
+        "xigua",
+        "cntv",
+        "1905",
+        "pptv",
+        "mgtv",
+        "wasu",
+        "bilibili",
+        "renrenmi"
+      ],
+      "lives": [
+        {
+          "group": "redirect",
+          "channels": [
+            {
+              "name": "稳定github直播",
+              "urls": [
+                "proxy://do=live&type=txt&ext=https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-sniffer/refs/heads/main/static/lives/lives.txt"
+              ]
+            },
+            {
+              "name": "华数2",
+              "urls": [
+                "proxy://do=live&type=txt&ext=http://127.0.0.1:9978/api/v1/file/drpy_dzlive/lives/华数2.m3u"
+              ]
+            },
+            {
+              "name": "杭州华数",
+              "urls": [
+                "proxy://do=live&type=txt&ext=http://127.0.0.1:9978/api/v1/file/drpy_dzlive/lives/杭州华数.m3u"
+              ]
+            },
+            {
+              "name": "云星日记直播",
+              "urls": [
+                "proxy://do=live&type=txt&ext=http://itvbox.cc/云星日记/Ipv4.txt"
+              ]
+            },
+            {
+              "name": "本地嗅探器直播",
+              "urls": [
+                "proxy://do=live&type=txt&ext=http://127.0.0.1:5708/ysp"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "name": "月光📚在线",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/guot55/yg/main/max.json",
     "config": {
       "spider": "https://bitbucket.org/guot55/ygbh/raw/main/pro/jar/vox.jar",
       "warningText": "禁止任何商业用途，仅限个人学习爬虫原理使用。",
@@ -15629,8 +19154,9 @@ export const EXTERNAL_SOURCES = [
   },
   {
     "name": "小凯📚在线",
+    "url": "https://jihulab.com/jyqhkd/kd/-/raw/main/kai.json",
     "config": {
-      "spider": "./fan.txt;md5;5543dae038ce2248e7759e9cbca295b9",
+      "spider": "https://jihulab.com/jyqhkd/kd/-/raw/main/fan.txt;md5;5543dae038ce2248e7759e9cbca295b9",
       "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
       "sites": [
         {
@@ -16328,8 +19854,9 @@ export const EXTERNAL_SOURCES = [
   },
   {
     "name": "剧场📚在线",
+    "url": "https://乐哥.xyz/dj.json",
     "config": {
-      "spider": "./jar/Lge.jar",
+      "spider": "https://xn--fjq53n.xyz/jar/Lge.jar",
       "sites": [
         {
           "key": "應用商店",
@@ -17077,8 +20604,9 @@ export const EXTERNAL_SOURCES = [
   },
   {
     "name": "请勿贩卖📚在线",
+    "url": "http://zhangqun1818.serv00.net/zq/api.json",
     "config": {
-      "spider": "./pro.jar?md5=007dddc1aedbbe022544d0fa13d11c92",
+      "spider": "http://zhangqun1818.serv00.net/zq/pro.jar?md5=007dddc1aedbbe022544d0fa13d11c92",
       "wallpaper": "https://深色壁纸.xxooo.cf",
       "sites": [
         {
@@ -17589,6 +21117,7 @@ export const EXTERNAL_SOURCES = [
   },
   {
     "name": "🚀小盒子",
+    "url": "http://xhztv.top/xhz",
     "config": {
       "spider": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41",
       "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
@@ -18818,8 +22347,9 @@ export const EXTERNAL_SOURCES = [
   },
   {
     "name": "😹玄珠",
+    "url": "https://jihulab.com/xuanzhuapp/xzys/-/raw/main/xzvip.json",
     "config": {
-      "spider": "./spider.jar;md5;d1fa24b46f218f455bc3f4b948fd457e",
+      "spider": "https://jihulab.com/xuanzhuapp/xzys/-/raw/main/spider.jar;md5;d1fa24b46f218f455bc3f4b948fd457e",
       "wallpaper": "https://api.likepoems.com/img/bing",
       "sites": [
         {
@@ -20697,6 +24227,7 @@ export const EXTERNAL_SOURCES = [
   },
   {
     "name": "🐹dxawi",
+    "url": "https://dxawi.github.io/0/0.json",
     "config": {
       "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06",
       "lives": [
@@ -21354,614 +24885,1587 @@ export const OMNIBOX_SPIDERS = [
   {
     "name": "123TV",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/123TV.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/123TV.js"
   },
   {
     "name": "3Q影视",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/3Q影视.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/3Q影视.js"
   },
   {
     "name": "4KMP",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/4KMP.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/4KMP.js"
   },
   {
     "name": "4KVM",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/4KVM.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/4KVM.js"
   },
   {
     "name": "88看球",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/88看球.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/88看球.js"
   },
   {
     "name": "Auete影视",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/Auete影视.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/Auete影视.js"
   },
   {
     "name": "FKTV",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/FKTV.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/FKTV.js"
   },
   {
     "name": "Gimy剧迷",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/Gimy剧迷.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/Gimy剧迷.js"
   },
   {
     "name": "HDmoli",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/HDmoli.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/HDmoli.js"
   },
   {
     "name": "LIBVIO",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/LIBVIO.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/LIBVIO.js"
   },
   {
     "name": "NO视频",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/NO视频.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/NO视频.js"
   },
   {
     "name": "PPnix",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/PPnix.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/PPnix.js"
   },
   {
     "name": "StreamingCommunity",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/StreamingCommunity.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/StreamingCommunity.js"
   },
   {
     "name": "TVB云播",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/TVB云播.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/TVB云播.js"
   },
   {
     "name": "iKanBot",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/iKanBot.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/iKanBot.js"
   },
   {
     "name": "七味",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/七味.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/七味.js"
   },
   {
     "name": "两个BT",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/两个BT.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/两个BT.js"
   },
   {
     "name": "乌云影视",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/乌云影视.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/乌云影视.js"
   },
   {
     "name": "乐兔",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/乐兔.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/乐兔.js"
   },
   {
     "name": "人人影视PRO",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/人人影视PRO.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/人人影视PRO.js"
   },
   {
     "name": "低端影视",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/低端影视.py"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/低端影视.py"
   },
   {
     "name": "修罗影视",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/修罗影视.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/修罗影视.js"
   },
   {
     "name": "凡客TV",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/凡客TV.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/凡客TV.js"
   },
   {
     "name": "剧圈圈",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/剧圈圈.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/剧圈圈.js"
   },
   {
     "name": "华视影院",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/华视影院.py"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/华视影院.py"
   },
   {
     "name": "卧龙",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/卧龙.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/卧龙.js"
   },
   {
     "name": "哇哇影视",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/哇哇影视.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/哇哇影视.js"
   },
   {
     "name": "唐人街影院",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/唐人街影院.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/唐人街影院.js"
   },
   {
     "name": "四万影视",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/四万影视.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/四万影视.js"
   },
   {
     "name": "在线之家",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/在线之家.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/在线之家.js"
   },
   {
     "name": "如意资源",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/如意资源.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/如意资源.js"
   },
   {
     "name": "威尔伯TV",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/威尔伯TV.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/威尔伯TV.js"
   },
   {
     "name": "小黑米",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/小黑米.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/小黑米.js"
   },
   {
     "name": "布布影视",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/布布影视.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/布布影视.js"
   },
   {
     "name": "布布影视2",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/布布影视2.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/布布影视2.js"
   },
   {
     "name": "影猫仓库",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/影猫仓库.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/影猫仓库.js"
   },
   {
     "name": "影视大全",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/影视大全.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/影视大全.js"
   },
   {
     "name": "新韩剧网",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/新韩剧网.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/新韩剧网.js"
   },
   {
     "name": "星辰影院",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/星辰影院.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/星辰影院.js"
   },
   {
     "name": "木兮",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/木兮.py"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/木兮.py"
   },
   {
     "name": "枫叶",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/枫叶.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/枫叶.js"
   },
   {
     "name": "歪比巴卜",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/歪比巴卜.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/歪比巴卜.js"
   },
   {
     "name": "毒舌03",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/毒舌03.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/毒舌03.js"
   },
   {
     "name": "毒舌影视",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/毒舌影视.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/毒舌影视.js"
   },
   {
     "name": "永乐视频",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/永乐视频.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/永乐视频.js"
   },
   {
     "name": "泰剧网",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/泰剧网.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/泰剧网.js"
   },
   {
     "name": "热播",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/热播.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/热播.js"
   },
   {
     "name": "爱奇艺资源站",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/爱奇艺资源站.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/爱奇艺资源站.js"
   },
   {
     "name": "片库",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/片库.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/片库.js"
   },
   {
     "name": "独播库",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/独播库.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/独播库.js"
   },
   {
     "name": "瓜子",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/瓜子.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/瓜子.js"
   },
   {
     "name": "电影人生",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/电影人生.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/电影人生.js"
   },
   {
     "name": "电影天堂",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/电影天堂.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/电影天堂.js"
   },
   {
     "name": "耐视点播",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/耐视点播.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/耐视点播.js"
   },
   {
     "name": "茶杯狐",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/茶杯狐.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/茶杯狐.js"
   },
   {
     "name": "荐片",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/荐片.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/荐片.js"
   },
   {
     "name": "蛋蛋鱼",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/蛋蛋鱼.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/蛋蛋鱼.js"
   },
   {
     "name": "袋鼠影视",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/袋鼠影视.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/袋鼠影视.js"
   },
   {
     "name": "这片海",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/这片海.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/这片海.js"
   },
   {
     "name": "金牌",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/金牌.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/金牌.js"
   },
   {
     "name": "韩小圈",
     "category": "影视/采集",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/采集/韩小圈.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/采集/韩小圈.js"
   },
   {
     "name": "4K指南",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/4K指南.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/4K指南.js"
   },
   {
     "name": "AListTvbox",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/AListTvbox.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/AListTvbox.js"
   },
   {
     "name": "七味分组",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/七味分组.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/七味分组.js"
   },
   {
     "name": "二小",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/二小.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/二小.js"
   },
   {
     "name": "人人电影",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/人人电影.py"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/人人电影.py"
   },
   {
     "name": "光鸭·臻影社",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/光鸭·臻影社.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/光鸭·臻影社.js"
   },
   {
     "name": "剧迷115",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/剧迷115.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/剧迷115.js"
   },
   {
     "name": "多多",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/多多.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/多多.js"
   },
   {
     "name": "影巢",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/影巢.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/影巢.js"
   },
   {
     "name": "快映",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/快映.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/快映.js"
   },
   {
     "name": "木偶",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/木偶.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/木偶.js"
   },
   {
     "name": "欧哥",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/欧哥.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/欧哥.js"
   },
   {
     "name": "玩偶",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/玩偶.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/玩偶.js"
   },
   {
     "name": "玩偶聚合",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/玩偶聚合.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/玩偶聚合.js"
   },
   {
     "name": "盘尊社区",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/盘尊社区.py"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/盘尊社区.py"
   },
   {
     "name": "盘搜",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/盘搜.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/盘搜.js"
   },
   {
     "name": "盘搜分组",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/盘搜分组.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/盘搜分组.js"
   },
   {
     "name": "聚盘搜索",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/聚盘搜索.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/聚盘搜索.js"
   },
   {
     "name": "聚盘搜索分组",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/聚盘搜索分组.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/聚盘搜索分组.js"
   },
   {
     "name": "至臻",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/至臻.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/至臻.js"
   },
   {
     "name": "虎斑",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/虎斑.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/虎斑.js"
   },
   {
     "name": "蜡笔",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/蜡笔.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/蜡笔.js"
   },
   {
     "name": "闪电",
     "category": "影视/网盘",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/网盘/闪电.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/网盘/闪电.js"
   },
   {
     "name": "不太灵",
     "category": "影视/磁力",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/磁力/不太灵.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/磁力/不太灵.js"
   },
   {
     "name": "磁力熊",
     "category": "影视/磁力",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/磁力/磁力熊.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/磁力/磁力熊.js"
   },
   {
     "name": "movie360",
     "category": "影视/解析",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//影视/解析/movie360.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/解析/movie360.js"
+  },
+  {
+    "name": "影视库",
+    "category": "影视/影视库",
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/影视/影视库/影视库.js"
   },
   {
     "name": "girigiri爱动漫",
     "category": "动漫",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//动漫/girigiri爱动漫.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/动漫/girigiri爱动漫.js"
   },
   {
     "name": "嗷呜动漫",
     "category": "动漫",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//动漫/嗷呜动漫.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/动漫/嗷呜动漫.js"
   },
   {
     "name": "樱花动漫",
     "category": "动漫",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//动漫/樱花动漫.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/动漫/樱花动漫.js"
   },
   {
     "name": "稀饭动漫",
     "category": "动漫",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//动漫/稀饭动漫.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/动漫/稀饭动漫.js"
   },
   {
     "name": "博看听书",
     "category": "听书",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//听书/博看听书.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/听书/博看听书.js"
   },
   {
     "name": "听友FM",
     "category": "听书",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//听书/听友FM.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/听书/听友FM.js"
   },
   {
     "name": "番茄畅听",
     "category": "听书",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//听书/番茄畅听.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/听书/番茄畅听.js"
   },
   {
     "name": "酷我听书",
     "category": "听书",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//听书/酷我听书.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/听书/酷我听书.js"
   },
   {
     "name": "AAZ音乐网",
     "category": "音乐",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//音乐/AAZ音乐网.py"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/音乐/AAZ音乐网.py"
   },
   {
     "name": "DJ音乐",
     "category": "音乐",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//音乐/DJ音乐.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/音乐/DJ音乐.js"
   },
   {
     "name": "世纪音乐",
     "category": "音乐",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//音乐/世纪音乐.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/音乐/世纪音乐.js"
   },
   {
     "name": "枫叶音乐",
     "category": "音乐",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//音乐/枫叶音乐.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/音乐/枫叶音乐.js"
   },
   {
     "name": "芸芸音乐",
     "category": "音乐",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//音乐/芸芸音乐.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/音乐/芸芸音乐.js"
   },
   {
     "name": "哔哩教育",
     "category": "教育",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//教育/哔哩教育.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/教育/哔哩教育.js"
   },
   {
     "name": "贝乐虎",
     "category": "教育",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//教育/贝乐虎.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/教育/贝乐虎.js"
   },
   {
     "name": "YY轮播",
     "category": "直播",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//直播/YY轮播.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/直播/YY轮播.js"
   },
   {
     "name": "抖音直播",
     "category": "直播",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//直播/抖音直播.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/直播/抖音直播.js"
   },
   {
     "name": "斗鱼直播",
     "category": "直播",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//直播/斗鱼直播.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/直播/斗鱼直播.js"
   },
   {
     "name": "虎牙直播",
     "category": "直播",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//直播/虎牙直播.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/直播/虎牙直播.js"
   },
   {
     "name": "嘟嘟短剧",
     "category": "短剧",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//短剧/嘟嘟短剧.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/短剧/嘟嘟短剧.js"
   },
   {
     "name": "星星短剧",
     "category": "短剧",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//短剧/星星短剧.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/短剧/星星短剧.js"
   },
   {
     "name": "河马短剧",
     "category": "短剧",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//短剧/河马短剧.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/短剧/河马短剧.js"
   },
   {
     "name": "短剧粉",
     "category": "短剧",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//短剧/短剧粉.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/短剧/短剧粉.js"
   },
   {
     "name": "短剧网",
     "category": "短剧",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//短剧/短剧网.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/短剧/短剧网.js"
   },
   {
     "name": "短剧聚合",
     "category": "短剧",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//短剧/短剧聚合.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/短剧/短剧聚合.js"
   },
   {
     "name": "哔哩大全",
     "category": "综合",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//综合/哔哩大全.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/综合/哔哩大全.js"
   },
   {
     "name": "MakkaPakka聚合导航",
     "category": "导航",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//导航/MakkaPakka聚合导航.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/导航/MakkaPakka聚合导航.js"
   },
   {
     "name": "豆瓣推荐",
     "category": "导航",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//导航/豆瓣推荐.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/导航/豆瓣推荐.js"
   },
   {
     "name": "Jellyfin",
     "category": "流媒体",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//流媒体/Jellyfin.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/流媒体/Jellyfin.js"
   },
   {
     "name": "Plex",
     "category": "流媒体",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//流媒体/Plex.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/流媒体/Plex.js"
   },
   {
     "name": "YouTube",
     "category": "流媒体",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//流媒体/YouTube.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/流媒体/YouTube.js"
   },
   {
     "name": "飞牛",
     "category": "流媒体",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//流媒体/飞牛.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/流媒体/飞牛.js"
   },
   {
     "name": "模板一",
     "category": "Emby",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//Emby/模板一.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/Emby/模板一.js"
   },
   {
     "name": "模板二",
     "category": "Emby",
-    "downloadUrl": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main//Emby/模板二.js"
+    "downloadUrl": "https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/Emby/模板二.js"
   }
 ];
 
 export const LIVES = [
   {
-    "name": "电视直播",
+    "name": "huangbo",
     "type": 1,
-    "url": "https://raw.githubusercontent.com/iTCoffe/Collect-iTV/main/Internet_iTV.m3u"
+    "url": "https://fastgit.cc/https://raw.githubusercontent.com/iTCoffe/Collect-iTV/main/Internet_iTV.m3u"
   }
 ];
+
+export const ENHANCEMENTS = {
+  "parses": [
+    {
+      "name": "线路1",
+      "type": 0,
+      "url": "https://yparse.ik9.cc/index.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "iqiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.1.0"
+        }
+      }
+    },
+    {
+      "name": "线路2",
+      "type": 0,
+      "url": "https://jx.yparse.com/index.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.1.0"
+        }
+      }
+    },
+    {
+      "name": "线路3",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.1.0"
+        }
+      }
+    },
+    {
+      "name": "线路4",
+      "type": 0,
+      "url": "https://jx.xyflv.cc/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    },
+    {
+      "name": "线路5",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    },
+    {
+      "name": "线路6",
+      "type": 0,
+      "url": "https://jx.xyflv.cc/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
+          "referer": "https://www.xyflv.cc/"
+        }
+      }
+    },
+    {
+      "name": "线路7",
+      "type": 0,
+      "url": "https://jx.aidouer.net/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
+          "referer": "https://jiejie.uk/"
+        }
+      }
+    },
+    {
+      "name": "线路8",
+      "type": 0,
+      "url": "https://jx.zhanlangbu.com/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ],
+        "ext": {
+          "header": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+          }
+        }
+      }
+    },
+    {
+      "name": "线路9",
+      "type": 0,
+      "url": "https://jx.777jiexi.com/player/?url="
+    },
+    {
+      "name": "线路10",
+      "type": 0,
+      "url": "https://www.8090g.cn/?url="
+    },
+    {
+      "name": "线路11",
+      "type": 0,
+      "url": "https://jx.yangtu.top?url="
+    },
+    {
+      "name": "线路12",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
+      "name": "线路13",
+      "type": 0,
+      "url": "https://www.ckplayer.vip/jiexi/?url="
+    },
+    {
+      "name": "xmflv",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "freejson",
+      "type": 0,
+      "url": "https://h5.freejson.xyz/player/?url="
+    },
+    {
+      "name": "365",
+      "type": 0,
+      "url": "https://chaxun.truechat365.com/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "iqiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    },
+    {
+      "name": "parwix稳定",
+      "type": 0,
+      "url": "https://jx.bozrc.com:4433/player/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "iqiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    },
+    {
+      "name": "parwix1",
+      "type": 0,
+      "url": "https://jx.parwix.com:4433/player/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "iqiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    },
+    {
+      "name": "parwix2",
+      "type": 0,
+      "url": "https://jx.parwix.com:4433/player/analysis.php?v=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "iqiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    },
+    {
+      "name": "夜幕",
+      "type": 0,
+      "url": "https://www.yemu.xyz/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "iqiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    },
+    {
+      "name": "8090",
+      "url": "https://www.8090g.cn/?url="
+    },
+    {
+      "name": "油果",
+      "type": 1,
+      "url": "http://json.youguo520.top/fufeng/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "iqiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ],
+        "header": {
+          "User-Agent": "Dart/2.14 (dart:io)"
+        }
+      }
+    },
+    {
+      "name": "懒懒1",
+      "type": 1,
+      "url": "http://123.57.56.94:9931/lanlan/?url="
+    },
+    {
+      "name": "EXO",
+      "type": 0,
+      "url": "https://rx.69mj.com/?url=",
+      "ext": {
+        "flag": [
+          "rx",
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果"
+        ]
+      }
+    },
+    {
+      "name": "懒懒2",
+      "type": 1,
+      "url": "http://lanlan.ckflv.cn/?url=",
+      "ext": {
+        "flag": [
+          "qiyi",
+          "qq",
+          "letv",
+          "sohu",
+          "youku",
+          "mgtv",
+          "bilibili",
+          "wasu",
+          "xigua",
+          "1905"
+        ]
+      }
+    },
+    {
+      "name": "parwix",
+      "type": 0,
+      "url": "https://jx.parwix.com:4433/player/?url="
+    },
+    {
+      "name": "虾米",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "imgo",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
+    },
+    {
+      "name": "PM",
+      "url": "https://www.playm3u8.cn/jiexi.php?url=",
+      "type": 0,
+      "ext": {
+        "flag": [
+          "qiyi",
+          "imgo",
+          "爱奇艺",
+          "奇艺",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "leshi",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩",
+          "mgtv",
+          "芒果",
+          "sohu",
+          "xigua",
+          "fun",
+          "风行"
+        ],
+        "header": {
+          "User-Agent": "Mozilla/5.0"
+        }
+      },
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "m3u8",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
+      "name": "8090",
+      "url": "https://www.8090.la/8090/?url=",
+      "type": 0,
+      "ext": {
+        "flag": [
+          "qiyi",
+          "imgo",
+          "爱奇艺",
+          "奇艺",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "leshi",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩",
+          "mgtv",
+          "芒果",
+          "sohu",
+          "xigua",
+          "fun",
+          "风行"
+        ],
+        "header": {
+          "User-Agent": "Mozilla/5.0"
+        }
+      },
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "看看",
+      "type": 0,
+      "url": "https://jx.m3u8.pw/?url="
+    },
+    {
+      "name": "咸鱼",
+      "type": 0,
+      "url": "https://jx.xyflv.cc/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36",
+          "referer": "https://www.xyflv.cc/"
+        }
+      }
+    },
+    {
+      "name": "云解析",
+      "type": 0,
+      "url": "https://jx.yparse.com/index.php?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
+        }
+      }
+    },
+    {
+      "name": "爱豆",
+      "type": 0,
+      "url": "https://jx.aidouer.net/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36",
+          "referer": "https://jiejie.uk/"
+        }
+      }
+    },
+    {
+      "name": "巧技",
+      "type": 1,
+      "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "巧技二",
+      "type": 1,
+      "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905",
+          "NetFilx"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "1-看看",
+      "type": 0,
+      "url": "https://jx.m3u8.pw/?url="
+    },
+    {
+      "name": "2-虾米",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "3-麒麟",
+      "type": 0,
+      "url": "https://www.cygqw.com/jiexi/jiekou-2/?url="
+    },
+    {
+      "name": "4-parwix1",
+      "type": 0,
+      "url": "https://jx.bozrc.com:4433/player/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    },
+    {
+      "name": "5-OK解析",
+      "type": 0,
+      "url": "http://okjx.cc/?url=",
+      "parse": "1",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    },
+    {
+      "name": "6-yparse",
+      "type": 0,
+      "url": "https://jx.yparse.com/index.php?url="
+    },
+    {
+      "name": "7-jsonplayer",
+      "type": 0,
+      "url": "https://jx.jsonplayer.com/player/?url="
+    },
+    {
+      "name": "8-aidou",
+      "type": 0,
+      "url": "https://jx.aidouer.net/?url="
+    },
+    {
+      "name": "星辰云解析",
+      "type": 1,
+      "url": "https://json.xn--9kq078cdn3a.cc/api/?key=GMp1H9mKRKVriBulRT&url=",
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "刚刚走过",
+      "type": 1,
+      "url": "http://jx.fuqizhishi.com:63/API.php?appkey=feimao&url=",
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "tg255免费",
+      "type": 1,
+      "url": "https://jx.255jx.tk/api/?key=YYac1YA1lkwwf3an4G&url="
+    },
+    {
+      "name": "风起兖州",
+      "type": 0,
+      "url": "http://jx.gbxy.net.cn/?url="
+    },
+    {
+      "name": "江湖1080",
+      "type": 1,
+      "url": "http://211.99.99.236:4567/jhjson/ceshi.php?url="
+    },
+    {
+      "name": "keyu",
+      "type": 1,
+      "url": "http://newjiexi.gotka.top/keyu3.php?url=",
+      "ext": {
+        "header": {
+          "User-Agent": "okhttp/4.1.0"
+        }
+      }
+    },
+    {
+      "name": "荣兴",
+      "type": 1,
+      "url": "http://jx.dygfsdy.com/home/api?type=ys&uid=129415&key=acdmoruwxCDEKPZ679&url="
+    },
+    {
+      "name": "m3u8(720)",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
+      "name": "爱心",
+      "type": 4,
+      "url": "http://119.91.123.253:2345/Api/yun.php?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+    {
+      "name": "淘片",
+      "type": 0,
+      "url": "https://jx.yparse.com/index.php?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+    {
+      "name": "观山",
+      "type": 0,
+      "url": "https://p10.zijincao.cc/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+    {
+      "name": "七哥",
+      "url": "https://jx.nnxv.cn/tv.php?url=",
+      "type": 0,
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+    {
+      "name": "777",
+      "type": 0,
+      "url": "https://www.huaqi.live/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+    {
+      "name": "jsonplayer",
+      "type": 0,
+      "url": "https://jx.jsonplayer.com/player/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+    {
+      "name": "ckplayer",
+      "type": 0,
+      "url": "https://www.ckplayer.vip/jiexi/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+    {
+      "name": "M3U8",
+      "url": "https://jx.m3u8.tv/jiexi/?url=",
+      "type": 0,
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    }
+  ],
+  "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    },
+    {
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
+    },
+    {
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ]
+    },
+    {
+      "name": "OpenDNS",
+      "url": "https://dns.www.opendns.com/dns-query",
+      "ips": [
+        "208.67.222.222",
+        "208.67.220.220"
+      ]
+    },
+    {
+      "name": "114",
+      "url": "https://dns.114dns.com/dns-query",
+      "ips": [
+        "114.114.114.114",
+        "114.114.115.115"
+      ]
+    },
+    {
+      "name": "腾讯",
+      "url": "https://doh.pub/dns-query",
+      "ips": [
+        "119.29.29.29"
+      ]
+    },
+    {
+      "name": "阿里",
+      "url": "https://dns.alidns.com/dns-query",
+      "ips": [
+        "223.6.6.6",
+        "223.5.5.5"
+      ]
+    },
+    {
+      "name": "360",
+      "url": "https://doh.360.cn/dns-query"
+    }
+  ],
+  "flags": [
+    "youku",
+    "优酷",
+    "优 酷",
+    "优酷视频",
+    "qq",
+    "腾讯",
+    "腾 讯",
+    "腾讯视频",
+    "iqiyi",
+    "qiyi",
+    "奇艺",
+    "爱奇艺",
+    "爱 奇 艺",
+    "m1905",
+    "xigua",
+    "letv",
+    "leshi",
+    "乐视",
+    "乐 视",
+    "sohu"
+  ]
+};
