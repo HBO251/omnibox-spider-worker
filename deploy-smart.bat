@@ -99,57 +99,8 @@ for /f "tokens=2 delims=:" %%i in ('wrangler whoami 2^>^&1 ^| findstr "Account N
 echo ✓ 已登录 Cloudflare:!CF_ACCOUNT!
 echo.
 
-:: 步骤 6: 检查并创建 KV 命名空间
-echo [步骤 6/7] 检查 KV 命名空间...
-
-:: 检查 wrangler.toml 中是否已配置 KV
-findstr /C:"id = \"" wrangler.toml | findstr /V "your-kv" >nul
-if %errorlevel% equ 0 (
-    echo ✓ KV 命名空间已配置
-    goto :deploy
-)
-
-echo ⚠️  未配置 KV 命名空间，正在创建...
-
-:: 创建 KV 命名空间
-for /f "tokens=2 delims={}" %%i in ('wrangler kv:namespace create CACHE 2^>^&1') do set KV_OUTPUT=%%i
-
-:: 提取 KV ID
-for /f "tokens=2 delims=," %%a in ("%KV_OUTPUT%") do (
-    set KV_ID_PART=%%a
-    for /f "tokens=2 delims== " %%b in ("!KV_ID_PART!") do set KV_ID=%%~b
-)
-
-if not defined KV_ID (
-    echo ❌ 无法获取 KV 命名空间 ID
-    echo 请手动运行: wrangler kv:namespace create CACHE
-    pause
-    exit /b 1
-)
-
-echo ✓ KV 命名空间已创建: !KV_ID!
-
-:: 更新 wrangler.toml
-echo 正在更新 wrangler.toml...
-(
-    for /f "tokens=*" %%i in (wrangler.toml) do (
-        set line=%%i
-        echo !line! | findstr "id = \"your-kv" >nul
-        if !errorlevel! equ 0 (
-            echo id = "!KV_ID!"
-        ) else (
-            echo !line!
-        )
-    )
-) > wrangler.toml.tmp
-
-move /y wrangler.toml.tmp wrangler.toml >nul
-echo ✓ wrangler.toml 已更新
-echo.
-
-:deploy
-:: 步骤 7: 部署到 Cloudflare Workers
-echo [步骤 7/7] 部署到 Cloudflare Workers...
+:: 步骤 6: 部署到 Cloudflare Workers
+echo [步骤 6/6] 部署到 Cloudflare Workers...
 echo.
 
 wrangler deploy
@@ -177,12 +128,11 @@ echo.
 echo 📝 Worker 信息:
 echo    URL: !WORKER_URL!
 echo.
-echo 📺 TVBox 配置地址:
-echo    !WORKER_URL!/config.json
+echo 📺 TVBox 多仓配置地址:
+echo    !WORKER_URL!/dc.json
 echo.
 echo 📖 API 接口:
 echo    爬虫列表: !WORKER_URL!/api/spiders
-echo    刷新配置: POST !WORKER_URL!/api/refresh
 echo.
 echo 💡 提示:
 echo    - 在 TVBox 应用中添加配置地址即可使用
