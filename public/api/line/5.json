@@ -73,6 +73,12 @@
       "ext": "{\"host\":\"https://ysttv.com\",\"pageFmt\":\"\",\"searchFmt\":\"\"}"
     },
     {
+      "key": "py_fqdm",
+      "name": "番茄动漫[py]",
+      "type": 3,
+      "api": "/static/32c46e4f12400c07.py"
+    },
+    {
       "key": "1",
       "name": "--- 1 ---"
     },
