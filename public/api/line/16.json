@@ -51,41 +51,6 @@
       "url": "/proxy?u=https%3A%2F%2Fztha.top%2FTVBox%2Flib%2Fyylunbo.m3u"
     },
     {
-      "name": "develop202",
-      "type": 0,
-      "url": "/proxy?u=https%3A%2F%2Fgh.llkk.cc%2Fhttp%3A%2F%2Fraw.githubusercontent.com%2Fdevelop202%2Fmigu_video%2Frefs%2Fheads%2Fmain%2Finterface.txt"
-    },
-    {
-      "name": "冰 茶",
-      "type": 0,
-      "url": "/proxy?u=https%3A%2F%2Fbc.188766.xyz%2F%3Fip%3D%26mishitong%3Dtrue%26mima%3Dmianfeibuhuaqian%26json%3Dtrue"
-    },
-    {
-      "name": "范明明（需开启V6网络）",
-      "type": 0,
-      "url": "/proxy?u=https%3A%2F%2Fnos.netease.com%2Fysf%2F3d75a78a0fc7ede372c03598d6d10367.m3u"
-    },
-    {
-      "name": "虎牙一起看",
-      "type": 0,
-      "url": "/proxy?u=https%3A%2F%2Fsub.ottiptv.cc%2Fhuyayqk.m3u"
-    },
-    {
-      "name": "斗鱼一起看",
-      "type": 0,
-      "url": "/proxy?u=https%3A%2F%2Fsub.ottiptv.cc%2Fdouyuyqk.m3u"
-    },
-    {
-      "name": "B站直播",
-      "type": 0,
-      "url": "/proxy?u=https%3A%2F%2Fsub.ottiptv.cc%2Fbililive.m3u"
-    },
-    {
-      "name": "YY轮播",
-      "type": 0,
-      "url": "/proxy?u=https%3A%2F%2Fsub.ottiptv.cc%2Fyylunbo.m3u"
-    },
-    {
       "name": "驸马影视•ITV",
       "type": 0,
       "url": "/proxy?u=https%3A%2F%2Ffastgit.cc%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2FiTCoffe%2FCollect-iTV%2Fmain%2FInternet_iTV.m3u"
@@ -104,11 +69,6 @@
       "name": "驸马影视•港澳台",
       "type": 0,
       "url": "/proxy?u=http%3A%2F%2F110.185.171.226%3A93%2Fdsch%2Fgat.txt"
-    },
-    {
-      "name": "直播",
-      "type": 0,
-      "url": "/proxy?u=http%3A%2F%2Fhome.jundie.top%3A81%2FCat%2Ftv%2Flive.txt"
     },
     {
       "name": "初秋语",
@@ -134,6 +94,26 @@
       "name": "歌手直播",
       "type": 0,
       "url": "/proxy?u=https%3A%2F%2Fmgtv.ottiptv.cc%2Fmglist.m3u"
+    },
+    {
+      "name": "虎牙一起看",
+      "type": 0,
+      "url": "/proxy?u=https%3A%2F%2Fsub.ottiptv.cc%2Fhuyayqk.m3u"
+    },
+    {
+      "name": "斗鱼一起看",
+      "type": 0,
+      "url": "/proxy?u=https%3A%2F%2Fsub.ottiptv.cc%2Fdouyuyqk.m3u"
+    },
+    {
+      "name": "B站直播",
+      "type": 0,
+      "url": "/proxy?u=https%3A%2F%2Fsub.ottiptv.cc%2Fbililive.m3u"
+    },
+    {
+      "name": "YY轮播",
+      "type": 0,
+      "url": "/proxy?u=https%3A%2F%2Fsub.ottiptv.cc%2Fyylunbo.m3u"
     },
     {
       "name": "Kimentanm",
@@ -254,6 +234,11 @@
       "name": "野火直播",
       "type": 0,
       "url": "/proxy?u=http%3A%2F%2Fzhangqun1818.serv00.net%2Fzq%2F%25E9%2587%258E%25E7%2581%25AB%25E6%2594%25B9.txt"
+    },
+    {
+      "name": "huangbo",
+      "type": 1,
+      "url": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2FiTCoffe%2FCollect-iTV%2Fmain%2FInternet_iTV.m3u"
     }
   ],
   "sites": [],
