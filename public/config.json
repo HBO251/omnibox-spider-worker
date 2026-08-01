@@ -5,8 +5,8 @@
       "key": "123TV",
       "name": "123TV",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F123TV.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/43ace6f12a9e7af3.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -15,8 +15,8 @@
       "key": "3Q影视",
       "name": "3Q影视",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F3Q%E5%BD%B1%E8%A7%86.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/53c719060d9e2ff0.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -25,8 +25,8 @@
       "key": "4KMP",
       "name": "4KMP",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F4KMP.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/ce31bfbbe4716d45.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -35,8 +35,8 @@
       "key": "4KVM",
       "name": "4KVM",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F4KVM.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/b57b6dbd413cf804.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -45,8 +45,8 @@
       "key": "88看球",
       "name": "88看球",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F88%E7%9C%8B%E7%90%83.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/b629c51b297d297c.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -55,8 +55,8 @@
       "key": "Auete影视",
       "name": "Auete影视",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2FAuete%E5%BD%B1%E8%A7%86.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/04444de8ca94ecf0.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -65,8 +65,8 @@
       "key": "FKTV",
       "name": "FKTV",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2FFKTV.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/0bdfe0c38f45172e.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -75,8 +75,8 @@
       "key": "Gimy剧迷",
       "name": "Gimy剧迷",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2FGimy%E5%89%A7%E8%BF%B7.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/80fc1a954bdc6589.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -85,8 +85,8 @@
       "key": "HDmoli",
       "name": "HDmoli",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2FHDmoli.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/0ee86434e909f3da.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -95,8 +95,8 @@
       "key": "LIBVIO",
       "name": "LIBVIO",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2FLIBVIO.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/9cb8c1c800d81a42.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -105,8 +105,8 @@
       "key": "NO视频",
       "name": "NO视频",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2FNO%E8%A7%86%E9%A2%91.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/769ecffe27e97058.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -115,8 +115,8 @@
       "key": "PPnix",
       "name": "PPnix",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2FPPnix.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/74fe34036723354e.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -125,8 +125,8 @@
       "key": "StreamingCommunity",
       "name": "StreamingCommunity",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2FStreamingCommunity.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/871c7a909a153b74.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -135,8 +135,8 @@
       "key": "TVB云播",
       "name": "TVB云播",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2FTVB%E4%BA%91%E6%92%AD.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/37907a85024c234b.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -145,8 +145,8 @@
       "key": "iKanBot",
       "name": "iKanBot",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2FiKanBot.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/055bf9122476f6f8.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -155,8 +155,8 @@
       "key": "七味",
       "name": "七味",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E4%B8%83%E5%91%B3.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/98fad534dac5ad5b.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -165,8 +165,8 @@
       "key": "两个BT",
       "name": "两个BT",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E4%B8%A4%E4%B8%AABT.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/d7e0b7ef0df0877c.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -175,8 +175,8 @@
       "key": "乌云影视",
       "name": "乌云影视",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E4%B9%8C%E4%BA%91%E5%BD%B1%E8%A7%86.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/38d533bc5d4deb13.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -185,8 +185,8 @@
       "key": "乐兔",
       "name": "乐兔",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E4%B9%90%E5%85%94.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/8af692087fba6a90.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -195,8 +195,8 @@
       "key": "人人影视PRO",
       "name": "人人影视PRO",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86PRO.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/3633559f8b8ef044.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -205,8 +205,8 @@
       "key": "低端影视",
       "name": "低端影视",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E4%BD%8E%E7%AB%AF%E5%BD%B1%E8%A7%86.py",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/fcda4bb7c0cceb55.py",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -215,8 +215,8 @@
       "key": "修罗影视",
       "name": "修罗影视",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E4%BF%AE%E7%BD%97%E5%BD%B1%E8%A7%86.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/9eafaf5b55c16da5.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -225,8 +225,8 @@
       "key": "凡客TV",
       "name": "凡客TV",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E5%87%A1%E5%AE%A2TV.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/f5b1ad8d20853325.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -235,8 +235,8 @@
       "key": "剧圈圈",
       "name": "剧圈圈",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E5%89%A7%E5%9C%88%E5%9C%88.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/bd60b80240ce6a7d.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -245,8 +245,8 @@
       "key": "华视影院",
       "name": "华视影院",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E5%8D%8E%E8%A7%86%E5%BD%B1%E9%99%A2.py",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/a25be2113fc435c7.py",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -255,8 +255,8 @@
       "key": "卧龙",
       "name": "卧龙",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E5%8D%A7%E9%BE%99.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/118ca35608a6f362.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -265,8 +265,8 @@
       "key": "哇哇影视",
       "name": "哇哇影视",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E5%93%87%E5%93%87%E5%BD%B1%E8%A7%86.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/1c106d65ca72d92e.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -275,8 +275,8 @@
       "key": "唐人街影院",
       "name": "唐人街影院",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E5%94%90%E4%BA%BA%E8%A1%97%E5%BD%B1%E9%99%A2.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/83bd21a7d4497f51.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -285,8 +285,8 @@
       "key": "四万影视",
       "name": "四万影视",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E5%9B%9B%E4%B8%87%E5%BD%B1%E8%A7%86.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/e44f28e51ea5cdbe.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -295,8 +295,8 @@
       "key": "在线之家",
       "name": "在线之家",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E5%9C%A8%E7%BA%BF%E4%B9%8B%E5%AE%B6.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/723308dfad8718fb.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -305,8 +305,8 @@
       "key": "如意资源",
       "name": "如意资源",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E5%A6%82%E6%84%8F%E8%B5%84%E6%BA%90.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/4cb63363e34cbc6a.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -315,8 +315,8 @@
       "key": "威尔伯TV",
       "name": "威尔伯TV",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E5%A8%81%E5%B0%94%E4%BC%AFTV.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/3d5e582740a3fb89.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -325,8 +325,8 @@
       "key": "小黑米",
       "name": "小黑米",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E5%B0%8F%E9%BB%91%E7%B1%B3.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/868aec34bcf77158.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -335,8 +335,8 @@
       "key": "布布影视",
       "name": "布布影视",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E5%B8%83%E5%B8%83%E5%BD%B1%E8%A7%86.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/3393932624841ad8.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -345,8 +345,8 @@
       "key": "布布影视2",
       "name": "布布影视2",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E5%B8%83%E5%B8%83%E5%BD%B1%E8%A7%862.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/931a4aabbc0e6d2e.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -355,8 +355,8 @@
       "key": "影猫仓库",
       "name": "影猫仓库",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E5%BD%B1%E7%8C%AB%E4%BB%93%E5%BA%93.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/6b1d87d238cc9b60.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -365,8 +365,8 @@
       "key": "影视大全",
       "name": "影视大全",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E5%BD%B1%E8%A7%86%E5%A4%A7%E5%85%A8.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/2242c00930490206.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -375,8 +375,8 @@
       "key": "新韩剧网",
       "name": "新韩剧网",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E6%96%B0%E9%9F%A9%E5%89%A7%E7%BD%91.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/41be18bb661ef2cf.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -385,8 +385,8 @@
       "key": "星辰影院",
       "name": "星辰影院",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E6%98%9F%E8%BE%B0%E5%BD%B1%E9%99%A2.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/398b1af2fa1e35f9.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -395,8 +395,8 @@
       "key": "木兮",
       "name": "木兮",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E6%9C%A8%E5%85%AE.py",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/9bd81512e427c47d.py",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -405,8 +405,8 @@
       "key": "枫叶",
       "name": "枫叶",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E6%9E%AB%E5%8F%B6.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/99a10f73b6b3d001.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -415,8 +415,8 @@
       "key": "歪比巴卜",
       "name": "歪比巴卜",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E6%AD%AA%E6%AF%94%E5%B7%B4%E5%8D%9C.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/20c263b68992db53.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -425,8 +425,8 @@
       "key": "毒舌03",
       "name": "毒舌03",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E6%AF%92%E8%88%8C03.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/95cc01eda7b04dc0.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -435,8 +435,8 @@
       "key": "毒舌影视",
       "name": "毒舌影视",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E6%AF%92%E8%88%8C%E5%BD%B1%E8%A7%86.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/6486d6d51b33b7bc.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -445,8 +445,8 @@
       "key": "永乐视频",
       "name": "永乐视频",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E6%B0%B8%E4%B9%90%E8%A7%86%E9%A2%91.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/43bd8bbb67250443.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -455,8 +455,8 @@
       "key": "泰剧网",
       "name": "泰剧网",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E6%B3%B0%E5%89%A7%E7%BD%91.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/b9e6c8f675f16f3f.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -465,8 +465,8 @@
       "key": "热播",
       "name": "热播",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E7%83%AD%E6%92%AD.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/e05dd59fa6405522.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -475,8 +475,8 @@
       "key": "爱奇艺资源站",
       "name": "爱奇艺资源站",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E7%88%B1%E5%A5%87%E8%89%BA%E8%B5%84%E6%BA%90%E7%AB%99.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/6345c5334d751bc4.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -485,8 +485,8 @@
       "key": "片库",
       "name": "片库",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E7%89%87%E5%BA%93.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/0d78463637cd726d.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -495,8 +495,8 @@
       "key": "独播库",
       "name": "独播库",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E7%8B%AC%E6%92%AD%E5%BA%93.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/056038e7dc0d6c28.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -505,8 +505,8 @@
       "key": "瓜子",
       "name": "瓜子",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E7%93%9C%E5%AD%90.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/f11a1fe36ee2f35f.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -515,8 +515,8 @@
       "key": "电影人生",
       "name": "电影人生",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E7%94%B5%E5%BD%B1%E4%BA%BA%E7%94%9F.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/1d5086d873351dd9.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -525,8 +525,8 @@
       "key": "电影天堂",
       "name": "电影天堂",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E7%94%B5%E5%BD%B1%E5%A4%A9%E5%A0%82.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/5140b5e475a38580.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -535,8 +535,8 @@
       "key": "耐视点播",
       "name": "耐视点播",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E8%80%90%E8%A7%86%E7%82%B9%E6%92%AD.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/7e5dd1cf96bdd1b9.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -545,8 +545,8 @@
       "key": "茶杯狐",
       "name": "茶杯狐",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E8%8C%B6%E6%9D%AF%E7%8B%90.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/693903e75fce2006.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -555,8 +555,8 @@
       "key": "荐片",
       "name": "荐片",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E8%8D%90%E7%89%87.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/e8b27a35fd4446f9.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -565,8 +565,8 @@
       "key": "蛋蛋鱼",
       "name": "蛋蛋鱼",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E8%9B%8B%E8%9B%8B%E9%B1%BC.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/b77336f964f4fed7.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -575,8 +575,8 @@
       "key": "袋鼠影视",
       "name": "袋鼠影视",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E8%A2%8B%E9%BC%A0%E5%BD%B1%E8%A7%86.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/6427d73f19191390.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -585,8 +585,8 @@
       "key": "这片海",
       "name": "这片海",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E8%BF%99%E7%89%87%E6%B5%B7.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/201c8d2e08e30c7e.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -595,8 +595,8 @@
       "key": "金牌",
       "name": "金牌",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E9%87%91%E7%89%8C.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/ad98d55b10d84ac7.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -605,8 +605,8 @@
       "key": "韩小圈",
       "name": "韩小圈",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E9%87%87%E9%9B%86%2F%E9%9F%A9%E5%B0%8F%E5%9C%88.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/dfafe04b8786d99c.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -615,8 +615,8 @@
       "key": "4K指南",
       "name": "4K指南",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F4K%E6%8C%87%E5%8D%97.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/1e32bb7864107649.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -625,8 +625,8 @@
       "key": "AListTvbox",
       "name": "AListTvbox",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2FAListTvbox.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/3bbd15aae21624b5.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -635,8 +635,8 @@
       "key": "七味分组",
       "name": "七味分组",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E4%B8%83%E5%91%B3%E5%88%86%E7%BB%84.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/9d28bd0e68142c2a.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -645,8 +645,8 @@
       "key": "二小",
       "name": "二小",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E4%BA%8C%E5%B0%8F.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/afaf87dc470ac2ae.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -655,8 +655,8 @@
       "key": "人人电影",
       "name": "人人电影",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E4%BA%BA%E4%BA%BA%E7%94%B5%E5%BD%B1.py",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/7fd1b2e20e4c7e2f.py",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -665,8 +665,8 @@
       "key": "光鸭臻影社",
       "name": "光鸭·臻影社",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E5%85%89%E9%B8%AD%C2%B7%E8%87%BB%E5%BD%B1%E7%A4%BE.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/e885c0e432bed408.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -675,8 +675,8 @@
       "key": "剧迷115",
       "name": "剧迷115",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E5%89%A7%E8%BF%B7115.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/cb491c68ddf05683.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -685,8 +685,8 @@
       "key": "多多",
       "name": "多多",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E5%A4%9A%E5%A4%9A.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/ed2d0e2fd095fb0c.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -695,8 +695,8 @@
       "key": "影巢",
       "name": "影巢",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E5%BD%B1%E5%B7%A2.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/ee9b348ffefd39c2.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -705,8 +705,8 @@
       "key": "快映",
       "name": "快映",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E5%BF%AB%E6%98%A0.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/1c9df89097cae3dc.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -715,8 +715,8 @@
       "key": "木偶",
       "name": "木偶",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E6%9C%A8%E5%81%B6.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/45362b3ecd6bcc0a.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -725,8 +725,8 @@
       "key": "欧哥",
       "name": "欧哥",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E6%AC%A7%E5%93%A5.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/46a0d483475b67e6.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -735,8 +735,8 @@
       "key": "玩偶",
       "name": "玩偶",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E7%8E%A9%E5%81%B6.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/7c998b8d99ce78e4.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -745,8 +745,8 @@
       "key": "玩偶聚合",
       "name": "玩偶聚合",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E7%8E%A9%E5%81%B6%E8%81%9A%E5%90%88.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/fb10a4c30862e691.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -755,8 +755,8 @@
       "key": "盘尊社区",
       "name": "盘尊社区",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E7%9B%98%E5%B0%8A%E7%A4%BE%E5%8C%BA.py",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/ab2a03641090c700.py",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -765,8 +765,8 @@
       "key": "盘搜",
       "name": "盘搜",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E7%9B%98%E6%90%9C.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/2c1cfa2457556c47.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -775,8 +775,8 @@
       "key": "盘搜分组",
       "name": "盘搜分组",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E7%9B%98%E6%90%9C%E5%88%86%E7%BB%84.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/82f615b6b8a6deb0.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -785,8 +785,8 @@
       "key": "聚盘搜索",
       "name": "聚盘搜索",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E8%81%9A%E7%9B%98%E6%90%9C%E7%B4%A2.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/daec0a04055cc23f.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -795,8 +795,8 @@
       "key": "聚盘搜索分组",
       "name": "聚盘搜索分组",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E8%81%9A%E7%9B%98%E6%90%9C%E7%B4%A2%E5%88%86%E7%BB%84.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/0811828b093b9dd2.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -805,8 +805,8 @@
       "key": "至臻",
       "name": "至臻",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E8%87%B3%E8%87%BB.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/aec408aa10cdb613.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -815,8 +815,8 @@
       "key": "虎斑",
       "name": "虎斑",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E8%99%8E%E6%96%91.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/bac8609ef24b2452.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -825,8 +825,8 @@
       "key": "蜡笔",
       "name": "蜡笔",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E8%9C%A1%E7%AC%94.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/761a34eab3f3a403.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -835,8 +835,8 @@
       "key": "闪电",
       "name": "闪电",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%BD%91%E7%9B%98%2F%E9%97%AA%E7%94%B5.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/2d45e0aff895f2b9.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -845,8 +845,8 @@
       "key": "不太灵",
       "name": "不太灵",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%A3%81%E5%8A%9B%2F%E4%B8%8D%E5%A4%AA%E7%81%B5.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/87ae41764334cec0.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -855,8 +855,8 @@
       "key": "磁力熊",
       "name": "磁力熊",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E7%A3%81%E5%8A%9B%2F%E7%A3%81%E5%8A%9B%E7%86%8A.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/c9ef834ddd2e22b9.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -865,8 +865,8 @@
       "key": "movie360",
       "name": "movie360",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E8%A7%A3%E6%9E%90%2Fmovie360.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/e19b70dfa80bd289.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -875,8 +875,8 @@
       "key": "影视库",
       "name": "影视库",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%BD%B1%E8%A7%86%2F%E5%BD%B1%E8%A7%86%E5%BA%93%2F%E5%BD%B1%E8%A7%86%E5%BA%93.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/7e90835c3c137a44.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -885,8 +885,8 @@
       "key": "girigiri爱动漫",
       "name": "girigiri爱动漫",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%8A%A8%E6%BC%AB%2Fgirigiri%E7%88%B1%E5%8A%A8%E6%BC%AB.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/ad1fbf1c192f60b6.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -895,8 +895,8 @@
       "key": "嗷呜动漫",
       "name": "嗷呜动漫",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%8A%A8%E6%BC%AB%2F%E5%97%B7%E5%91%9C%E5%8A%A8%E6%BC%AB.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/f95c81245223b844.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -905,8 +905,8 @@
       "key": "樱花动漫",
       "name": "樱花动漫",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%8A%A8%E6%BC%AB%2F%E6%A8%B1%E8%8A%B1%E5%8A%A8%E6%BC%AB.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/150e36de93004520.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -915,8 +915,8 @@
       "key": "稀饭动漫",
       "name": "稀饭动漫",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%8A%A8%E6%BC%AB%2F%E7%A8%80%E9%A5%AD%E5%8A%A8%E6%BC%AB.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/ab7b192e418a57f9.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -925,8 +925,8 @@
       "key": "博看听书",
       "name": "博看听书",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%90%AC%E4%B9%A6%2F%E5%8D%9A%E7%9C%8B%E5%90%AC%E4%B9%A6.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/100f0f4a8da87201.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -935,8 +935,8 @@
       "key": "听友FM",
       "name": "听友FM",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%90%AC%E4%B9%A6%2F%E5%90%AC%E5%8F%8BFM.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/c4ab78dccf2b4fe2.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -945,8 +945,8 @@
       "key": "番茄畅听",
       "name": "番茄畅听",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%90%AC%E4%B9%A6%2F%E7%95%AA%E8%8C%84%E7%95%85%E5%90%AC.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/674e2d97f2e2f113.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -955,8 +955,8 @@
       "key": "酷我听书",
       "name": "酷我听书",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%90%AC%E4%B9%A6%2F%E9%85%B7%E6%88%91%E5%90%AC%E4%B9%A6.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/bf4c010747cd0105.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -965,8 +965,8 @@
       "key": "AAZ音乐网",
       "name": "AAZ音乐网",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E9%9F%B3%E4%B9%90%2FAAZ%E9%9F%B3%E4%B9%90%E7%BD%91.py",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/96e4cf4201a0596e.py",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -975,8 +975,8 @@
       "key": "DJ音乐",
       "name": "DJ音乐",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E9%9F%B3%E4%B9%90%2FDJ%E9%9F%B3%E4%B9%90.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/9a4e5fc8733ef3a8.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -985,8 +985,8 @@
       "key": "世纪音乐",
       "name": "世纪音乐",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E9%9F%B3%E4%B9%90%2F%E4%B8%96%E7%BA%AA%E9%9F%B3%E4%B9%90.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/958b376df07df402.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -995,8 +995,8 @@
       "key": "枫叶音乐",
       "name": "枫叶音乐",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E9%9F%B3%E4%B9%90%2F%E6%9E%AB%E5%8F%B6%E9%9F%B3%E4%B9%90.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/49505c16fdd3ab55.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1005,8 +1005,8 @@
       "key": "芸芸音乐",
       "name": "芸芸音乐",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E9%9F%B3%E4%B9%90%2F%E8%8A%B8%E8%8A%B8%E9%9F%B3%E4%B9%90.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/90d0126eec1f0f91.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1015,8 +1015,8 @@
       "key": "哔哩教育",
       "name": "哔哩教育",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E6%95%99%E8%82%B2%2F%E5%93%94%E5%93%A9%E6%95%99%E8%82%B2.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/64f8dbcd870f43df.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1025,8 +1025,8 @@
       "key": "贝乐虎",
       "name": "贝乐虎",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E6%95%99%E8%82%B2%2F%E8%B4%9D%E4%B9%90%E8%99%8E.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/de45c6d726f96b76.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1035,8 +1035,8 @@
       "key": "YY轮播",
       "name": "YY轮播",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E7%9B%B4%E6%92%AD%2FYY%E8%BD%AE%E6%92%AD.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/e2d34791024c4d58.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1045,8 +1045,8 @@
       "key": "抖音直播",
       "name": "抖音直播",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E7%9B%B4%E6%92%AD%2F%E6%8A%96%E9%9F%B3%E7%9B%B4%E6%92%AD.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/872021cb431b6865.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1055,8 +1055,8 @@
       "key": "斗鱼直播",
       "name": "斗鱼直播",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E7%9B%B4%E6%92%AD%2F%E6%96%97%E9%B1%BC%E7%9B%B4%E6%92%AD.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/cd1992560760a456.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1065,8 +1065,8 @@
       "key": "虎牙直播",
       "name": "虎牙直播",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E7%9B%B4%E6%92%AD%2F%E8%99%8E%E7%89%99%E7%9B%B4%E6%92%AD.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/0ff72f60607c906d.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1075,8 +1075,8 @@
       "key": "嘟嘟短剧",
       "name": "嘟嘟短剧",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E7%9F%AD%E5%89%A7%2F%E5%98%9F%E5%98%9F%E7%9F%AD%E5%89%A7.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/0fa1c5c2f2fc69a3.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1085,8 +1085,8 @@
       "key": "星星短剧",
       "name": "星星短剧",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E7%9F%AD%E5%89%A7%2F%E6%98%9F%E6%98%9F%E7%9F%AD%E5%89%A7.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/cb4bcba3815ae65b.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1095,8 +1095,8 @@
       "key": "河马短剧",
       "name": "河马短剧",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E7%9F%AD%E5%89%A7%2F%E6%B2%B3%E9%A9%AC%E7%9F%AD%E5%89%A7.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/12458f1869414482.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1105,8 +1105,8 @@
       "key": "短剧粉",
       "name": "短剧粉",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E7%9F%AD%E5%89%A7%2F%E7%9F%AD%E5%89%A7%E7%B2%89.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/9ecdf8fcecac99e0.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1115,8 +1115,8 @@
       "key": "短剧网",
       "name": "短剧网",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E7%9F%AD%E5%89%A7%2F%E7%9F%AD%E5%89%A7%E7%BD%91.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/4c2c9edc370b9590.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1125,8 +1125,8 @@
       "key": "短剧聚合",
       "name": "短剧聚合",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E7%9F%AD%E5%89%A7%2F%E7%9F%AD%E5%89%A7%E8%81%9A%E5%90%88.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/b960df09584cf177.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1135,8 +1135,8 @@
       "key": "哔哩大全",
       "name": "哔哩大全",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E7%BB%BC%E5%90%88%2F%E5%93%94%E5%93%A9%E5%A4%A7%E5%85%A8.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/086f3d1e0c30bbd3.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1145,8 +1145,8 @@
       "key": "MakkaPakka聚合导航",
       "name": "MakkaPakka聚合导航",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%AF%BC%E8%88%AA%2FMakkaPakka%E8%81%9A%E5%90%88%E5%AF%BC%E8%88%AA.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/ef4080a3c47e920b.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1155,8 +1155,8 @@
       "key": "豆瓣推荐",
       "name": "豆瓣推荐",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E5%AF%BC%E8%88%AA%2F%E8%B1%86%E7%93%A3%E6%8E%A8%E8%8D%90.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/05ce28874c03adfd.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1165,8 +1165,8 @@
       "key": "Jellyfin",
       "name": "Jellyfin",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E6%B5%81%E5%AA%92%E4%BD%93%2FJellyfin.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/7f42f55e26e7e878.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1175,8 +1175,8 @@
       "key": "Plex",
       "name": "Plex",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E6%B5%81%E5%AA%92%E4%BD%93%2FPlex.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/49620cc377333a9c.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1185,8 +1185,8 @@
       "key": "YouTube",
       "name": "YouTube",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E6%B5%81%E5%AA%92%E4%BD%93%2FYouTube.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/13fa48d1e9201933.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1195,8 +1195,8 @@
       "key": "飞牛",
       "name": "飞牛",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2F%E6%B5%81%E5%AA%92%E4%BD%93%2F%E9%A3%9E%E7%89%9B.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/858ee3c738f25c64.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1205,8 +1205,8 @@
       "key": "模板一",
       "name": "模板一",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2FEmby%2F%E6%A8%A1%E6%9D%BF%E4%B8%80.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/20e95336cce9e463.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1215,8 +1215,8 @@
       "key": "模板二",
       "name": "模板二",
       "type": 3,
-      "ext": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Fdlgt7%2FOmniBox-Spider%2Frefs%2Fheads%2Fmain%2FEmby%2F%E6%A8%A1%E6%9D%BF%E4%BA%8C.js",
-      "api": "/proxy?u=https%3A%2F%2Fraw.githubusercontent.com%2Ffantaiying7%2FEXT%2Frefs%2Fheads%2Fmain%2Fdrpy2.min.js",
+      "ext": "/static/df477c342e2f9f95.js",
+      "api": "/static/7ada062a5df8a06b.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1230,6 +1230,136 @@
     }
   ],
   "parses": [
+    {
+      "name": "解析1",
+      "type": 1,
+      "url": "http://xn--wnup5g.xn--z7x900a.love:63/Art0425/analysis.php?v="
+    },
+    {
+      "name": "解析2",
+      "type": 1,
+      "url": "http://xn--wnup5g.xn--z7x900a.love:63/Art0425/analysis.php?v=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "企鹅",
+          "IQiYi",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "YouKu",
+          "优酷",
+          "sohu",
+          "SoHu",
+          "搜狐",
+          "letv",
+          "LeShi",
+          "乐视",
+          "imgo",
+          "mgtv",
+          "MangGuo",
+          "芒果",
+          "SLYS4k",
+          "BYGA",
+          "luanzi",
+          "AliS",
+          "dxzy",
+          "bilibili",
+          "QEYSS",
+          "xigua",
+          "西瓜视频",
+          "腾讯视频",
+          "奇艺视频",
+          "优酷视频",
+          "芒果视频",
+          "乐视视频"
+        ]
+      }
+    },
+    {
+      "name": "解析3",
+      "type": 1,
+      "url": "https://okjx.cc/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "qiyi",
+          "mgtv",
+          "youku",
+          "letv",
+          "sohu",
+          "xigua",
+          "1905",
+          "优播线路",
+          "腾播线路"
+        ],
+        "header": {
+          "User-Agent": "Dart/2.14 (dart:io)"
+        }
+      }
+    },
+    {
+      "name": "解析4",
+      "type": 1,
+      "url": "http://j.grelighting.cn/parser898/?url="
+    },
+    {
+      "name": "解析5",
+      "type": 1,
+      "url": "https://okjx.cc/?url="
+    },
+    {
+      "name": "解析6",
+      "type": 0,
+      "url": "https://okjx.cc/?url="
+    },
+    {
+      "name": "解析7",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
+      "name": "解析8",
+      "type": 0,
+      "url": "https://okjx.cc/?url="
+    },
+    {
+      "name": "解析10",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "解析11",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
+      "name": "解析12",
+      "type": 0,
+      "url": "http://www.ckmov.vip/api.php?url="
+    },
+    {
+      "name": "解析13",
+      "type": 0,
+      "url": "http://api.wpsseo.cn/?v="
+    },
+    {
+      "name": "解析14",
+      "type": 0,
+      "url": "https://go.yh0523.cn/y.cy?url="
+    },
+    {
+      "name": "解析15",
+      "type": 0,
+      "url": "https://www.ckplayer.vip/jiexi/?url="
+    },
+    {
+      "name": "解析16",
+      "type": 0,
+      "url": "https://svip.bljiex.cc/?v="
+    },
     {
       "name": "线路1",
       "type": 0,
@@ -1447,234 +1577,6 @@
       "name": "线路13",
       "type": 0,
       "url": "https://www.ckplayer.vip/jiexi/?url="
-    },
-    {
-      "name": "xmflv",
-      "type": 0,
-      "url": "https://jx.xmflv.com/?url="
-    },
-    {
-      "name": "freejson",
-      "type": 0,
-      "url": "https://h5.freejson.xyz/player/?url="
-    },
-    {
-      "name": "365",
-      "type": 0,
-      "url": "https://chaxun.truechat365.com/?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "iqiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ]
-      }
-    },
-    {
-      "name": "parwix稳定",
-      "type": 0,
-      "url": "https://jx.bozrc.com:4433/player/?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "iqiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ]
-      }
-    },
-    {
-      "name": "parwix1",
-      "type": 0,
-      "url": "https://jx.parwix.com:4433/player/?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "iqiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ]
-      }
-    },
-    {
-      "name": "parwix2",
-      "type": 0,
-      "url": "https://jx.parwix.com:4433/player/analysis.php?v=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "iqiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ]
-      }
-    },
-    {
-      "name": "夜幕",
-      "type": 0,
-      "url": "https://www.yemu.xyz/?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "iqiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ]
-      }
-    },
-    {
-      "name": "8090",
-      "url": "https://www.8090g.cn/?url=",
-      "type": 0
-    },
-    {
-      "name": "油果",
-      "type": 1,
-      "url": "http://json.youguo520.top/fufeng/?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "iqiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ],
-        "header": {
-          "User-Agent": "Dart/2.14 (dart:io)"
-        }
-      }
-    },
-    {
-      "name": "懒懒1",
-      "type": 1,
-      "url": "http://123.57.56.94:9931/lanlan/?url="
-    },
-    {
-      "name": "EXO",
-      "type": 0,
-      "url": "https://rx.69mj.com/?url=",
-      "ext": {
-        "flag": [
-          "rx",
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果"
-        ]
-      }
-    },
-    {
-      "name": "懒懒2",
-      "type": 1,
-      "url": "http://lanlan.ckflv.cn/?url=",
-      "ext": {
-        "flag": [
-          "qiyi",
-          "qq",
-          "letv",
-          "sohu",
-          "youku",
-          "mgtv",
-          "bilibili",
-          "wasu",
-          "xigua",
-          "1905"
-        ]
-      }
-    },
-    {
-      "name": "parwix",
-      "type": 0,
-      "url": "https://jx.parwix.com:4433/player/?url="
     },
     {
       "name": "虾米",
@@ -2072,26 +1974,6 @@
           "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
         }
       }
-    },
-    {
-      "name": "ckplayer",
-      "type": 0,
-      "url": "https://www.ckplayer.vip/jiexi/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-        }
-      }
-    },
-    {
-      "name": "M3U8",
-      "url": "https://jx.m3u8.tv/jiexi/?url=",
-      "type": 0,
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-        }
-      }
     }
   ],
   "doh": [
@@ -2175,24 +2057,24 @@
   ],
   "flags": [
     "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "wasu",
+    "bilibili",
+    "renrenmi",
     "优酷",
     "优 酷",
     "优酷视频",
-    "qq",
     "腾讯",
     "腾 讯",
     "腾讯视频",
-    "iqiyi",
-    "qiyi",
     "奇艺",
-    "爱奇艺",
-    "爱 奇 艺",
-    "m1905",
-    "xigua",
-    "letv",
-    "leshi",
-    "乐视",
-    "乐 视",
-    "sohu"
+    "爱奇艺"
   ]
 }
