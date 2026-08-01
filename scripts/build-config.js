@@ -84,16 +84,23 @@ async function downloadBytes(target, timeout = 25000) {
   return null;
 }
 
-// 从 /proxy?u=<encoded>(;md5;xxx|?md5=xxx) 引用还原真实目标 URL
-function proxyTargetOf(ref) {
+// 从 /proxy?u=<encoded>(;md5;xxx|?md5=xxx) 引用还原真实目标 URL（支持 $$$ 多段 ext，如 token.json$$$quarkshare.txt）
+function proxySegmentsOf(ref) {
   let p = ref;
   p = p.replace(/;md5;.*$/, '').replace(/\?md5=.*$/, '');
   const u = p.split('?u=')[1];
-  if (!u) return null;
-  return decodeURIComponent(u.split('&')[0]);
+  if (!u) return [];
+  const decoded = decodeURIComponent(u.split('&')[0]);
+  return decoded.split('$$$').filter(Boolean);
 }
 
-// 把 /proxy 引用改写为 /static 引用（保留 ;md5; / ?md5= 后缀）。下载失败的保持原引用走运行时 /proxy。
+function proxyTargetOf(ref) {
+  const segs = proxySegmentsOf(ref);
+  return segs.length ? segs[0] : null;
+}
+
+// 把 /proxy 引用改写为 /static 引用（保留 ;md5; / ?md5= 后缀）。支持 $$$ 多段 ext（逐段改写，失败段保留 /proxy）。
+// 下载失败的保持原引用走运行时 /proxy。
 function toStaticUrl(ref, staticMap) {
   if (typeof ref !== 'string' || !ref.startsWith('/proxy')) return ref;
   let suffix = '';
@@ -102,10 +109,15 @@ function toStaticUrl(ref, staticMap) {
   if (md5m) { suffix += md5m[0]; p = p.slice(0, md5m.index); }
   const qm = p.match(/\?md5=.*$/);
   if (qm) { suffix += qm[0]; p = p.slice(0, qm.index); }
-  const target = proxyTargetOf(p);
-  if (!target) return ref;
-  const rel = staticMap.get(target);
-  return rel ? rel + suffix : ref;
+  const targets = proxySegmentsOf(p);
+  if (!targets.length) return ref;
+  if (targets.length === 1) {
+    const rel = staticMap.get(targets[0]);
+    return rel ? rel + suffix : ref;
+  }
+  // 多段 ext：静态化成功的段改写为 /static，其余段保持原值原样（如 dapanso.com 主站、null 占位符，csp 会自行解析）
+  const rewritten = targets.map(t => staticMap.get(t) || t).join('$$$');
+  return rewritten + suffix;
 }
 
 // 对配置做静态化改写（spider + sites.ext/api；lives 不动）
@@ -142,10 +154,12 @@ async function staticizeAll(configs) {
   for (const cfg of configs) collectProxyRefs(cfg, refs);
   const unique = new Map(); // target -> {ext}
   for (const ref of refs) {
-    const target = proxyTargetOf(ref);
-    if (!target) continue;
-    const ext = staticExt(target);
-    if (ext) unique.set(target, ext);
+    // 支持 $$$ 多段 ext：每段分别静态化
+    for (const target of proxySegmentsOf(ref)) {
+      if (!target) continue;
+      const ext = staticExt(target);
+      if (ext) unique.set(target, ext);
+    }
   }
 
   const staticMap = new Map();
@@ -155,11 +169,11 @@ async function staticizeAll(configs) {
   for (let i = 0; i < entries.length; i += CONC) {
     const batch = entries.slice(i, i + CONC);
     await Promise.all(batch.map(async ([target, ext]) => {
-      const buf = await downloadBytes(target);
-      if (!buf) { staticMap.set(target, null); return; }
       const hash = crypto.createHash('sha1').update(target).digest('hex').slice(0, 16);
       const full = path.join(STATIC_DIR, hash + ext);
       if (fs.existsSync(full)) { staticMap.set(target, `/static/${hash}${ext}`); return; }
+      const buf = await downloadBytes(target);
+      if (!buf) { staticMap.set(target, null); return; }
       fs.mkdirSync(STATIC_DIR, { recursive: true });
       fs.writeFileSync(full, buf);
       staticMap.set(target, `/static/${hash}${ext}`);
@@ -330,15 +344,20 @@ function resolveAllRelativePaths(config, sourceUrl) {
       for (const field of ['ext', 'api', 'jar']) {
         const v = copy[field];
         if (typeof v !== 'string') continue;
-        let u = v;
-        if (/^\.{1,2}\//.test(u)) {
-          try {
-            u = new URL(u, sourceUrl).href;
-          } catch {
-            continue;
+        // 支持 $$$ 多段值（如 token.json$$$quarkshare.txt）：逐段解析相对路径 + 走 /proxy
+        const parts = v.split('$$$').map(seg => {
+          let u = seg;
+          if (/^\.{1,2}\//.test(u)) {
+            try {
+              u = new URL(u, sourceUrl).href;
+            } catch {
+              return seg;
+            }
           }
-        }
-        if (/^https?:\/\//.test(u)) {
+          return u;
+        });
+        let u = parts.join('$$$');
+        if (/^https?:\/\//.test(parts[0])) {
           copy[field] = viaProxy(u);
         }
       }
@@ -536,15 +555,23 @@ async function main() {
     console.log(`✓ api/line/16.json: 聚合 ${liveLine.lives.length} 个直播源`);
 
     // 纯夸克高清线路：从所有外部源筛出夸克相关站点（去重），复用道长 pg.jar（内置 QuarkShare/QuarkPanso）做爬虫
+    // 过滤规则：
+    //   - api 为夸克/网盘搜索类 csp（csp_Quark / csp_Kwps / csp_Funletu / csp_DaPanSo 等）
+    //   - 或 name/key 含 夸克/Quark（但排除共享 csp_PgDouban 等非夸克 API 的伪夸克条目）
     const QUARK_NAME_RE = /夸克|Quark|quark/i;
-    const QUARK_API_RE = /csp_Quark|csp_Kwps|csp_Funletu/i;
+    const QUARK_API_RE = /csp_Quark|csp_Kwps|csp_Funletu|csp_DaPanSo|csp_PanSou/i;
     const quarkSites = [];
     const seenQ = new Set();
     for (const src of externalSources) {
       for (const s of src.config?.sites || []) {
         if (!s) continue;
-        const hit = QUARK_NAME_RE.test(s.name || '') || QUARK_NAME_RE.test(s.key || '') || QUARK_API_RE.test(String(s.api || ''));
+        const api = String(s.api || '');
+        const nameHit = QUARK_NAME_RE.test(s.name || '') || QUARK_NAME_RE.test(s.key || '');
+        const apiHit = QUARK_API_RE.test(api);
+        const hit = nameHit || apiHit;
         if (!hit) continue;
+        // 排除伪夸克：name/key 含夸克但实际是共享非夸克 API 的站点（如 csp_Pg夸克 → csp_PgDouban）
+        if (nameHit && !apiHit && /^csp_/i.test(api) && !/夸克|Quark|quark/i.test(api)) continue;
         const k = s.key || s.name;
         if (seenQ.has(k)) continue;
         seenQ.add(k);
