@@ -34,7 +34,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24https%3A%2F%2Ftv.yydsys.cc%2F%24%24%24proxy%24%24%241%24%24%24.%2Fjson%2Fwogg.json",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$https://tv.yydsys.cc/$$$proxy$$$1$$$/static/0edf9578f52c0e2e.json",
       "order_num": 9999
     },
     {
@@ -307,7 +307,7 @@
       "type": 3,
       "api": "csp_EightEight",
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24https%3A%2F%2F662688.xyz%24%24%24",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$https://662688.xyz",
       "style": {
         "type": "list",
         "ratio": 1.1
@@ -456,7 +456,7 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24.%2Fjson%2Falishare.ebook.txt%24%24%24db%24%24%241",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$/static/7a0ddc37f8e619e1.txt$$$db$$$1",
       "style": {
         "type": "list",
         "ratio": 1.1
@@ -473,7 +473,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24.%2Fjson%2Falishare.txt%24%24%24db%24%24%241",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$/static/a9d9005fd33419b2.txt$$$db$$$1",
       "style": {
         "type": "list",
         "ratio": 1.1
@@ -770,7 +770,7 @@
       "filterable": 1,
       "searchable": 1,
       "quickSearch": 1,
-      "ext": "/proxy?u=https%3A%2F%2Fwww.yjys.me%2F%24%24%24None%24%24%241",
+      "ext": "https://www.yjys.me/$$$None$$$1",
       "order_num": 9999
     },
     {
@@ -1024,7 +1024,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24https%3A%2F%2Fdapanso.com%24%24%24proxy%24%24%241",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$https://dapanso.com$$$proxy$$$1",
       "order_num": 9999
     },
     {
@@ -2064,7 +2064,7 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24.%2Fjson%2Fquarkshare.txt",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$/static/1aea1e06dcf3f8b7.txt",
       "style": {
         "type": "list",
         "ratio": 1.1
@@ -2618,7 +2618,7 @@
       "type": 3,
       "api": "csp_Panyq",
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24site%24%24%24proxy",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$site$$$proxy",
       "order_num": 9999
     },
     {
@@ -2652,7 +2652,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24https%3A%2F%2Fwww.pikaso.top%2F%24%24%24None",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$https://www.pikaso.top/$$$None",
       "style": {
         "type": "list",
         "ratio": 1.1
@@ -2668,7 +2668,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24https%3A%2F%2Fppxzy.ink%24%24%24proxy%24%24%241",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$https://ppxzy.ink$$$proxy$$$1",
       "order_num": 9999
     },
     {
@@ -2779,7 +2779,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24https%3A%2F%2Fpan.qianfan.app%24%24%24None%24%24%24.%2Fjson%2Fqianfan.txt%24%24%241",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$https://pan.qianfan.app$$$None$$$https://gitlab.com/duomv/dzhipy/-/raw/main/json/qianfan.txt$$$1",
       "order_num": 9999
     },
     {
@@ -3186,7 +3186,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24https%3A%2F%2Ftv.yydsys.top%2F%24%24%24proxy%24%24%241%24%24%24.%2Fjson%2Fwogg.json",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$/static/0edf9578f52c0e2e.json",
       "order_num": 9999
     },
     {
@@ -3198,7 +3198,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24https%3A%2F%2Fwww.wo4k.net%2F%24%24%24proxy%24%24%241%24%24%24.%2Fjson%2Fwogg.json",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$https://www.wo4k.net/$$$proxy$$$1$$$/static/0edf9578f52c0e2e.json",
       "order_num": 9999
     },
     {
@@ -3210,7 +3210,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24https%3A%2F%2Fwobge.run.goorm.io%24%24%24proxy%24%24%241%24%24%24.%2Fjson%2Fwogg.json",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$https://wobge.run.goorm.io$$$proxy$$$1$$$/static/0edf9578f52c0e2e.json",
       "order_num": 9999
     },
     {
@@ -3233,7 +3233,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24https%3A%2F%2Fwogg.link%2F%24%24%24proxy%24%24%241%24%24%24.%2Fjson%2Fwogg.json",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$https://wogg.link/$$$proxy$$$1$$$/static/0edf9578f52c0e2e.json",
       "order_num": 9999
     },
     {
@@ -3356,7 +3356,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24.%2Fjson%2Fpushshare.txt%24%24%24db%24%24%241",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$/static/224de632d4cf36e7.txt$$$db$$$1",
       "style": {
         "type": "list",
         "ratio": 1.1
@@ -3570,7 +3570,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24https%3A%2F%2Fwww.yunso.net%24%24%24None%24%24%241",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$https://www.yunso.net$$$None$$$1",
       "style": {
         "type": "list",
         "ratio": 1.1
@@ -3597,7 +3597,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24https%3A%2F%2Fxzyshd.com%24%24%24proxy%24%24%241",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$https://xzyshd.com$$$proxy$$$1",
       "order_num": 9999
     },
     {
@@ -3631,7 +3631,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24https%3A%2F%2Fwww.80yy3.com%2F%24%24%24proxy%24%24%241%24%24%24.%2Fjson%2Fwogg.json",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$https://www.80yy3.com/$$$proxy$$$1$$$/static/0edf9578f52c0e2e.json",
       "order_num": 9999
     },
     {
@@ -3754,7 +3754,7 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24.%2Fjson%2Fthundershare.txt",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$/static/5014ff62024eb6b4.txt",
       "style": {
         "type": "list",
         "ratio": 1.1
@@ -4020,7 +4020,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24proxy%24%24%241",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$proxy$$$1",
       "order_num": 9999
     },
     {
@@ -4225,7 +4225,7 @@
       "type": 3,
       "api": "csp_YunPan",
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24None%24%24%24proxy%24%24%241",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$None$$$proxy$$$1",
       "order_num": 9999
     },
     {
@@ -4248,7 +4248,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24None%24%24%24proxy%24%24%241",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$None$$$proxy$$$1",
       "order_num": 9999
     },
     {
@@ -4524,7 +4524,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24https%3A%2F%2Fwww.hdmoli.pro%2F%24%24%24proxy%24%24%241%24%24%24.%2Fjson%2Fmoli.json",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$https://www.hdmoli.pro/$$$proxy$$$1$$$/static/8febed14aa529035.json",
       "order_num": 9999
     },
     {
@@ -4679,7 +4679,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24.%2Fjson%2Fpikpakclass.json%24%24%24.%2Fjson%2Fpikpakclass.json.txt.gz",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$/static/dc1e201a94631210.json$$$https://gitlab.com/duomv/dzhipy/-/raw/main/json/pikpakclass.json.txt.gz",
       "style": {
         "type": "list",
         "ratio": 1.1
@@ -4773,7 +4773,7 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgitlab.com%2Fduomv%2Fdzhipy%2F-%2Fraw%2Fmain%2Fjson%2Ftokenm.json%24%24%24.%2Fjson%2Fsambashare.txt",
+      "ext": "/static/4c229b1c4aea9b5b.json$$$/static/7625824a962f63cf.txt",
       "order_num": 9999
     },
     {
