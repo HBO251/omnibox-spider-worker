@@ -10,6 +10,14 @@ const SRC_EXTERNAL_PATH = path.join(__dirname, '..', 'src', 'external-sites.gene
 
 const GITHUB_RAW = 'https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/';
 
+const BROWSER_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
+
+// 用户实测较快的固定线路，始终优先尝试（聚合源动态漂移时兜底）
+const PINNED_SOURCES = [
+  { url: 'https://ztha.top/TVBox/thdjk.json', name: '挺好分享' },
+  { url: 'https://6492.kstore.space/xnf/xnf.json', name: '环宇轩线' },
+];
+
 const CATEGORIES = [
   '影视/采集', '影视/网盘', '影视/磁力', '影视/解析', '影视/影视库',
   '动漫', '听书', '音乐', '教育', '直播', '短剧',
@@ -39,6 +47,131 @@ function stripEmoji(s) {
     .replace(/[ \t]+/g, ' ')
     .trim();
 }
+
+// ============ 构建期静态化：把 /proxy 拉取的文件资源提前下载进 public/static/ ============
+// 手机端冷启动不再依赖运行时回源 GitHub，配置里直接引用内容寻址的静态文件（极快 + 长缓存）。
+// 直播源 lives 保持 /proxy 动态（列表常变，静态化会过时）。
+
+const crypto = require('crypto');
+const STATIC_DIR = path.join(OUTPUT_DIR, 'static');
+const STATIC_EXT_RE = /\.(js|mjs|cjs|jar|txt|m3u|m3u8|json|xml|zip|py)$/i;
+const GITHUB_MIRRORS = ['https://ghproxy.net/', 'https://gh-proxy.com/'];
+
+// 目标 URL 是否为可静态化的文件（按路径扩展名判断）
+function staticExt(target) {
+  try {
+    const m = new URL(target).pathname.toLowerCase().match(/(\.[a-z0-9]+)$/);
+    return m && STATIC_EXT_RE.test(m[1]) ? m[1] : null;
+  } catch {
+    return null;
+  }
+}
+
+// 下载字节：直连优先，GitHub 镜像兜底
+async function downloadBytes(target, timeout = 25000) {
+  for (const url of [target, ...GITHUB_MIRRORS.map((p) => p + target)]) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeout);
+    try {
+      const res = await fetch(url, { signal: controller.signal, redirect: 'follow', headers: { 'User-Agent': BROWSER_UA } });
+      if (!res.ok) continue;
+      const buf = Buffer.from(await res.arrayBuffer());
+      if (buf.length > 0) return buf;
+    } catch { /* 试下一个 */ } finally {
+      clearTimeout(timer);
+    }
+  }
+  return null;
+}
+
+// 从 /proxy?u=<encoded>(;md5;xxx|?md5=xxx) 引用还原真实目标 URL
+function proxyTargetOf(ref) {
+  let p = ref;
+  p = p.replace(/;md5;.*$/, '').replace(/\?md5=.*$/, '');
+  const u = p.split('?u=')[1];
+  if (!u) return null;
+  return decodeURIComponent(u.split('&')[0]);
+}
+
+// 把 /proxy 引用改写为 /static 引用（保留 ;md5; / ?md5= 后缀）。下载失败的保持原引用走运行时 /proxy。
+function toStaticUrl(ref, staticMap) {
+  if (typeof ref !== 'string' || !ref.startsWith('/proxy')) return ref;
+  let suffix = '';
+  let p = ref;
+  const md5m = p.match(/;md5;.*$/);
+  if (md5m) { suffix += md5m[0]; p = p.slice(0, md5m.index); }
+  const qm = p.match(/\?md5=.*$/);
+  if (qm) { suffix += qm[0]; p = p.slice(0, qm.index); }
+  const target = proxyTargetOf(p);
+  if (!target) return ref;
+  const rel = staticMap.get(target);
+  return rel ? rel + suffix : ref;
+}
+
+// 对配置做静态化改写（spider + sites.ext/api；lives 不动）
+function rewriteStatic(cfg, staticMap) {
+  if (!cfg) return;
+  if (typeof cfg.spider === 'string') cfg.spider = toStaticUrl(cfg.spider, staticMap);
+  if (Array.isArray(cfg.sites)) {
+    for (const s of cfg.sites) {
+      if (!s) continue;
+      if (typeof s.ext === 'string') s.ext = toStaticUrl(s.ext, staticMap);
+      if (typeof s.api === 'string') s.api = toStaticUrl(s.api, staticMap);
+      if (typeof s.jar === 'string') s.jar = toStaticUrl(s.jar, staticMap);
+    }
+  }
+}
+
+// 收集配置内所有 /proxy 引用（spider + sites.ext/api/jar）
+function collectProxyRefs(cfg, out) {
+  if (!cfg) return;
+  if (typeof cfg.spider === 'string' && cfg.spider.startsWith('/proxy')) out.add(cfg.spider);
+  if (Array.isArray(cfg.sites)) {
+    for (const s of cfg.sites) {
+      if (!s) continue;
+      if (typeof s.ext === 'string' && s.ext.startsWith('/proxy')) out.add(s.ext);
+      if (typeof s.api === 'string' && s.api.startsWith('/proxy')) out.add(s.api);
+      if (typeof s.jar === 'string' && s.jar.startsWith('/proxy')) out.add(s.jar);
+    }
+  }
+}
+
+// 下载并静态化所有配置引用的资源，返回 target -> /static 路径 的映射
+async function staticizeAll(configs) {
+  const refs = new Set();
+  for (const cfg of configs) collectProxyRefs(cfg, refs);
+  const unique = new Map(); // target -> {ext}
+  for (const ref of refs) {
+    const target = proxyTargetOf(ref);
+    if (!target) continue;
+    const ext = staticExt(target);
+    if (ext) unique.set(target, ext);
+  }
+
+  const staticMap = new Map();
+  const entries = [...unique.entries()];
+  let done = 0;
+  const CONC = 12;
+  for (let i = 0; i < entries.length; i += CONC) {
+    const batch = entries.slice(i, i + CONC);
+    await Promise.all(batch.map(async ([target, ext]) => {
+      const buf = await downloadBytes(target);
+      if (!buf) { staticMap.set(target, null); return; }
+      const hash = crypto.createHash('sha1').update(target).digest('hex').slice(0, 16);
+      const full = path.join(STATIC_DIR, hash + ext);
+      if (fs.existsSync(full)) { staticMap.set(target, `/static/${hash}${ext}`); return; }
+      fs.mkdirSync(STATIC_DIR, { recursive: true });
+      fs.writeFileSync(full, buf);
+      staticMap.set(target, `/static/${hash}${ext}`);
+    }));
+    done += batch.length;
+    process.stdout.write(`\r  静态化下载 ${done}/${entries.length}（成功 ${[...staticMap.values()].filter(Boolean).length}）`);
+  }
+  const ok = [...staticMap.values()].filter(Boolean).length;
+  console.log(`\n✓ 静态化: 成功 ${ok}/${entries.length} 个资源 → public/static/`);
+  return staticMap;
+}
+
 
 function encodeGitHubPath(category) {
   return category.split('/').map(encodeURIComponent).join('/');
@@ -120,7 +253,7 @@ async function fetchWithRetry(url, timeout = 20000, retries = 2) {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), timeout);
     try {
-      const res = await fetch(url, { signal: controller.signal, redirect: 'follow' });
+      const res = await fetch(url, { signal: controller.signal, redirect: 'follow', headers: { 'User-Agent': BROWSER_UA } });
       if (!res.ok) {
         if (attempt < retries) await sleep(500 * Math.pow(2, attempt));
         continue;
@@ -194,7 +327,7 @@ function resolveAllRelativePaths(config, sourceUrl) {
     config.sites = config.sites.map(s => {
       if (!s) return s;
       const copy = { ...s };
-      for (const field of ['ext', 'api']) {
+      for (const field of ['ext', 'api', 'jar']) {
         const v = copy[field];
         if (typeof v !== 'string') continue;
         let u = v;
@@ -249,6 +382,10 @@ async function fetchExternalSources() {
         }
       }
     }
+  }
+  // 固定线路兜底：聚合源未提供时仍尝试（按 URL 去重）
+  for (const p of PINNED_SOURCES) {
+    if (!sourceMap.has(p.url)) sourceMap.set(p.url, p.name);
   }
 
   console.log(`聚合源共 ${sourceMap.size} 个子线路，逐个获取配置...\n`);
@@ -363,6 +500,19 @@ async function main() {
       ...enhancements,
     };
 
+    // 构建期静态化：预下载 /proxy 资源到 public/static/，改写 spider/sites.ext/api/jar 为 /static 引用
+    const staticMap = await staticizeAll([omniBoxConfig, ...externalSources.map(s => s.config)]);
+    rewriteStatic(omniBoxConfig, staticMap);
+    for (const src of externalSources) rewriteStatic(src.config, staticMap);
+
+    // 清理不再被引用的静态文件（内容寻址，按引用回收）
+    const keep = new Set([...staticMap.values()].filter(Boolean).map(p => p.split('/').pop()));
+    if (fs.existsSync(STATIC_DIR)) {
+      for (const f of fs.readdirSync(STATIC_DIR)) {
+        if (!keep.has(f)) fs.unlinkSync(path.join(STATIC_DIR, f));
+      }
+    }
+
     fs.writeFileSync(CONFIG_PATH, JSON.stringify(omniBoxConfig, null, 2), 'utf-8');
     console.log(`✓ config.json: ${omniBoxConfig.sites.length} 个 OmniBox 站点 + ${enhancements.parses.length} parses + ${enhancements.doh.length} doh + ${enhancements.flags.length} flags`);
 
@@ -385,22 +535,49 @@ async function main() {
     fs.writeFileSync(path.join(LINE_DIR, '16.json'), JSON.stringify(liveLine, null, 2), 'utf-8');
     console.log(`✓ api/line/16.json: 聚合 ${liveLine.lives.length} 个直播源`);
 
-    // dc.json：直播源置顶；挺好分享(0)/环宇轩线(1) 实测访问较快置前，其余按原序号
-    const PRIORITY_LINES = new Set([0, 1]);
+    // 纯夸克高清线路：从所有外部源筛出夸克相关站点（去重），复用道长 pg.jar（内置 QuarkShare/QuarkPanso）做爬虫
+    const QUARK_NAME_RE = /夸克|Quark|quark/i;
+    const QUARK_API_RE = /csp_Quark|csp_Kwps|csp_Funletu/i;
+    const quarkSites = [];
+    const seenQ = new Set();
+    for (const src of externalSources) {
+      for (const s of src.config?.sites || []) {
+        if (!s) continue;
+        const hit = QUARK_NAME_RE.test(s.name || '') || QUARK_NAME_RE.test(s.key || '') || QUARK_API_RE.test(String(s.api || ''));
+        if (!hit) continue;
+        const k = s.key || s.name;
+        if (seenQ.has(k)) continue;
+        seenQ.add(k);
+        quarkSites.push(s);
+      }
+    }
+    const pgSource = externalSources.find(s => /道长|dzhipy|duomv/i.test(s.name + s.url))
+      || externalSources.find(s => /pg\.jar/i.test(s.config?.spider || ''))
+      || externalSources[10];
+    const quarkLine = {
+      spider: pgSource?.config?.spider || '',
+      sites: quarkSites,
+      lives: [],
+      ...enhancements,
+    };
+    fs.writeFileSync(path.join(LINE_DIR, '17.json'), JSON.stringify(quarkLine, null, 2), 'utf-8');
+    console.log(`✓ api/line/17.json: 夸克高清 ${quarkLine.sites.length} 个站点 (spider=${quarkLine.spider.split('?')[0].split(';')[0]})`);
+
+    // dc.json：直播源置顶；挺好分享/环宇轩线（实测访问较快）置前，其余按原序号（按名匹配，防聚合源顺序漂移）
+    const PRIORITY_NAMES = ['挺好分享', '环宇轩线'];
     const orderedSources = [...externalSources]
-      .map((src, i) => ({ src, i }))
-      .sort((a, b) => {
-        const pa = PRIORITY_LINES.has(a.i) ? 0 : 1;
-        const pb = PRIORITY_LINES.has(b.i) ? 0 : 1;
-        if (pa !== pb) return pa - pb;
-        return a.i - b.i;
-      });
+      .map((src, i) => ({
+        src, i,
+        rank: PRIORITY_NAMES.includes(src.name) ? PRIORITY_NAMES.indexOf(src.name) : 99,
+      }))
+      .sort((a, b) => a.rank - b.rank || a.i - b.i);
     const dc = { urls: [{ name: '1.直播源', url: '/api/line/16.json' }] };
     let seq = 2;
     for (const { src, i } of orderedSources) {
       dc.urls.push({ name: `${seq}.${stripEmoji(src.name)}`, url: `/api/line/${i}.json` });
       seq++;
     }
+    dc.urls.push({ name: `${seq}.夸克高清`, url: '/api/line/17.json' });
     fs.writeFileSync(DC_PATH, JSON.stringify(dc, null, 2), 'utf-8');
     console.log(`✓ dc.json: ${dc.urls.length} 条线路`);
 
