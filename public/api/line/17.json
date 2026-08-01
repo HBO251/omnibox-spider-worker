@@ -20,7 +20,26 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24.%2Fjson%2Fquarkshare.txt"
+      "ext": "/static/b1dce7c770a023eb.json$$$/static/f2e736cc4c900915.txt"
+    },
+    {
+      "key": "DaPanSo",
+      "name": "网盘 | 大盘搜[jar]",
+      "type": 3,
+      "api": "csp_DaPanSo",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "/static/b1dce7c770a023eb.json$$$https://dapanso.com$$$null"
+    },
+    {
+      "key": "盘搜",
+      "name": "阿里 | 盘搜[jar]",
+      "type": 3,
+      "api": "csp_PanSou",
+      "ext": "/static/b1dce7c770a023eb.json",
+      "timeout": 30
     },
     {
       "key": "Funletu",
@@ -104,38 +123,22 @@
       "timeout": 30
     },
     {
-      "key": "csp_Pg夸克",
-      "name": "😏PG┃夸克",
-      "type": 3,
-      "api": "csp_PgDouban",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "filters": "https://bitbucket.org/guot55/ygbh/raw/main/pro/json/douban.json",
-        "channel": "PanjClub,guoman4K,alyp_1"
-      }
-    },
-    {
       "key": "夸克推送",
       "name": "👊夸克┃推送",
       "type": 4,
       "api": "/proxy?u=https%3A%2F%2Fso.yinpai.xyz%2Fapi.php%3Ftype%3Dquark"
     },
     {
-      "key": "夸克短剧",
-      "name": "🌽夸克┃短剧",
+      "key": "csp_PanSou",
+      "name": "🥺盘搜┃搜索",
       "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "/static/841bf5296bc4253c.json",
-      "jar": "/static/38c9ba8b8db4c61f.jar"
-    },
-    {
-      "key": "夸克资源站",
-      "name": "🎁夸克┃资源",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "/static/38b9189901100c6d.json",
-      "jar": "/static/38c9ba8b8db4c61f.jar"
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "api": "https://so.252035.xyz",
+        "limit": 3
+      }
     },
     {
       "key": "夸克影视",
@@ -165,6 +168,16 @@
       "filterable": 1,
       "order_num": 0,
       "ext": "/static/cd31959b146f035d.js"
+    },
+    {
+      "key": "PanSou",
+      "name": "🦊盘搜┃搜索",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "/proxy?u=http%3A%2F%2F127.0.0.1%3A9978%2Ffile%2Ftvbox%2Ftoken.txt"
     }
   ],
   "lives": [],
