@@ -1,5 +1,5 @@
 {
-  "spider": "/proxy?u=https%3A%2F%2Fztha.top%2FTVBox%2Fztha.jar;md5;097bfd1388b83204958633f23eb6e4cb",
+  "spider": "/static/19a3de298ab18a3a.jar;md5;097bfd1388b83204958633f23eb6e4cb",
   "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
   "sites": [
     {
@@ -397,8 +397,8 @@
       "key": "虎牙js",
       "name": "🐯虎牙┃直播",
       "type": 3,
-      "api": "/proxy?u=https%3A%2F%2Fztha.top%2FTVBox%2Flib%2Fdrpy2.min.js",
-      "ext": "/proxy?u=https%3A%2F%2Fztha.top%2FTVBox%2Flib%2F%25E8%2599%258E%25E7%2589%2599.js",
+      "api": "/static/3b1fbe8c5b1d4b26.js",
+      "ext": "/static/3d6dbe3d42c60de1.js",
       "style": {
         "type": "rect",
         "ratio": 1.755
@@ -413,8 +413,8 @@
       "key": "斗鱼js",
       "name": "🐟斗鱼┃直播",
       "type": 3,
-      "api": "/proxy?u=https%3A%2F%2Fztha.top%2FTVBox%2Flib%2Fdrpy2.min.js",
-      "ext": "/proxy?u=https%3A%2F%2Fztha.top%2FTVBox%2Flib%2F%25E6%2596%2597%25E9%25B1%25BC%25E7%259B%25B4%25E6%2592%25AD.js",
+      "api": "/static/3b1fbe8c5b1d4b26.js",
+      "ext": "/static/7a1a7cc322ca5e35.js",
       "style": {
         "type": "rect",
         "ratio": 1.755
@@ -520,8 +520,8 @@
       "key": "dr_兔小贝",
       "name": "📚儿童┃启蒙",
       "type": 3,
-      "api": "/proxy?u=https%3A%2F%2Fztha.top%2FTVBox%2Flib%2Fdrpy2.min.js",
-      "ext": "/proxy?u=https%3A%2F%2Fztha.top%2FTVBox%2Flib%2F%25E5%2585%2594%25E5%25B0%258F%25E8%25B4%259D.js",
+      "api": "/static/3b1fbe8c5b1d4b26.js",
+      "ext": "/static/c6243f5145bf0def.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
