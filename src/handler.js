@@ -166,8 +166,10 @@ async function serveAsset(env, request, assetPath) {
   return new Response(res.body, { status: 200, headers });
 }
 
-// 把配置内相对 /proxy 路径（及 dc.json 的子线路路径）补全为绝对 URL。
+// 把配置内相对 /proxy、/static 路径（及 dc.json 的子线路路径）补全为绝对 URL。
 // 影视仓/OmniBox 等客户端若不做相对路径解析，会卡在 /config.json、/proxy?u=... 上一直转圈。
+const relToAbs = (v, origin) => (typeof v === 'string' && v.startsWith('/') && !v.startsWith('//') ? origin + v : v);
+
 function absolutizeConfig(data, origin, isDc) {
   if (isDc) {
     if (Array.isArray(data.urls)) {
@@ -180,12 +182,12 @@ function absolutizeConfig(data, origin, isDc) {
     }
     return data;
   }
-  if (typeof data.spider === 'string' && data.spider.startsWith('/proxy')) {
+  if (typeof data.spider === 'string' && data.spider.startsWith('/') && !data.spider.startsWith('//')) {
     data.spider = origin + data.spider;
   }
   if (Array.isArray(data.lives)) {
     data.lives = data.lives.map((l) => {
-      if (l && typeof l.url === 'string' && l.url.startsWith('/proxy')) return { ...l, url: origin + l.url };
+      if (l && relToAbs(l.url, origin) !== l.url) return { ...l, url: relToAbs(l.url, origin) };
       return l;
     });
   }
@@ -193,8 +195,8 @@ function absolutizeConfig(data, origin, isDc) {
     data.sites = data.sites.map((s) => {
       if (!s) return s;
       const copy = { ...s };
-      for (const f of ['ext', 'api']) {
-        if (typeof copy[f] === 'string' && copy[f].startsWith('/proxy')) copy[f] = origin + copy[f];
+      for (const f of ['ext', 'api', 'jar']) {
+        copy[f] = relToAbs(copy[f], origin);
       }
       return copy;
     });
@@ -277,6 +279,21 @@ export async function handleRequest(request, env) {
     const res = await proxyFetch(normalizeTarget(target));
     if (!res) return new Response('Upstream failed', { status: 502, headers: CORS_HEADERS });
     return res;
+  }
+
+  // 静态化资源（构建期预下载，内容寻址文件名 → 长缓存不可变）
+  if (path.startsWith('/static/')) {
+    let assetPath = path;
+    const md5Idx = assetPath.indexOf(';md5;');
+    if (md5Idx !== -1) assetPath = assetPath.slice(0, md5Idx);
+    const res = await serveAsset(env, request, assetPath);
+    if (!res) return json({ error: '资源不存在' }, 404);
+    const headers = new Headers(res.headers);
+    addCors(headers);
+    const mime = guessMime(assetPath) || headers.get('content-type') || 'application/octet-stream';
+    headers.set('Content-Type', mime);
+    headers.set('Cache-Control', 'public, max-age=86400, s-maxage=86400');
+    return new Response(res.body, { status: 200, headers });
   }
 
   // 爬虫列表（轻量，内存数据）
