@@ -385,13 +385,19 @@ async function main() {
     fs.writeFileSync(path.join(LINE_DIR, '16.json'), JSON.stringify(liveLine, null, 2), 'utf-8');
     console.log(`✓ api/line/16.json: 聚合 ${liveLine.lives.length} 个直播源`);
 
-    // dc.json：直播源置顶，外部线路按站点数降序 + 去 emoji + 序号
-    const sortedSources = [...externalSources]
-      .map((src, i) => ({ src, i, sites: src.config?.sites?.length || 0 }))
-      .sort((a, b) => b.sites - a.sites);
+    // dc.json：直播源置顶；挺好分享(0)/环宇轩线(1) 实测访问较快置前，其余按原序号
+    const PRIORITY_LINES = new Set([0, 1]);
+    const orderedSources = [...externalSources]
+      .map((src, i) => ({ src, i }))
+      .sort((a, b) => {
+        const pa = PRIORITY_LINES.has(a.i) ? 0 : 1;
+        const pb = PRIORITY_LINES.has(b.i) ? 0 : 1;
+        if (pa !== pb) return pa - pb;
+        return a.i - b.i;
+      });
     const dc = { urls: [{ name: '1.直播源', url: '/api/line/16.json' }] };
     let seq = 2;
-    for (const { src, i } of sortedSources) {
+    for (const { src, i } of orderedSources) {
       dc.urls.push({ name: `${seq}.${stripEmoji(src.name)}`, url: `/api/line/${i}.json` });
       seq++;
     }
