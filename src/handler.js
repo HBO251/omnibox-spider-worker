@@ -83,7 +83,7 @@ function json(data, status = 200, cacheSeconds = CACHE_TTL.config) {
 }
 
 // 并行竞速：直连 + 全部代理同时发起，取第一个成功响应，其余 abort
-// 注意不能用 Promise.race 直接收束——失败分支也 resolve(null)，首个"失败"会提前赢下竞速
+// 使用 redirect: 'manual' 防止重定向跳转到内网（SSRF 防护）
 async function fetchFastest(targetUrl, timeoutMs = 15000) {
   const attempts = isAlreadyProxied(targetUrl)
     ? [targetUrl]
@@ -105,9 +105,20 @@ async function fetchFastest(targetUrl, timeoutMs = 15000) {
       controllers.set(url, controller);
       const timer = setTimeout(() => controller.abort(), timeoutMs);
 
-      fetch(url, { signal: controller.signal, redirect: 'follow' })
+      fetch(url, { signal: controller.signal, redirect: 'manual' })
         .then((res) => {
           if (res && res.ok && !done) {
+            // 校验重定向目标是否为内网 IP
+            const loc = res.headers.get('location');
+            if (loc) {
+              try {
+                const redirectUrl = new URL(loc, url);
+                const host = redirectUrl.hostname;
+                if (/^(127\.|10\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.|0\.0\.0\.0|localhost|\[?::1\]?$|fe80::)/i.test(host)) {
+                  return; // 阻断内网重定向
+                }
+              } catch { /* ignore */ }
+            }
             done = true;
             resolve({ url, res });
             abortOthers(url);
@@ -126,10 +137,25 @@ async function fetchFastest(targetUrl, timeoutMs = 15000) {
   });
 }
 
+// 规范化缓存键：去除 md5 校验参数、排序 query，避免同一文件不同参数产生多份缓存
+function normalizeCacheKey(targetUrl) {
+  try {
+    const u = new URL(targetUrl);
+    // 去除 md5 相关参数
+    u.searchParams.delete('md5');
+    // 排序 query params 保证一致性
+    const params = [...u.searchParams.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+    u.search = new URLSearchParams(params).toString();
+    return u.href;
+  } catch {
+    return targetUrl;
+  }
+}
+
 // Cloudflare Cache API：边缘缓存代理结果
 async function proxyFetch(targetUrl) {
   const cache = caches.default;
-  const cacheKey = `https://256-hb-proxy/${targetUrl}`;
+  const cacheKey = `https://256-hb-proxy/${normalizeCacheKey(targetUrl)}`;
   try {
     const cached = await cache.match(cacheKey);
     if (cached) {
@@ -168,7 +194,18 @@ async function serveAsset(env, request, assetPath) {
 
 // 把配置内相对 /proxy、/static 路径（及 dc.json 的子线路路径）补全为绝对 URL。
 // 影视仓/OmniBox 等客户端若不做相对路径解析，会卡在 /config.json、/proxy?u=... 上一直转圈。
-const relToAbs = (v, origin) => (typeof v === 'string' && v.startsWith('/') && !v.startsWith('//') ? origin + v : v);
+// 支持 $$$ 多段 ext：对每段单独 absolutize，避免破坏外链段（如 https://dapanso.com）
+function absolutizeSegments(v, origin) {
+  if (typeof v !== 'string') return v;
+  if (v.includes('$$$')) {
+    return v.split('$$$').map(seg => {
+      const abs = relToAbs(seg, origin);
+      // 若段已是绝对 URL（http/https），保持原样，不再拼接 origin
+      return /^https?:\/\//.test(seg) ? seg : abs;
+    }).join('$$$');
+  }
+  return relToAbs(v, origin);
+}
 
 function absolutizeConfig(data, origin, isDc) {
   if (isDc) {
@@ -196,7 +233,7 @@ function absolutizeConfig(data, origin, isDc) {
       if (!s) return s;
       const copy = { ...s };
       for (const f of ['ext', 'api', 'jar']) {
-        copy[f] = relToAbs(copy[f], origin);
+        copy[f] = absolutizeSegments(copy[f], origin);
       }
       return copy;
     });
@@ -271,9 +308,9 @@ export async function handleRequest(request, env) {
     if (parsed.protocol !== 'http:' && parsed.protocol !== 'https:') {
       return new Response('Invalid protocol', { status: 400, headers: CORS_HEADERS });
     }
-    // SSRF 防护：阻止内网/回环地址
+    // SSRF 防护：阻止内网/回环地址（IPv4 + IPv6）
     const host = parsed.hostname;
-    if (/^(127\.|10\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.|0\.0\.0\.0|localhost)/.test(host)) {
+    if (/^(127\.|10\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.|0\.0\.0\.0|localhost|\[?::1\]?$|fe80::)/i.test(host)) {
       return new Response('Blocked', { status: 403, headers: CORS_HEADERS });
     }
     const res = await proxyFetch(normalizeTarget(target));
