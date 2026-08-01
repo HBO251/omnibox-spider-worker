@@ -103,7 +103,7 @@
       "type": 3,
       "api": "csp_TGYunPanLocal",
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Ft.me%2F%24%24%24hao115%2Cguaguale115%2Cdianyingshare%2CXiangxiuNB%2Cyunpanpan%2Ckuakeyun%2Czaihuayun%2CQuark_Movies%2Calyp_4K_Movies%2Cvip115hot%2Cyunpanshare%2Cucwangpan%2CQuark_Share_Channel%2CAliyundrive_Share_Channel%2CshareAliyun%2Cikiviyyp%2Cwanwansubchat%2Cwangpanziyuan2021%2Calyp_1%2Cquanziyuanshe%24%24%24socks5%3A%2F%2F127.0.0.1%3A10172%24%24%241"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://t.me/$$$hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe$$$socks5://127.0.0.1:10172$$$1"
     },
     {
       "key": "Youtube",
@@ -187,7 +187,7 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24.%2Fjson%2Falishare.ebook.txt%24%24%24db%24%24%241",
+      "ext": "/static/b1dce7c770a023eb.json$$$/static/cdac85530b3f8ff6.txt$$$db$$$1",
       "style": {
         "type": "list"
       }
@@ -200,7 +200,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Fjson%2Fjianpian.json%24%24%241",
+      "ext": "/static/ea6988e5de9ec58e.json$$$1",
       "timeout": 60
     },
     {
@@ -211,7 +211,7 @@
       "filterable": 1,
       "quickSearch": 1,
       "searchable": 1,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fwww.bdys03.com%2F%24%24%24null%24%24%241",
+      "ext": "/static/b1dce7c770a023eb.json$$$https://www.bdys03.com/$$$null$$$1",
       "timeout": 30
     },
     {
@@ -220,7 +220,7 @@
       "type": 3,
       "api": "csp_TTian",
       "playerType": 1,
-      "ext": "/proxy?u=http%3A%2F%2Fop.ysdqjs.cn%24%24%24null%24%24%241"
+      "ext": "http://op.ysdqjs.cn$$$null$$$1"
     },
     {
       "key": "追剧",
@@ -228,7 +228,7 @@
       "type": 3,
       "api": "csp_TTian",
       "playerType": 1,
-      "ext": "/proxy?u=http%3A%2F%2Fapp.kzjtv.com%24%24%24null%24%24%241"
+      "ext": "http://app.kzjtv.com$$$null$$$1"
     },
     {
       "key": "NanGua",
@@ -249,7 +249,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24.%2Fjson%2Fpushshare.txt%24%24%24db%24%24%241",
+      "ext": "/static/b1dce7c770a023eb.json$$$/static/61a1056009cce9fc.txt$$$db$$$1",
       "style": {
         "type": "list"
       }
@@ -264,7 +264,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24.%2Fjson%2Fpikpakclass.json%24%24%24.%2Fjson%2Fpikpakclass.json.db.gz"
+      "ext": "/static/b1dce7c770a023eb.json$$$/static/39c7e3c61846a1db.json$$$https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/json/pikpakclass.json.db.gz"
     },
     {
       "key": "AliShare",
@@ -276,7 +276,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24.%2Fjson%2Falishare.txt%24%24%24db%24%24%241"
+      "ext": "/static/b1dce7c770a023eb.json$$$/static/4da2023169a831e9.txt$$$db$$$1"
     },
     {
       "key": "ThunderShare",
@@ -288,7 +288,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24.%2Fjson%2Fthundershare.txt"
+      "ext": "/static/b1dce7c770a023eb.json$$$/static/51accffbb509b073.txt"
     },
     {
       "key": "QuarkShare",
@@ -300,7 +300,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24.%2Fjson%2Fquarkshare.txt"
+      "ext": "/static/b1dce7c770a023eb.json$$$/static/f2e736cc4c900915.txt"
     },
     {
       "key": "115Share",
@@ -312,7 +312,7 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24.%2Fjson%2F115share.txt%24%24%24db%24%24%241",
+      "ext": "/static/b1dce7c770a023eb.json$$$/static/5e4adc41a4cbbfce.txt$$$db$$$1",
       "style": {
         "type": "list",
         "ratio": 1.1
@@ -328,7 +328,7 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24.%2Fjson%2Fucshare.txt%24%24%24db%24%24%241",
+      "ext": "/static/b1dce7c770a023eb.json$$$/static/03e8fff25c70eab9.txt$$$db$$$1",
       "style": {
         "type": "list",
         "ratio": 1.1
@@ -344,7 +344,7 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24.%2Fjson%2Fsambashare.txt"
+      "ext": "/static/b1dce7c770a023eb.json$$$/static/ab6019bb6e3db236.txt"
     },
     {
       "key": "Wogg",
@@ -355,7 +355,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fwww.wogg.net%2F%24%24%24null%24%24%241%24%24%24.%2Fwogg.json"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://www.wogg.net/$$$null$$$1$$$https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/wogg.json"
     },
     {
       "key": "Wobg",
@@ -366,7 +366,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fwobge.run.goorm.io%24%24%24null%24%24%241%24%24%24.%2Fwogg.json"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://wobge.run.goorm.io$$$null$$$1$$$https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/wogg.json"
     },
     {
       "key": "yydsys",
@@ -377,7 +377,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Ftv.yydsys.top%2F%24%24%24null%24%24%241%24%24%24.%2Fwogg.json"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://tv.yydsys.top/$$$null$$$1$$$https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/wogg.json"
     },
     {
       "key": "蜡笔网盘",
@@ -388,7 +388,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fduopan.fun%2F%24%24%24noproxy%24%24%241%24%24%24.%2Fjson%2Fwogg.json%24%24%24LABI"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://duopan.fun/$$$noproxy$$$1$$$/static/6b97f932b5009551.json$$$LABI"
     },
     {
       "key": "Mogg",
@@ -399,7 +399,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24http%3A%2F%2Fmogg.top%2F%24%24%24noproxy%24%24%241%24%24%24.%2Flib%2Fwogg.json%24%24%24MOGG"
+      "ext": "/static/b1dce7c770a023eb.json$$$http://mogg.top/$$$noproxy$$$1$$$https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/wogg.json$$$MOGG"
     },
     {
       "key": "土豆",
@@ -410,7 +410,7 @@
       "filterable": 0,
       "changeable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Ftudou.lvdoui.top%2F%24%24%24proxy%24%24%241%24%24%24.%2Flib%2Fwog.json%24%24%24TUDOU"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://tudou.lvdoui.top/$$$proxy$$$1$$$https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/wog.json$$$TUDOU"
     },
     {
       "key": "小米网盘",
@@ -421,7 +421,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fmihdr.top%2F%24%24%24noproxy%24%24%241%24%24%24.%2Flib%2Fwogg.json%24%24%24XIAOMI"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://mihdr.top/$$$noproxy$$$1$$$https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/wogg.json$$$XIAOMI"
     },
     {
       "key": "Xinshijue",
@@ -432,7 +432,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fwww.80yy3.com%2F%24%24%241%24%24%24.%2Flib%2Fwogg.json"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://www.80yy3.com/$$$1$$$https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/wogg.json"
     },
     {
       "key": "Moli",
@@ -443,7 +443,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fwww.hdmoli.pro%2F%24%24%24null%24%24%241%24%24%24.%2Fjson%2Fmoli.json"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://www.hdmoli.pro/$$$null$$$1$$$/static/eec85480e4c07dbe.json"
     },
     {
       "key": "Bt0",
@@ -454,7 +454,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24null%24%24%24null%24%24%241"
+      "ext": "/static/b1dce7c770a023eb.json$$$null$$$null$$$1"
     },
     {
       "key": "ddys",
@@ -465,7 +465,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fddys.pro%2F%24%24%24proxy%24%24%241%24%24%24"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://ddys.pro/$$$proxy$$$1"
     },
     {
       "key": "美剧迷",
@@ -476,7 +476,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fwww.meijumi.xyz%2F%24%24%24null%24%24%241"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://www.meijumi.xyz/$$$null$$$1"
     },
     {
       "key": "Ppxzy",
@@ -486,7 +486,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fppxzy.net%2F%24%24%24null",
+      "ext": "/static/b1dce7c770a023eb.json$$$https://ppxzy.net/$$$null",
       "timeout": 30
     },
     {
@@ -497,14 +497,14 @@
       "searchable": 1,
       "changeable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fwww.66ss.org%24%24%241"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://www.66ss.org$$$1"
     },
     {
       "key": "4KHDR",
       "name": "弹幕 | 4KHDR[jar]",
       "type": 3,
       "api": "csp_FourKHDR",
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24http%3A%2F%2F127.0.0.1%3A9978%2Ffile%2FTV%2F4khdr.txt",
+      "ext": "/static/b1dce7c770a023eb.json$$$http://127.0.0.1:9978/file/TV/4khdr.txt",
       "quickSearch": 1,
       "changeable": 1,
       "timeout": 60
@@ -538,7 +538,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fhdhive.online%24%24%24noproxy%24%24%241%24%24%24http%3A%2F%2F127.0.0.1%3A9978%2Ffile%2FTV%2Fhdhive.txt"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://hdhive.online$$$noproxy$$$1$$$http://127.0.0.1:9978/file/TV/hdhive.txt"
     },
     {
       "key": "Panta",
@@ -549,7 +549,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fwww.91panta.cn%2F%24%24%24null%24%24%241"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://www.91panta.cn/$$$null$$$1"
     },
     {
       "key": "YunPan",
@@ -557,7 +557,7 @@
       "type": 3,
       "api": "csp_YunPan",
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24null%24%24%24proxy%24%24%241"
+      "ext": "/static/b1dce7c770a023eb.json$$$null$$$proxy$$$1"
     },
     {
       "key": "Wo4k",
@@ -568,7 +568,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fwww.wo4k.com%2F%24%24%24proxy%24%24%241%24%24%24.%2Fwogg.json"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://www.wo4k.com/$$$proxy$$$1$$$https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/wogg.json"
     },
     {
       "key": "Xpanpan",
@@ -579,7 +579,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fxpanpan.site%24%24%24null%24%24%241"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://xpanpan.site$$$null$$$1"
     },
     {
       "key": "Gaoqing",
@@ -590,7 +590,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fgaoqing.la%2F%24%24%24proxy%24%24%241"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://gaoqing.la/$$$proxy$$$1"
     },
     {
       "key": "音范丝",
@@ -601,7 +601,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fwww.yinfans.me%2F%24%24%24proxy%24%24%241"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://www.yinfans.me/$$$proxy$$$1"
     },
     {
       "key": "TGYunPan",
@@ -609,7 +609,7 @@
       "type": 3,
       "api": "csp_TGYunPan",
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24http%3A%2F%2F144.126.217.226%3A8000%2F%24%24%24hao115%2CAliyundrive_Share_Channel%2Ckuakeyun%24%24%24noproxy%24%24%241"
+      "ext": "/static/b1dce7c770a023eb.json$$$http://144.126.217.226:8000/$$$hao115,Aliyundrive_Share_Channel,kuakeyun$$$noproxy$$$1"
     },
     {
       "key": "YingSo",
@@ -617,7 +617,7 @@
       "type": 3,
       "api": "csp_YingSo",
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%241"
+      "ext": "/static/b1dce7c770a023eb.json$$$1"
     },
     {
       "key": "盘友圈",
@@ -633,7 +633,7 @@
       "type": 3,
       "api": "csp_EightEight",
       "timeout": 30,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2F662688.xyz"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://662688.xyz"
     },
     {
       "key": "PikaSo",
@@ -644,7 +644,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fwww.pikaso.top%2F%24%24%24null"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://www.pikaso.top/$$$null"
     },
     {
       "key": "csp_HunHePan",
@@ -656,7 +656,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24null%24%24%241"
+      "ext": "/static/b1dce7c770a023eb.json$$$null$$$1"
     },
     {
       "key": "秒搜",
@@ -675,7 +675,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fwww.libvio.fun%24%24%24null"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://www.libvio.fun$$$null"
     },
     {
       "key": "DaPanSo",
@@ -686,7 +686,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fdapanso.com%24%24%24null"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://dapanso.com$$$null"
     },
     {
       "key": "Qianfan",
@@ -697,7 +697,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "/proxy?u=https%3A%2F%2Fgh-proxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fgaotianliuyun%2Fgao%2Fmaster%2Flib%2Ftoken.json%24%24%24https%3A%2F%2Fpan.qianfan.app%24%24%24null%24%24%24QianFanID%3D"
+      "ext": "/static/b1dce7c770a023eb.json$$$https://pan.qianfan.app$$$null$$$QianFanID="
     },
     {
       "key": "YunSo",
