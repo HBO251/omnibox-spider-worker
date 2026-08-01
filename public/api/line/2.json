@@ -1,5 +1,5 @@
 {
-  "spider": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Ffm.jar;md5;542ed744b07121213f70323b9bcbecca",
+  "spider": "/static/e81de441a7eafbbe.jar;md5;542ed744b07121213f70323b9bcbecca",
   "logo": "http://fmys.top/images/logo.png",
   "wallpaper": "http://fmys.top/img.php",
   "warningText": "❤驸马影视 随心观影❤",
@@ -41,7 +41,7 @@
       "api": "csp_Douban",
       "searchable": 0,
       "changeable": 1,
-      "ext": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Fdouban.json"
+      "ext": "/static/c2b5781baf9eada2.json"
     },
     {
       "key": "网盘配置",
@@ -562,14 +562,14 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "./lib/XBPQ.jar;md5;423e33ec108c0f7816200cebaf18fb69",
-      "ext": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Fwcys.json"
+      "jar": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2FXBPQ.jar%3Bmd5%3B423e33ec108c0f7816200cebaf18fb69",
+      "ext": "/static/82f2c920d3ac9d5c.json"
     },
     {
       "key": "py_apple",
       "name": "🍎┃苹果┃影视",
       "type": 3,
-      "api": "/proxy?u=http%3A%2F%2Ffmys.top%2Fpy%2Fapple.py",
+      "api": "/static/d6c13b536a44881f.py",
       "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
@@ -640,29 +640,29 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "./lib/XBPQ.jar;md5;423e33ec108c0f7816200cebaf18fb69",
-      "ext": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Fhhyy.json"
+      "jar": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2FXBPQ.jar%3Bmd5%3B423e33ec108c0f7816200cebaf18fb69",
+      "ext": "/static/61f51a1ef6791971.json"
     },
     {
       "key": "XBPQ_电影先生",
       "name": "📽︎┃电影┃先生",
       "type": 3,
-      "jar": "./lib/XBPQ.jar;md5;423e33ec108c0f7816200cebaf18fb69",
+      "jar": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2FXBPQ.jar%3Bmd5%3B423e33ec108c0f7816200cebaf18fb69",
       "api": "csp_XBPQ",
       "changeable": 1,
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Fdyxs.json"
+      "ext": "/static/482dd1fd1cab547c.json"
     },
     {
       "key": "白嫖联盟",
       "name": "🎐┃白嫖┃联盟",
       "type": 3,
-      "api": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Fdrpy2.min.js",
+      "api": "/static/05f3c7e23c6faeff.js",
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Fbplm.js"
+      "ext": "/static/6fb886e10c7bfbbc.js"
     },
     {
       "key": "采集机器人",
@@ -687,12 +687,12 @@
       "key": "饺子影院",
       "name": "🥟┃饺子┃影院",
       "type": 3,
-      "api": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Fdrpy2.min.js",
+      "api": "/static/05f3c7e23c6faeff.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
-      "ext": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Fjzyy.js"
+      "ext": "/static/ed1da622f3036396.js"
     },
     {
       "key": "红果短剧",
@@ -707,11 +707,11 @@
       "key": "奇米动漫",
       "name": "🍿┃奇米┃动漫",
       "type": 3,
-      "api": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Fdrpy2.min.js",
+      "api": "/static/05f3c7e23c6faeff.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Fqmdm.js"
+      "ext": "/static/704c7ef0ed8d7947.js"
     },
     {
       "key": "巴士",
@@ -743,21 +743,21 @@
       "key": "csp_huya",
       "name": "🐯┃虎牙┃直播",
       "type": 3,
-      "api": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Fdrpy2.min.js",
+      "api": "/static/05f3c7e23c6faeff.js",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Fhuya.js"
+      "ext": "/static/cf3bf898595c730a.js"
     },
     {
       "key": "csp_douyu",
       "name": "🦈┃斗鱼┃直播",
       "type": 3,
-      "api": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Fdrpy2.min.js",
+      "api": "/static/05f3c7e23c6faeff.js",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Fdouyu.js"
+      "ext": "/static/dab1daf4572cc5da.js"
     },
     {
       "key": "88js",
@@ -793,7 +793,7 @@
       "name": "🎸┃酷奇┃MV",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./lib/XBPQ.jar;md5;423e33ec108c0f7816200cebaf18fb69",
+      "jar": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2FXBPQ.jar%3Bmd5%3B423e33ec108c0f7816200cebaf18fb69",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -850,7 +850,7 @@
       "key": "哔哩影视",
       "name": "🅱️┃哔哩┃影视",
       "type": 3,
-      "api": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Fdrpy2.min.js",
+      "api": "/static/05f3c7e23c6faeff.js",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
@@ -858,13 +858,13 @@
         "type": "rect",
         "ratio": 1.433
       },
-      "ext": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Fblys.js"
+      "ext": "/static/d52ec43922882c6b.js"
     },
     {
       "key": "哔哩影音",
       "name": "🅱️┃哔哩┃影音",
       "type": 3,
-      "api": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Fdrpy2.min.js",
+      "api": "/static/05f3c7e23c6faeff.js",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
@@ -872,7 +872,7 @@
         "type": "rect",
         "ratio": 1.433
       },
-      "ext": "/proxy?u=http%3A%2F%2Ffmys.top%2Flib%2Fwdbl.js"
+      "ext": "/static/128d4dd432f5b0db.js"
     },
     {
       "key": "哔哩健身",
