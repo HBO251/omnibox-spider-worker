@@ -1,72 +1,21 @@
 {
   "urls": [
-    {
-      "name": "1.直播源",
-      "url": "/api/line/16.json"
-    },
-    {
-      "name": "2.道长在线",
-      "url": "/api/line/10.json"
-    },
-    {
-      "name": "3.高天流云",
-      "url": "/api/line/4.json"
-    },
-    {
-      "name": "4.心魔在线",
-      "url": "/api/line/7.json"
-    },
-    {
-      "name": "5.驸马线路",
-      "url": "/api/line/2.json"
-    },
-    {
-      "name": "6.Clun在线",
-      "url": "/api/line/6.json"
-    },
-    {
-      "name": "7.寳盒在线",
-      "url": "/api/line/9.json"
-    },
-    {
-      "name": "8.月光在线",
-      "url": "/api/line/11.json"
-    },
-    {
-      "name": "9.CandyMu在线",
-      "url": "/api/line/14.json"
-    },
-    {
-      "name": "10.小马在线",
-      "url": "/api/line/8.json"
-    },
-    {
-      "name": "11.环宇轩线",
-      "url": "/api/line/1.json"
-    },
-    {
-      "name": "12.挺好分享",
-      "url": "/api/line/0.json"
-    },
-    {
-      "name": "13.小凯在线",
-      "url": "/api/line/12.json"
-    },
-    {
-      "name": "14.动漫城在线",
-      "url": "/api/line/5.json"
-    },
-    {
-      "name": "15.俊佬在线",
-      "url": "/api/line/3.json"
-    },
-    {
-      "name": "16.请勿贩卖在线",
-      "url": "/api/line/15.json"
-    },
-    {
-      "name": "17.剧场在线",
-      "url": "/api/line/13.json"
-    }
+    { "name": "1.直播源", "url": "/api/line/16.json" },
+    { "name": "2.挺好分享", "url": "/api/line/0.json" },
+    { "name": "3.环宇轩线", "url": "/api/line/1.json" },
+    { "name": "4.驸马线路", "url": "/api/line/2.json" },
+    { "name": "5.俊佬在线", "url": "/api/line/3.json" },
+    { "name": "6.高天流云", "url": "/api/line/4.json" },
+    { "name": "7.动漫城在线", "url": "/api/line/5.json" },
+    { "name": "8.Clun在线", "url": "/api/line/6.json" },
+    { "name": "9.心魔在线", "url": "/api/line/7.json" },
+    { "name": "10.小马在线", "url": "/api/line/8.json" },
+    { "name": "11.寳盒在线", "url": "/api/line/9.json" },
+    { "name": "12.道长在线", "url": "/api/line/10.json" },
+    { "name": "13.月光在线", "url": "/api/line/11.json" },
+    { "name": "14.小凯在线", "url": "/api/line/12.json" },
+    { "name": "15.剧场在线", "url": "/api/line/13.json" },
+    { "name": "16.CandyMu在线", "url": "/api/line/14.json" },
+    { "name": "17.请勿贩卖在线", "url": "/api/line/15.json" }
   ]
 }
