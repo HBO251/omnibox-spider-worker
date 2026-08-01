@@ -67,7 +67,7 @@ function staticExt(target) {
   }
 }
 
-// 下载字节：直连优先，GitHub 镜像兜底
+// 下载字节：直连优先，GitHub 镜像兜底。返回 {buf, finalUrl} 用于去重
 async function downloadBytes(target, timeout = 25000) {
   for (const url of [target, ...GITHUB_MIRRORS.map((p) => p + target)]) {
     const controller = new AbortController();
@@ -76,7 +76,7 @@ async function downloadBytes(target, timeout = 25000) {
       const res = await fetch(url, { signal: controller.signal, redirect: 'follow', headers: { 'User-Agent': BROWSER_UA } });
       if (!res.ok) continue;
       const buf = Buffer.from(await res.arrayBuffer());
-      if (buf.length > 0) return buf;
+      if (buf.length > 0) return { buf, finalUrl: res.url };
     } catch { /* 试下一个 */ } finally {
       clearTimeout(timer);
     }
@@ -85,13 +85,18 @@ async function downloadBytes(target, timeout = 25000) {
 }
 
 // 从 /proxy?u=<encoded>(;md5;xxx|?md5=xxx) 引用还原真实目标 URL（支持 $$$ 多段 ext，如 token.json$$$quarkshare.txt）
+// 兼容多 ?u= / &u= 参数，逐个解码并按 $$$ 拆分
 function proxySegmentsOf(ref) {
   let p = ref;
   p = p.replace(/;md5;.*$/, '').replace(/\?md5=.*$/, '');
-  const u = p.split('?u=')[1];
-  if (!u) return [];
-  const decoded = decodeURIComponent(u.split('&')[0]);
-  return decoded.split('$$$').filter(Boolean);
+  const segments = [];
+  for (const match of p.matchAll(/[?&]u=([^&]+)/g)) {
+    try {
+      const decoded = decodeURIComponent(match[1]);
+      segments.push(...decoded.split('$$$').filter(Boolean));
+    } catch { /* ignore malformed */ }
+  }
+  return segments;
 }
 
 function proxyTargetOf(ref) {
@@ -148,6 +153,16 @@ function collectProxyRefs(cfg, out) {
   }
 }
 
+// 递归收集配置树中所有 /proxy 引用（含增强字段等嵌套对象）
+function collectProxyRefsAll(cfg, out = new Set()) {
+  if (!cfg || typeof cfg !== 'object') return out;
+  collectProxyRefs(cfg, out);
+  for (const v of Object.values(cfg)) {
+    if (v && typeof v === 'object') collectProxyRefsAll(v, out);
+  }
+  return out;
+}
+
 // 下载并静态化所有配置引用的资源，返回 target -> /static 路径 的映射
 async function staticizeAll(configs) {
   const refs = new Set();
@@ -169,11 +184,12 @@ async function staticizeAll(configs) {
   for (let i = 0; i < entries.length; i += CONC) {
     const batch = entries.slice(i, i + CONC);
     await Promise.all(batch.map(async ([target, ext]) => {
-      const hash = crypto.createHash('sha1').update(target).digest('hex').slice(0, 16);
+      const result = await downloadBytes(target);
+      if (!result) { staticMap.set(target, null); return; }
+      const { buf, finalUrl } = result;
+      const hash = crypto.createHash('sha1').update(finalUrl).digest('hex').slice(0, 16);
       const full = path.join(STATIC_DIR, hash + ext);
       if (fs.existsSync(full)) { staticMap.set(target, `/static/${hash}${ext}`); return; }
-      const buf = await downloadBytes(target);
-      if (!buf) { staticMap.set(target, null); return; }
       fs.mkdirSync(STATIC_DIR, { recursive: true });
       fs.writeFileSync(full, buf);
       staticMap.set(target, `/static/${hash}${ext}`);
@@ -344,7 +360,7 @@ function resolveAllRelativePaths(config, sourceUrl) {
       for (const field of ['ext', 'api', 'jar']) {
         const v = copy[field];
         if (typeof v !== 'string') continue;
-        // 支持 $$$ 多段值（如 token.json$$$quarkshare.txt）：逐段解析相对路径 + 走 /proxy
+        // 支持 $$$ 多段值（如 token.json$$$quarkshare.txt）：逐段解析相对路径
         const parts = v.split('$$$').map(seg => {
           let u = seg;
           if (/^\.{1,2}\//.test(u)) {
@@ -356,9 +372,14 @@ function resolveAllRelativePaths(config, sourceUrl) {
           }
           return u;
         });
-        let u = parts.join('$$$');
-        if (/^https?:\/\//.test(parts[0])) {
-          copy[field] = viaProxy(u);
+        // 判断是否需要 viaProxy：只要有任一段是 http(s) 且原值不是完整的绝对 URL 组合
+        // 策略：若原值包含相对路径段，或全为绝对 URL 但未被代理，则整体 viaProxy
+        const hasRelative = v.split('$$$').some(seg => /^\.{1,2}\//.test(seg));
+        const allAbsolute = parts.every(p => /^https?:\/\//.test(p));
+        if (hasRelative || (allAbsolute && !v.startsWith('/proxy'))) {
+          copy[field] = viaProxy(parts.join('$$$'));
+        } else {
+          copy[field] = parts.join('$$$');
         }
       }
       return copy;
@@ -589,6 +610,44 @@ async function main() {
     };
     fs.writeFileSync(path.join(LINE_DIR, '17.json'), JSON.stringify(quarkLine, null, 2), 'utf-8');
     console.log(`✓ api/line/17.json: 夸克高清 ${quarkLine.sites.length} 个站点 (spider=${quarkLine.spider.split('?')[0].split(';')[0]})`);
+
+    // 构建产物完整性校验
+    function validateBuild() {
+      const errors = [];
+      // 1. line17 必须包含至少 1 个 csp_DaPanSo 站点
+      if (!quarkLine.sites.some(s => s.api === 'csp_DaPanSo')) {
+        errors.push('line17 缺少 csp_DaPanSo 站点');
+      }
+      // 2. QuarkShare ext 必须含 $$$ 且两段均为 /static/ 或有效外链
+      const qs = quarkLine.sites.find(s => s.key === 'QuarkShare' || s.name?.includes('QuarkShare'));
+      if (qs && typeof qs.ext === 'string') {
+        const segs = qs.ext.split('$$$');
+        if (segs.length < 2) errors.push('QuarkShare ext 缺少 $$$ 分段');
+        else {
+          for (const seg of segs) {
+            if (!(seg.startsWith('/static/') || seg.startsWith('http'))) {
+              errors.push(`QuarkShare ext 段异常: ${seg}`);
+            }
+          }
+        }
+      }
+      // 3. staticMap 覆盖所有收集到的 target
+      const allTargets = new Set();
+      for (const cfg of [omniBoxConfig, ...externalSources.map(s => s.config)]) {
+        for (const ref of collectProxyRefsAll(cfg)) {
+          for (const t of proxySegmentsOf(ref)) {
+            if (t) allTargets.add(t);
+          }
+        }
+      }
+      for (const t of allTargets) {
+        if (!staticMap.has(t)) errors.push(`staticMap 缺失 target: ${t}`);
+        else if (!staticMap.get(t)) errors.push(`staticMap target 下载失败: ${t}`);
+      }
+      if (errors.length) throw new Error('构建校验失败:\n' + errors.join('\n'));
+    }
+    validateBuild();
+    console.log('✓ 构建产物校验通过');
 
     // dc.json：直播源置顶；挺好分享/环宇轩线（实测访问较快）置前，其余按原序号（按名匹配，防聚合源顺序漂移）
     const PRIORITY_NAMES = ['挺好分享', '环宇轩线'];
